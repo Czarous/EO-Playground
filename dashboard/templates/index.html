@@ -1,0 +1,1191 @@
+
+  
+{% extends "base.html" %}
+
+{% block title %}Oils Dashboard{% endblock %}
+
+{% block styles %}
+  
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: aliceblue;
+      color: #2C3E50;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: darkslategrey;
+      margin-top: 100px;
+      margin-bottom: 35px;
+      font-weight: 700!important;
+      font-size: 35px;
+    }
+
+    /* Summary Cards */
+    .summary-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 15px;
+      margin-bottom: 35px;
+      margin-left:15px;
+      margin-right: 15px;
+    }
+    .summary-card {
+      background-color: #2C3E50;
+      color: white;
+      border-radius: 8px;
+      padding: 15px 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .summary-card h3 {
+      margin: 5px 0 0 0;
+      font-weight: 500;
+      font-size: 22px;
+      color: lightcyan;
+      padding-top: 4px;
+    }
+    .summary-card p {
+      margin: 0;
+      font-size: 15px;
+      color: lightcyan;
+
+    }
+
+    /* .summary-card:hover {
+      transform: translateY(-3px);
+    } */
+
+
+  /* Summary Tooltip */
+
+.summary-tooltip {
+  display: none;
+  position: absolute;
+  bottom: -5px; /* 👇 show below */
+  left: 55%;
+  transform: translateX(-50%) translateY(100%);
+  background: #34495E;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  min-width: 220px;
+  max-width: 280px;
+  z-index: 10;
+  text-align: left;
+}
+
+.summary-tooltip p {
+  margin: 4px 0;
+  font-weight: 500;
+}
+
+.summary-tooltip ul {
+  margin: 4px 0 0;
+  padding-left: 16px;
+}
+
+.summary-card:hover .summary-tooltip {
+  display: block;
+}
+
+
+
+/* Mobile Tooltip Button */
+.mobile-tooltip-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  background: #4A9DAE;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Hide by default, show only on mobile */
+.mobile-tooltip-btn.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-tooltip-btn.mobile-only {
+    display: inline-block;
+  }
+}
+
+
+
+
+
+    /* Toggle Buttons */
+    .toggle-btns {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .toggle-btns button {
+      background-color: teal;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 5px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+
+    .toggle-btns button.active,
+    .toggle-btns button:hover {
+      background-color: #103851;
+    }
+
+    /* Search Bar */
+   /* Search Bar Wrapper */
+/* Search Bar Wrapper */
+.search-bar {
+  display: flex;
+  justify-content: center!important;   /* center on page */
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+/* Form container */
+.search-bar form {
+  display: flex;
+  flex-wrap: wrap;           /* ✅ allows wrapping on zoom */
+  justify-content: center;   /* keep centered even if wrapped */
+  width: 100%;
+  max-width: 300px;          /* ✅ smaller bar */
+  gap: 6px;                  /* little spacing if stacked */
+}
+
+/* Input */
+.search-bar input {
+  flex: 1 1 auto;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: 1px solid #BDC3C7;
+  font-size: 14px;
+  min-width: 160px!important;          /* ✅ keeps readable size */
+  box-sizing: border-box;
+}
+
+/* Button */
+.search-bar button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #177a95;
+  color: #FFFFFF;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  flex-shrink: 0;
+  max-width: 100px;            /* button doesn’t collapse */
+}
+
+.search-bar button:hover {
+  background-color: #16A085;
+}
+
+
+
+  /* Filtering Animations */
+  .fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Search Highlight */
+  .highlight {
+    font-weight: bold;
+    background-color: #00c4b4; /* teal color for search highlight */
+    color: #fff; /* optional: white text for contrast */
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+
+  /* Badge color scale based on frequency */
+.badge.badge-frequency-1 { background-color: #b2f0f0!important; color: #004d4d; }  /* rare / lightest */
+.badge.badge-frequency-2 { background-color: #99eaea!important; color: #004040; }
+.badge.badge-frequency-3 { background-color: #80e6e6!important; color: #003838; }
+.badge.badge-frequency-4 { background-color: #66e0e0!important; color: #003030; }
+.badge.badge-frequency-5 { background-color: #4ddcdc!important; color: #002626; }
+.badge.badge-frequency-6 { background-color: #33d6d6!important; color: #002020; }
+.badge.badge-frequency-7 { background-color: #26cfcf!important; color: #001a1a; font-weight: 600; }
+.badge.badge-frequency-8 { background-color: #00b8b8!important; color: #ffffff; font-weight: 700; }
+.badge.badge-frequency-9 { background-color: #009999!important; color: #ffffff; font-weight: 800; }
+.badge.badge-frequency-10 { background-color: #007777!important; color: #ffffff; font-weight: 900; } /* most common / darkest */
+
+
+
+
+
+
+
+
+
+
+
+/* Table container: horizontal scroll only */
+.table-container {
+  width: 100%;
+  overflow-y: visible;     /* allow sticky header to show */
+  -webkit-overflow-scrolling: touch; /* smooth on mobile */
+}
+
+/* Base table */
+.my-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1000px;       /* ensures columns have space */
+}
+
+/* Sticky header under topbar */
+.my-table th {
+  position: sticky;
+  top: 65px;               /* height of .topbar */
+  background: #2C3E50;
+  color: #fff;
+  z-index: 5;              /* lower than nav but above table */
+}
+
+/* Narrow columns */
+.my-table th.narrow,
+.my-table td.narrow {
+  width: 15%;
+  max-width: 270px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Table styling */
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+
+
+tr:nth-child(even) { background-color: #F4F6F8; }
+tr:hover { background-color: #E0F2F1; }
+
+@media (max-width: 991px){
+    .table-container{
+      position: relative;
+      overflow-x: auto;  /* allow horizontal scroll on smaller tablets */
+      height: 77vh;
+    }
+
+    .my-table th {
+      position: sticky!important;
+      top: 0;
+    }
+
+    .my-table{
+      overflow-y: scroll;
+    }
+}
+  
+
+
+  /* Card View */
+  #card-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* smaller min */
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 4rem;;
+  }
+
+  /* Tablet: 2 equal cards */
+  @media (max-width: 768px) {
+    #card-view {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+
+  }
+
+  /* Mobile: 1 full-width card */
+  @media (max-width: 480px) {
+    #card-view {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.2s;
+    width: 100%;
+    min-width: 0;   /* important: prevents overflow on zoom */
+    box-sizing: border-box;
+  }
+
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .card h3 {
+    margin-top: 0;
+    color: #2C3E50;
+  }
+
+
+    .badge {
+      display: inline-block;
+      background-color: teal;
+      color: #FFFFFF;
+      padding: 4px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+      margin: 2px 2px 2px 2px;
+      text-align: left;
+      white-space: normal;      /* allow text wrapping */
+      line-height: 1.3;
+    }
+
+    .extra-badge {
+      display: none;
+    }
+
+
+.badge.therapeutic-badge {
+  background-color: #5e8f49;
+  color: #fff;
+}
+
+.badge.blends-badge {
+  background-color: #d27d46;
+  color: #fff;
+}
+
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      table, th, td {
+        font-size: 13px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .search-bar {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .search-bar input, .search-bar button {
+        width: 100%;
+        border-radius: 6px;
+      }
+    }
+  </style>
+  
+{% endblock %}
+
+  
+
+{% block content %}
+
+
+<h1>Essential Oils Dashboard</h1>
+
+
+<div class="summary-cards">
+
+  <!-- Top Oil -->
+  <div class="summary-card">
+    <a href="/?filter=oils" style="text-decoration:none; color:inherit;">
+      <p>Top Oil</p>
+      {% if top_oil_card %}
+        <h3>{{ top_oil_card.oil_name }} — Rank {{ top_oil_card.rank }}</h3> 
+      {% else %}
+        <h3>N/A</h3>
+      {% endif %}
+    </a>
+
+    <!-- Mobile-only button for tooltip -->
+    <button class="mobile-tooltip-btn mobile-only">
+      See Top 5
+    </button>
+
+    <div class="summary-tooltip">
+      <p><strong>Total Oils:</strong> {{ summary.total_oils }}</p>
+      <p><strong>Top 5 Oils by Score:</strong></p>
+      <ul>
+        {% for oil in top_oils %}
+          <li>{{ oil.oil_name }} — Rank {{ oil.rank }} — {{ "%.2f"|format(oil.score) }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Most Common Component -->
+  <div class="summary-card">
+    <a href="/?filter=components" style="text-decoration:none; color:inherit;">
+      <p>Most Common Component</p>
+      {% if common_component_card[0] %}
+        <h3>{{ common_component_card[0] }} — Appears in {{ common_component_card[1] }} oils</h3>
+      {% else %}
+        <h3>N/A</h3>
+      {% endif %}
+    </a>
+
+    <!-- Mobile-only button for tooltip -->
+    <button class="mobile-tooltip-btn mobile-only">
+      See Top 5
+    </button>
+
+    <div class="summary-tooltip">
+      <p><strong>Total Unique Components:</strong> {{ summary.main_components.count }}</p>
+      <p><strong>Top Components:</strong></p>
+      <ul>
+        {% for c in summary.main_components.top %}
+          <li>{{ c }} — ({{ summary.component_freq[c] }} oils)</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Most Blendable Oil -->
+  <div class="summary-card">
+    <a href="/?filter=blends" style="text-decoration:none; color:inherit;">
+      <p>Most Blendable Oil</p>
+      {% if top_blend_card %}
+        <h3>{{ top_blend_card.oil_name }} — Blends With {{ top_blend_card.blend_count }} oils</h3>
+      {% else %}
+        <h3>N/A</h3>
+      {% endif %}
+    </a>
+
+    <!-- Mobile-only button for tooltip -->
+    <button class="mobile-tooltip-btn mobile-only">
+      See Top 5
+    </button>
+
+    <div class="summary-tooltip">
+      <p><strong>Total Unique Blends:</strong> {{ summary.blends.count }}</p>
+      <p><strong>Top Blendable Oils:</strong></p>
+      <ul>
+        {% for b in summary.blends.top %}
+          <li>{{ b.oil_name }} — Blends With {{ b.blend_count }} oils</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Most Beneficial Oil -->
+  <div class="summary-card">
+    <a href="/?filter=beneficial" style="text-decoration:none; color:inherit;">
+      <p>Most Beneficial Oil</p>
+      {% if top_beneficial_card %}
+        <h3>{{ top_beneficial_card.oil_name }} — Rank {{ top_beneficial_card.beneficial_rank }}</h3>
+      {% else %}
+        <h3>N/A</h3>
+      {% endif %}
+    </a>
+
+    <!-- Mobile-only button for tooltip -->
+    <button class="mobile-tooltip-btn mobile-only">
+      See Top 5
+    </button>
+
+    <div class="summary-tooltip">
+      <p><strong>Total Unique Therapeutic + Emotional:</strong> {{ summary.therapeutic.count + summary.emotional.count }}</p>
+      <p><strong>Top Beneficial Oils:</strong></p>
+      <ul>
+        {% for oil in top_beneficial %}
+          <li>{{ oil.oil_name }} — Rank {{ oil.beneficial_rank }} — Score: {{ "%.2f"|format(oil.beneficial_score) }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+  <!-- Toggle Buttons -->
+  <div class="toggle-btns">
+    <button id="table-toggle" class="active">Table View</button>
+    <button id="card-toggle">Card View</button>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <form method="get" style="width:100%; max-width:350px;">
+      <input type="text" id="search-bar" name="q" placeholder="Search oils..." value="{{ query }}">
+      <!-- <button type="submit">Search</button> -->
+    </form>
+  </div>
+
+  <!-- Table View -->
+
+  <div id="filter-alert" class="alert alert-info" style="display: none; max-width: fit-content;">
+    Showing results filtered by <strong id="filter-name"></strong>.
+    <a href="/" class="btn btn-sm btn-outline-secondary" style="text-decoration: none; margin-left:5px;">Reset Filters</a>
+  </div>
+
+
+  <div id="search-results">
+    <div id="table-view" class="table-container" style="display: block;">
+      <table class="my-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Oil Name</th>
+            <th>Botanical Name</th>
+            <!-- <th>Composition</th> -->
+            <th class="narrow">Main Components</th>
+            <th class="narrow">Therapeutic Properties</th>
+            <!-- <th>Emotional Effects</th> -->
+            <th>Aroma Profile</th>
+            <th>Note</th>
+            <th>Blends Well With</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for oil in oils %}
+          <tr data-oil-id="{{ oil.oil_id }}" style="cursor:pointer;">
+            <td>{{ loop.index }}</td>
+            <td>{{ oil.oil_name }}</td>
+            <td>{{ oil.botanical_name }}</td>
+            <!-- <td>
+              {% if oil.composition %}
+                {% set items = oil.composition %}
+                {% if items is string %}
+                  {% set items = items.split(',') %}
+                {% endif %}
+                {% for c in items %}
+                  <span class="badge">{{ c.strip() }}</span>
+                {% endfor %}
+              {% endif %}
+            </td> -->
+            <td class="narrow">
+              {% for comp in oil.main_chemical_components or [] %}
+                <span class="badge">{{ comp }}</span>
+              {% endfor %}
+            </td>
+            <td class="narrow">
+              {% for prop in oil.therapeutic_properties %}
+                <span class="badge">{{ prop }}</span>
+              {% endfor %}
+            </td>
+            <!-- <td>
+              {% for effect in oil.emotional_effects %}
+                <span class="badge">{{ effect }}</span>
+              {% endfor %}
+            </td> -->
+            <td>{{ oil.aroma_profile }}</td>
+            <td>{{ oil.note }}</td>
+            <td>
+              {% for blend in oil.blends_well_with %}
+                <span class="blends-badge">{{ blend }}</span>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Card View -->
+    <div id="card-view">
+      {% for oil in oils %}
+      <div class="card" data-oil-id="{{ oil.oil_id }}" style="cursor:pointer;">
+        <h3>{{ oil.oil_name }}</h3>
+        <p><strong>Botanical:</strong> {{ oil.botanical_name }}</p>
+        {% if oil.main_chemical_components %}
+        <p><strong>Main Components:</strong>
+          {% for comp in oil.main_chemical_components %}
+            <span class="badge">{{ comp }}</span>
+          {% endfor %}
+        </p>
+        {% endif %}
+        <p><strong>Aroma Profile:</strong> {{ oil.aroma_profile }}</p>
+        <p><strong>Note:</strong> {{ oil.note }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<script id="oils-data" type="application/json">
+  {{ oils | tojson | safe }}
+</script>
+
+
+
+<!-- <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const searchInput = document.getElementById("search-bar");
+
+  // Debounce to avoid too many requests
+  const debounce = (func, delay = 300) => {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => func.apply(this, args), delay);
+    };
+  };
+
+  const performSearch = () => {
+    const query = searchInput.value.trim();
+    const url = query ? `/?q=${encodeURIComponent(query)}` : '/';
+
+    fetch(url)
+      .then(res => res.text())
+      .then(html => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        // Replace table and card content
+        const newTable = doc.getElementById('table-view');
+        const newCard = doc.getElementById('card-view');
+        const newSummary = doc.querySelector('.summary-cards');
+
+        if (newTable) document.getElementById('table-view').innerHTML = newTable.innerHTML;
+        if (newCard) document.getElementById('card-view').innerHTML = newCard.innerHTML;
+        if (newSummary) document.querySelector('.summary-cards').innerHTML = newSummary.innerHTML;
+      })
+      .catch(console.error);
+  };
+
+  searchInput.addEventListener('input', debounce(performSearch, 300));
+});
+</script> -->
+
+
+
+
+
+
+  <!-- JS Toggle -->
+  <script>
+    const tableBtn = document.getElementById('table-toggle');
+    const cardBtn = document.getElementById('card-toggle');
+    const tableView = document.getElementById('table-view');
+    const cardView = document.getElementById('card-view');
+
+    tableView.style.display = 'block';
+    cardView.style.display = 'none';
+
+    tableBtn.classList.add('active');
+    cardBtn.classList.remove('active');
+
+    tableBtn.addEventListener('click', () => {
+      tableView.style.display = 'block';
+      cardView.style.display = 'none';
+      tableBtn.classList.add('active');
+      cardBtn.classList.remove('active');
+    });
+
+    cardBtn.addEventListener('click', () => {
+      tableView.style.display = 'none';
+      cardView.style.display = 'grid';
+      cardBtn.classList.add('active');
+      tableBtn.classList.remove('active');
+    });
+    
+  </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const summaryCards = document.querySelectorAll(".summary-card");
+  const filterAlert = document.getElementById("filter-alert");
+  const filterName = document.getElementById("filter-name");
+  const searchInput = document.querySelector('.search-bar input[name="q"]');
+  const maxTooltipItems = 5;
+
+  const filterDisplayNames = {
+    oils: "Best Oils",
+    components: "Most Common Compound",
+    blends: "Most Blends",
+    beneficial: "Most Beneficial"
+  };
+
+  let isSearching = false;
+  let activeFilter = null;
+
+  const oilsData = JSON.parse(document.getElementById("oils-data").textContent);
+  let summaryDataInitial = null;
+  const summaryScript = document.getElementById("summary-data");
+  if (summaryScript) {
+    try { summaryDataInitial = JSON.parse(summaryScript.textContent); } 
+    catch (e) { console.warn("Failed to parse summary-data:", e); }
+  }
+
+  // Build summary if not present
+  function buildGlobalSummaryFromOils(allOils) {
+    const freq = {}, canonical = {};
+    allOils.forEach(o => {
+      const seen = new Set();
+      (o.main_chemical_components || []).forEach(c => {
+        if (!c) return;
+        const norm = c.trim().toLowerCase();
+        if (seen.has(norm)) return;
+        seen.add(norm);
+        canonical[norm] = canonical[norm] || c.trim();
+        freq[norm] = (freq[norm] || 0) + 1;
+      });
+    });
+    const displayFreq = {};
+    for (const [k,v] of Object.entries(freq)) displayFreq[canonical[k]] = v;
+    const top = Object.entries(displayFreq).sort((a,b)=>b[1]-a[1]).map(([k])=>k);
+    return { main_components: { top, component_freq: displayFreq, count: Object.keys(displayFreq).length } };
+  }
+  if (!summaryDataInitial) summaryDataInitial = buildGlobalSummaryFromOils(oilsData);
+
+  // Enrich oils with global data
+  function enrichOils(apiOils) {
+    return apiOils.map((oil,i)=>{
+      const global = oilsData.find(g=>g.oil_name===oil.oil_name)||{};
+      return { ...global, ...oil, filtered_rank:i+1 };
+    });
+  }
+
+  // Highlight search text in string
+  function highlightText(text, query) {
+    if (!query) return text;
+    const regex = new RegExp(`(${query.replace(/[-\/\\^$*+?.()|[\]{}]/g,'\\$&')})`, 'gi');
+    return text.replace(regex, '<span class="highlight">$1</span>');
+  }
+
+  // ----- Table Update -----
+function updateTable(oils, query='') {
+  const tbody = document.querySelector("#table-view tbody");
+  if (!tbody) return;
+
+  tbody.innerHTML = oils.map(o => {
+    return `
+      <tr class="fade-in" data-oil-id="${o.oil_id}" style="cursor:pointer;">
+        <td>${o.filtered_rank ?? ""}</td>
+        <td>${highlightText(o.oil_name, query)}</td>
+        <td>${o.botanical_name || ""}</td>
+
+        <td class="narrow">
+          ${(o.main_chemical_components || [])
+            .slice()
+            .sort((a, b) => {
+              const lookupA = Object.keys(o.component_freq || {}).find(k => k.toLowerCase() === a.toLowerCase());
+              const lookupB = Object.keys(o.component_freq || {}).find(k => k.toLowerCase() === b.toLowerCase());
+              const countA = lookupA ? o.component_freq[lookupA] : 0;
+              const countB = lookupB ? o.component_freq[lookupB] : 0;
+              return countB - countA;
+            })
+            .map(c => {
+              const lookupKey = Object.keys(o.component_freq || {}).find(k => k.toLowerCase() === c.toLowerCase());
+              const count = lookupKey ? o.component_freq[lookupKey] : 0;
+              const counts = Object.values(o.component_freq || {});
+              const maxCount = Math.max(...counts, 1);
+              const minCount = Math.min(...counts);
+              let bucket = 1;
+              if (maxCount !== minCount) bucket = Math.ceil(((count - minCount) / (maxCount - minCount)) * 9) + 1;
+              return `<span class="badge badge-frequency-${bucket}">${c} (${count})</span>`;
+            })
+            .join(" ")}
+        </td>
+
+        <td class="narrow">
+          ${(o.therapeutic_properties || []).map(t => `<span class="badge therapeutic-badge">${t}</span>`).join(" ")}
+        </td>
+
+        <td>${o.aroma_profile || ""}</td>
+        <td>${o.note || ""}</td>
+
+        <td>
+          ${(o.blends_well_with || []).map(b => `<span class="badge blends-badge">${b}</span>`).join(" ")}
+        </td>
+      </tr>
+    `;
+  }).join('');
+
+  // Add click event for newly rendered rows
+  tbody.querySelectorAll("tr[data-oil-id]").forEach(tr => {
+    tr.onclick = () => {
+      const oilId = tr.getAttribute("data-oil-id");
+      if(oilId) window.location.href = `/oil/${oilId}`;
+    };
+  });
+
+}
+
+
+// ----- Card Update -----
+function updateCards(oils, query='') {
+  const cardView = document.getElementById("card-view");
+  if (!cardView) return;
+
+  cardView.innerHTML = oils.map(o => {
+    function renderTopBadges(items, freqMap, topN = 5, typeClass = null) {
+      if (!items || !items.length) return "";
+
+      const sorted = freqMap ? items.slice().sort((a, b) => {
+        const lookupA = Object.keys(freqMap).find(k => k.toLowerCase() === a.toLowerCase());
+        const lookupB = Object.keys(freqMap).find(k => k.toLowerCase() === b.toLowerCase());
+        const countA = lookupA ? freqMap[lookupA] : 0;
+        const countB = lookupB ? freqMap[lookupB] : 0;
+        return countB - countA;
+      }) : items;
+
+      const topItems = sorted.slice(0, topN);
+      const extraItems = sorted.slice(topN);
+
+      const renderBadge = (item, isExtra = false) => {
+        const extraClass = isExtra ? ' extra-badge' : '';
+        const type = typeClass ? ` ${typeClass}` : '';
+        if (freqMap) {
+          const lookupKey = Object.keys(freqMap).find(k => k.toLowerCase() === item.toLowerCase());
+          const count = lookupKey ? freqMap[lookupKey] : 0;
+          const counts = Object.values(freqMap);
+          const maxCount = Math.max(...counts, 1);
+          const minCount = Math.min(...counts);
+          let bucket = 1;
+          if (maxCount !== minCount) bucket = Math.ceil(((count - minCount) / (maxCount - minCount)) * 9) + 1;
+          return `<span class="badge badge-frequency-${bucket}${extraClass}${type}">${item} (${count})</span>`;
+        } else {
+          return `<span class="badge${extraClass}${type}">${item}</span>`;
+        }
+      };
+
+      const topBadges = topItems.map(item => renderBadge(item, false));
+      const extraBadges = extraItems.map(item => renderBadge(item, true));
+
+      let moreLessButtonsHTML = "";
+      if (extraItems.length > 0) {
+        moreLessButtonsHTML = `
+          <span class="badge more-badge" style="cursor:pointer; background-color: #C9B6E4; color:black;">+${extraItems.length} more</span>
+          <span class="badge show-less" style="cursor:pointer; background-color:#FFD966; color:black; display:none;">Show Less</span>
+        `;
+      }
+
+      return `<span class="badge-container" style="display:flex; flex-wrap:wrap; gap:4px; align-items:center;">
+        ${topBadges.join(" ")}
+        ${extraBadges.join(" ")}
+        ${moreLessButtonsHTML}
+      </span>`;
+    }
+
+    return `
+      <div class="card fade-in" data-oil-id="${o.oil_id}" style="cursor:pointer;">
+        <h3>${o.filtered_rank ?? ""}. ${highlightText(o.oil_name, query)}${o.rank ? ` (Rank ${o.rank})` : ""}</h3>
+        <p><strong>Botanical:</strong> ${o.botanical_name || ""}</p>
+
+        ${(o.main_chemical_components || []).length ? `<p><strong>Main Components:</strong> ${renderTopBadges(o.main_chemical_components, o.component_freq, 5)}</p>` : ""}
+        ${(o.therapeutic_properties || []).length ? `<p><strong>Therapeutic Properties:</strong> ${renderTopBadges(o.therapeutic_properties, null, 5, 'therapeutic-badge')}</p>` : ""}
+        ${(o.blends_well_with || []).length ? `<p><strong>Blends Well With:</strong> ${renderTopBadges(o.blends_well_with, null, 5, 'blends-badge')}</p>` : ""}
+
+        <p><strong>Aroma Profile:</strong> ${o.aroma_profile || ""}</p>
+        <p><strong>Note:</strong> ${o.note || ""}</p>
+      </div>
+    `;
+  }).join('');
+
+    // Add click event for newly rendered cards
+  cardView.querySelectorAll(".card[data-oil-id]").forEach(card => {
+    card.onclick = () => {
+      const oilId = card.getAttribute("data-oil-id");
+      if(oilId) window.location.href = `/oil/${oilId}`;
+    };
+  });
+
+// --- Click handlers ---
+cardView.querySelectorAll(".more-badge, .show-less").forEach(badge => {
+  badge.addEventListener("click", (e) => {
+    e.stopPropagation(); // 🚫 prevent triggering card.onclick
+
+    const parent = badge.closest(".badge-container");
+    const extraBadges = parent.querySelectorAll(".extra-badge");
+    const moreBadge = parent.querySelector(".more-badge");
+    const showLessBadge = parent.querySelector(".show-less");
+
+    if (badge.classList.contains("more-badge")) {
+      extraBadges.forEach(b => b.style.display = "inline");
+      moreBadge.style.display = "none";
+      showLessBadge.style.display = "inline";
+    } else if (badge.classList.contains("show-less")) {
+      extraBadges.forEach(b => b.style.display = "none");
+      moreBadge.style.display = "inline";
+      showLessBadge.style.display = "none";
+    }
+  });
+});
+
+}
+
+
+
+
+  // ----- Summary Cards -----
+  function updateTopOilsCard(oils) {
+    const card = summaryCards[0]; if(!card||!oils.length) return;
+    const top = oils.slice().sort((a,b)=>(b.score||0)-(a.score||0))[0];
+    const rank = top.rank ?? top.global_rank ?? top.filtered_rank;
+    card.querySelector("h3").textContent = `${top.oil_name} — Rank ${rank ?? "?"}`;
+  }
+
+  function updateBlendsCard(oils) {
+    const card = summaryCards[2]; if(!card||!oils) return;
+    const top = oils.map(o=>({name:o.oil_name,count:(o.blends_well_with||[]).length})).sort((a,b)=>b.count-a.count)[0];
+    card.querySelector("h3").textContent = `${top.name} — Blends With ${top.count} oils`;
+  }
+
+  function updateBeneficialCard(oils) {
+    const card = summaryCards[3]; if(!card||!oils) return;
+    const top = oils.filter(o=>o.beneficial_score!=null).sort((a,b)=>(b.beneficial_score||0)-(a.beneficial_score||0))[0];
+    card.querySelector("h3").textContent = `${top.oil_name} — Rank ${top.beneficial_rank ?? "?"}`;
+  }
+
+function updateComponentsCard(summaryData, oilsFiltered = null) {
+  const card = summaryCards[1];
+  if (!card || !summaryData) return;
+
+  function getGlobalCount(c) {
+    return summaryData.main_components?.component_freq?.[c] || 0;
+  }
+
+  let top = null, filteredCount = 0;
+  const freqFiltered = {};
+  const displayNames = {};
+
+  if (oilsFiltered?.length) {
+    oilsFiltered.forEach(o => {
+      (o.main_chemical_components || []).forEach(c => {
+        if (!c) return;
+        const n = c.trim().toLowerCase();
+        freqFiltered[n] = (freqFiltered[n] || 0) + 1;
+        displayNames[n] = displayNames[n] || c.trim();
+      });
+    });
+    const sorted = Object.entries(freqFiltered).sort((a, b) => b[1] - a[1]);
+    if (sorted.length) {
+      top = displayNames[sorted[0][0]];
+      filteredCount = sorted[0][1];
+    }
+  }
+
+  // fallback
+  if (!top && summaryData.main_components?.top?.length) {
+    top = summaryData.main_components.top[0];
+    filteredCount = oilsFiltered?.filter(o =>
+      (o.main_chemical_components || []).some(c => c === top)
+    ).length || 0;
+  }
+
+  const globalCount = getGlobalCount(top);
+
+  // check if we're filtered (search or filter applied)
+  const isFiltered = !!(oilsFiltered && oilsFiltered.length && oilsFiltered.length < oilsData.length);
+
+  if (isFiltered) {
+    card.querySelector("h3").textContent =
+      `${top} — ${filteredCount} in view (${globalCount} globally)`;
+  } else {
+    card.querySelector("h3").textContent =
+      `${top} — ${globalCount} globally`;
+  }
+
+  // ---- Tooltip ----
+  const tooltip = card.querySelector(".summary-tooltip ul");
+  if (tooltip) {
+    tooltip.innerHTML = summaryData.main_components.top
+      .slice(0, maxTooltipItems)
+      .map(c => {
+        const gc = getGlobalCount(c);
+        if (isFiltered) {
+          const norm = c.trim().toLowerCase();
+          const fc = freqFiltered[norm] || 0;
+          return `<li>${c} — ${fc} in view (${gc} globally)</li>`;
+        } else {
+          return `<li>${c} — ${gc} globally</li>`;
+        }
+      })
+      .join("");
+  }
+}
+
+
+
+  // ----- Handle Filtered Response -----
+  function handleFilteredResponseJson(data, filterType=null){
+    const oils=enrichOils(data.oils||[]);
+    const query = searchInput?.value?.trim()||'';
+    updateTable(oils, query);
+    updateCards(oils, query);
+    updateTopOilsCard(oils);
+    updateBlendsCard(oils);
+    updateBeneficialCard(oils);
+    updateComponentsCard(summaryDataInitial, oils);
+
+    if(filterAlert && filterName){
+      const count = oils.length;
+      if(filterType){ filterName.textContent=`${filterDisplayNames[filterType]||filterType} (${count})`; filterAlert.style.display="block";}
+      else{ filterName.textContent=`Search Results (${count})`; filterAlert.style.display=count>0?"block":"none";}
+    }
+  }
+
+  // ----- Disable Enter Key -----
+  searchInput.addEventListener("keydown", e=>{if(e.key==="Enter") e.preventDefault();});
+
+  // ----- Search Handling -----
+  function debounce(func, delay=300){let timer; return (...args)=>{clearTimeout(timer); timer=setTimeout(()=>func.apply(this,args),delay);};}
+  searchInput.addEventListener("input", debounce(()=>{
+    const query=searchInput.value.trim();
+    isSearching=!!query;
+    const url = query ? `/filter/all?q=${encodeURIComponent(query)}` : '/filter/all';
+    fetch(url).then(r=>r.json()).then(d=>handleFilteredResponseJson(d)).catch(console.error);
+  },300));
+
+  // ----- Summary Card Clicks -----
+  summaryCards.forEach(card=>{
+    const link=card.querySelector("a"); if(!link) return;
+    card.addEventListener("click", e=>{
+      e.preventDefault();
+      const type=link.getAttribute("href")?.split("filter=")[1]; if(!type) return;
+      if(searchInput) searchInput.value="";
+      isSearching=false;
+      fetch(`/filter/${type}`).then(r=>r.json()).then(d=>{
+        handleFilteredResponseJson(d,type);
+        window.history.replaceState(null,"",window.location.pathname);
+        activeFilter=type;
+      }).catch(console.error);
+    });
+  });
+  // --- Desktop hover tooltips ---
+
+
+
+  // ----- Initial Render -----
+  (function init(){
+    const fullOils = oilsData.map((o,i)=>({...o, filtered_rank:i+1}));
+    updateTable(fullOils);
+    updateCards(fullOils);
+    updateTopOilsCard(fullOils);
+    updateBlendsCard(fullOils);
+    updateBeneficialCard(fullOils);
+    updateComponentsCard(summaryDataInitial, fullOils);
+    if(filterAlert) filterAlert.style.display="none";
+    activeFilter=null;
+    window.history.replaceState(null,"",window.location.pathname);
+  })();
+});
+</script>
+
+<script>
+// ----- Mobile Summary Card Tooltips -----
+
+  document.addEventListener("DOMContentLoaded", () => {
+  const summaryCards = document.querySelectorAll(".summary-card");
+
+  function isMobile() {
+    return window.innerWidth < 768;
+  }
+
+  summaryCards.forEach(card => {
+    const link = card.querySelector("a");
+    const tooltipBtn = card.querySelector(".mobile-tooltip-btn");
+    const tooltip = card.querySelector(".summary-tooltip");
+
+    tooltip.style.display = "none";
+
+    if (!isMobile()) {
+      // Desktop hover
+      card.addEventListener("mouseenter", () => tooltip.style.display = "block");
+      card.addEventListener("mouseleave", () => tooltip.style.display = "none");
+    }
+
+    // Card click for filter
+    if (link) {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const filterType = link.getAttribute("href")?.split("filter=")[1];
+        if (!filterType) return;
+
+        const searchInput = document.querySelector('.search-bar input[name="q"]');
+        if (searchInput) searchInput.value = "";
+
+        fetch(`/filter/${filterType}`)
+          .then(r => r.json())
+          .then(data => {
+            handleFilteredResponseJson(data, filterType);
+            window.history.replaceState(null, "", window.location.pathname);
+          })
+          .catch(console.error);
+      });
+    }
+
+    // Mobile button tooltip toggle
+    if (tooltipBtn) {
+      tooltipBtn.addEventListener("click", e => {
+      e.stopPropagation();
+
+      // Close all tooltips except current
+      summaryCards.forEach(c => {
+        const t = c.querySelector(".summary-tooltip");
+        if (t && c !== card) t.style.display = "none";
+      });
+
+      // Always show the clicked tooltip
+      tooltip.style.display = "block";
+    });
+
+    }
+  });
+
+  // Clicking outside closes all tooltips
+  document.addEventListener("click", e => {
+    summaryCards.forEach(card => {
+      const tooltip = card.querySelector(".summary-tooltip");
+      if (tooltip) tooltip.style.display = "none";
+    });
+  });
+
+  // Hide tooltips when resizing to desktop/mobile
+  window.addEventListener("resize", () => {
+    if (!isMobile()) {
+      summaryCards.forEach(card => {
+        const tooltip = card.querySelector(".summary-tooltip");
+        if (tooltip) tooltip.style.display = "none";
+      });
+    }
+  });
+});
+
+
+</script>
+
+
+
+
+
+{% endblock %}

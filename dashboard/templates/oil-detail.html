@@ -1,0 +1,1361 @@
+{% extends "base.html" %} {% block title %}Oils Detail{% endblock %} {% block
+styles %}
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Bootstrap CSS (minimal for table styling) -->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  rel="stylesheet"
+/>
+
+<style>
+  :root {
+    --muted: #667085;
+    --accent: #0ea5a4;
+    --danger: #ef4444;
+    --container-w: 1200px;
+    --panel-w: 465px;
+    --gap: 1rem;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+      Roboto, Arial;
+    color: #071024;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    
+    background-color: lightcyan;
+  }
+
+  /* add this near your other styles */
+  .hero-figure img {
+    opacity: 0;
+    transition: opacity 300ms ease;
+  }
+  .hero-figure img.loaded {
+    opacity: 1;
+  }
+
+  .page-container {
+    max-width: var(--container-w);
+    margin: 4rem auto 1.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .card-glass {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), #fff);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  h1,
+  h3,
+  h6 {
+    font-weight: 600;
+    margin: 0;
+    color: #071024;
+  }
+
+  /* Header Styles */
+  .header-row {
+    display: flex;
+    gap: var(--gap);
+    align-items: flex-start;
+  }
+
+  .hero-figure {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(6, 22, 15, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fbfffe;
+    flex-shrink: 0;
+  }
+
+  .hero-figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .hero-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+  }
+
+  .meta-badges {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.25rem;
+  }
+
+  .badge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.55rem;
+    border-radius: 999px;
+    background: #f1f7f6;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .header-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+
+  /* Button Styles */
+  .btn-modern {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.06);
+    background: transparent;
+    transition: transform 0.12s, box-shadow 0.12s;
+    font-weight: 600;
+  }
+
+  .btn-modern:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(2, 6, 23, 0.08);
+  }
+
+  .btn-primary {
+    background: linear-gradient(90deg, var(--accent), #049a8d);
+    color: #fff;
+  }
+
+  .btn-ghost {
+    background: transparent;
+    border: 1px solid rgba(6, 22, 15, 0.06);
+    color: var(--muted);
+  }
+
+  .btn-outline-muted {
+    background: transparent;
+    border: 1px solid rgba(100, 116, 139, 0.12);
+    color: var(--muted);
+  }
+
+  /* Aroma & Therapeutic Boxes */
+  .aroma-thera {
+    display: flex;
+    gap: var(--gap);
+    margin-top: 1rem;
+    align-items: flex-start;
+  }
+
+  .aroma-box,
+  .thera-box {
+    flex: 1 1 0;
+    min-width: 160px;
+    box-sizing: border-box;
+    min-height: 200px;
+  }
+
+  .chips-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: flex-start;
+  }
+
+  .thera-box .chips-row.collapsed .chip.hidden-when-collapsed {
+    display: none;
+  }
+
+  .thera-see {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.92rem;
+    color: var(--accent);
+    cursor: pointer;
+    font-weight: 700;
+    user-select: none;
+  }
+
+  /* Layout Grid */
+  .layout-grid {
+    display: grid;
+    grid-template-columns: 1fr var(--panel-w);
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    align-items: start;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 1100px) {
+    .layout-grid {
+      grid-template-columns: 1fr;
+    }
+    .aroma-thera {
+      flex-direction: column;
+    }
+    .hero-figure {
+      width: 140px;
+      height: 140px;
+    }
+    .page-container {
+      padding: 0.6rem;
+    }
+  }
+
+  /* Blend Panel */
+  .blend-panel {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px dashed rgba(14, 165, 164, 0.08);
+    background: #fff;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  @media (min-width: 1100px) {
+    .blend-panel.sticky {
+      position: sticky;
+      top: 80px;
+      align-self: start;
+      box-shadow: 0 18px 40px rgba(2, 6, 23, 0.06);
+    }
+  }
+
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .panel-body {
+    padding-top: 0.6rem;
+    display: block;
+  }
+
+  .blend-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .blend-slot {
+    min-height: 101px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px dashed rgba(14, 165, 164, 0.06);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: flex-start;
+    background: linear-gradient(180deg, #fbfeff, #fff);
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+  }
+
+  .blend-slot.drag-over {
+    border: 2px dashed var(--accent);
+  }
+
+  .blend-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background: #fff;
+  }
+
+  /* Search & Chips */
+  .search-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.45rem 0.6rem;
+    border-radius: 999px;
+    background: #f8fafc;
+    border: 1px solid rgba(15, 23, 42, 0.04);
+    cursor: pointer;
+    margin: 0.25rem;
+    user-select: none;
+    transition: all 0.2s;
+  }
+
+  .chip:hover {
+    background: #e2e8f0;
+    transform: translateY(-1px);
+  }
+
+  .chip.clickable:active {
+    transform: translateY(0);
+  }
+
+  /* Chemical Table */
+  .chem-table th {
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  /* Insights Area */
+  .insights-area {
+    min-height: 92px;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px dashed rgba(99, 113, 138, 0.08);
+    background: #fbffff;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .insights-area:focus {
+    border-color: var(--accent);
+  }
+
+  /* Utility Classes */
+  .muted {
+    color: var(--muted);
+  }
+
+  .warning {
+    color: var(--danger);
+  }
+
+  /* Note Cards */
+  .note-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 0.6rem;
+  }
+
+  .note-card {
+    padding: 0.6rem;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    min-width: 180px;
+    flex: 1;
+    box-sizing: border-box;
+  }
+
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 12, 18, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+  }
+
+  .modal-card {
+    background: #fff;
+    border-radius: 10px;
+    width: min(900px, 95%);
+    max-height: 90vh;
+    overflow: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 640px) {
+    .hero-figure {
+      width: 110px;
+      height: 110px;
+    }
+    .panel-header h3 {
+      font-size: 1rem;
+    }
+    .btn-modern {
+      font-size: 0.9rem;
+      padding: 0.45rem 0.6rem;
+    }
+  }
+
+  /* Animation for smooth transitions */
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Focus styles for accessibility */
+  .chip:focus,
+  .btn-modern:focus,
+  .thera-see:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+</style>
+
+{% endblock %} {% block content %}
+<div class="page-container">
+  <!-- Header Section -->
+  <header
+    class="card-glass header header-sticky"
+    role="banner"
+    aria-label="Oil header"
+  >
+    <div class="header-row">
+      <!-- Hero Image -->
+      <figure class="hero-figure" aria-hidden="false">
+        <img
+          id="oilImage"
+          src=""
+          alt="oil image"
+          crossorigin="anonymous"
+          style="display: none"
+        />
+        <div
+          id="imagePlaceholder"
+          class="hero-placeholder"
+          style="display: block"
+        >
+          <div style="font-size: 28px">🫧</div>
+          <div class="mt-1 small muted">No image</div>
+        </div>
+      </figure>
+
+      <!-- Oil Info -->
+      <div style="flex: 1">
+        <h1 id="oilName" class="h4">{{ oil.oil_name }}</h1>
+        <div id="botanicalName" class="text-muted fst-italic mb-2">
+          {{ oil.botanical_name }}
+        </div>
+
+        <!-- Meta Badges -->
+        <div class="meta-badges">
+          <div class="badge-pill" id="colorBadge">Color: {{ oil.color }}</div>
+          <div class="badge-pill" id="originBadge">
+            Origin: {{ oil.origin }}
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="header-actions" role="toolbar" aria-label="Primary actions">
+          <button id="addBlend" class="btn-modern btn-primary" type="button">
+            <i class="fa-solid fa-plus"></i> Add to Blend
+          </button>
+          <button id="compareBtn" class="btn-modern btn-ghost" type="button">
+            <i class="fa-solid fa-scale-balanced"></i> Compare
+          </button>
+          <button
+            id="favBtn"
+            class="btn-modern btn-ghost"
+            type="button"
+            aria-pressed="false"
+            title="Favorite"
+          >
+            <i id="favIcon" class="fa-regular fa-heart"></i>
+          </button>
+          <button
+            id="addInsightBtn"
+            class="btn-modern btn-ghost"
+            type="button"
+            title="Insight"
+          >
+            <i class="fa-regular fa-note-sticky"></i>
+          </button>
+        </div>
+
+        <!-- Aroma & Therapeutic Properties -->
+        <div class="aroma-thera">
+          <div class="card-glass aroma-box p-3">
+            <h6 class="mb-2">Aroma Profile</h6>
+            <div id="aromaChips" class="chips-row" aria-live="polite"></div>
+          </div>
+
+          <div class="card-glass thera-box p-3" id="theraBox">
+            <h6 class="mb-2">Therapeutic & Emotional</h6>
+            <div id="therapeuticChips" class="chips-row"></div>
+            <div
+              id="theraSeeMore"
+              class="thera-see"
+              role="button"
+              tabindex="0"
+              aria-expanded="false"
+              style="display: none"
+            >
+              See more
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Layout Grid -->
+  <main class="layout-grid" role="main">
+    <!-- Left Column -->
+    <section>
+      <!-- Chemical Profile -->
+      <div class="card-glass">
+        <h3 class="mb-2">Chemical Profile</h3>
+        <div>
+          <table class="chem-table w-100 table table-borderless">
+            <thead>
+              <tr>
+                <th class="text-start">Compound</th>
+                <th class="text-start">Percentage</th>
+              </tr>
+            </thead>
+            <tbody id="chemicalTable"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Notes Grid -->
+      <div class="card-glass mt-4">
+        <h3 class="mb-2">Notes</h3>
+        <div id="notesGrid" class="note-row"></div>
+      </div>
+
+      <!-- Blend Compatibility -->
+      <div class="card-glass mt-4">
+        <h3 class="mb-2">Blend Compatibility</h3>
+        <div id="blendChips" class="mt-2"></div>
+      </div>
+
+      <!-- Insights Editor -->
+      <div class="card-glass mt-4">
+        <h3 class="mb-2">Insights</h3>
+        <div class="insights-area" contenteditable="true" id="insightsEditor">
+          Add your insights here...
+        </div>
+        <div class="mt-3 d-flex gap-2 align-items-center">
+          <button id="saveInsight" class="btn-modern btn-primary">
+            💾 Save
+          </button>
+          <div id="insightTags" class="muted" style="margin-left: 0.5rem"></div>
+        </div>
+      </div>
+
+      <!-- Supporting Info -->
+      <div class="card-glass mt-4 muted">
+        <strong>Supporting Info</strong>
+        <div class="mt-2">Color: <span id="suppColor">Pale yellow</span></div>
+        <div>Origin: <span id="suppOrigin">France</span></div>
+        <div class="mt-2">
+          Reference:
+          <a id="externalLink" href="#" target="_blank">View reference</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Column - Blend Panel -->
+    <aside
+      id="blendPanel"
+      class="blend-panel sticky card-glass"
+      aria-label="Blend builder"
+    >
+      <div class="panel-header">
+        <h3 class="mb-0">Blend Builder</h3>
+        <div>
+          <!-- <button
+            id="blendCollapse"
+            class="btn-modern btn-ghost"
+            aria-expanded="true"
+            title="Collapse/Expand"
+          >
+            <i id="blendChevron" class="fa fa-chevron-up"></i>
+          </button> -->
+            <button id="savePreset" class="btn-modern btn-ghost">
+              💾 Save
+            </button>
+        </div>
+      </div>
+
+      <div class="panel-body">
+        <!-- Search Input -->
+        <div>
+          <input
+            id="blendSearch"
+            class="form-control"
+            placeholder="Search oils to add..."
+            aria-label="Search oils to add"
+          />
+          <div
+            id="blendSearchResults"
+            class="search-chips"
+            style="display: none"
+          ></div>
+        </div>
+
+        <!-- Blend Slot -->
+        <div class="mt-2 blend-slot" id="blendSlot" aria-label="Blend slot">
+          <small class="muted">Drop oils here</small>
+        </div>
+
+        <!-- Blend Summary & Actions -->
+        <div class="mt-3 d-flex justify-content-between align-items-center">
+          <div id="blendSummary" class="muted">No oils yet.</div>
+          <div class="blend-actions" role="group" aria-label="blend actions">
+            <button id="normalizeBlend" class="btn-modern btn-outline-muted">
+              Normalize
+            </button>
+
+            <button id="clearBlend" class="btn-modern btn-ghost">Clear</button>
+          </div>
+        </div>
+
+        <!-- Dilution Calculator -->
+        <div class="mt-3 pt-3 border-top" style="margin-top: 0.75rem">
+          <div class="d-flex gap-2 flex-wrap align-items-center">
+            <label class="muted mb-0">Dilution (ml):</label>
+            <input
+              id="totalMl"
+              type="number"
+              min="1"
+              placeholder="Total ml"
+              class="form-control w-auto"
+            />
+            <button id="calcMl" class="btn-modern btn-primary">
+              Calculate
+            </button>
+            <div
+              id="calcResult"
+              class="muted ms-2"
+              style="min-width: 160px"
+            ></div>
+          </div>
+
+          <!-- Quick Add -->
+          <div class="mt-3">
+            <h6 class="mb-1">Quick Add</h6>
+            <div id="quickAddList"></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+</div>
+
+<!-- Compare Modal -->
+<div id="compareModal" class="modal-overlay" style="display:none" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <h4 id="compareTitle">Compare Oils</h4>
+      <button id="closeCompare" class="btn-modern btn-ghost"><i class="fa fa-times"></i></button>
+    </div>
+
+    <!-- Search & Results -->
+    <div class="mb-2">
+      <input id="compareSearch" class="form-control" placeholder="Search oils..." aria-label="Search oils in compare" />
+      <div id="compareResults" class="search-chips" style="margin-top:0.5rem;"></div>
+    </div>
+
+    <!-- Selected Oils -->
+    <div id="selectedCompareOils" class="d-flex flex-wrap gap-2 mb-2"></div>
+
+    <!-- Compare Action -->
+    <button id="doCompareBtn" class="btn-modern btn-primary mb-2">Compare Now</button>
+
+    <!-- Comparison Cards -->
+    <div id="compareContent" style="display:none; margin-top:1rem;">
+      <div id="compareGrid" class="d-flex gap-3 flex-wrap"></div>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %} {% block scripts %}
+
+
+<script id="oil-json" type="application/json">
+  {{ oil|tojson|safe }}
+</script>
+
+<script id="all-oils-json" type="application/json">
+  {{ oils|tojson|safe }}
+</script>
+
+<script>
+  // Grab data passed from Flask
+  const oilData = JSON.parse(document.getElementById("oil-json").textContent);
+  const allOils = JSON.parse(
+    document.getElementById("all-oils-json").textContent
+  );
+
+  // Utility functions
+  const el = (id) => document.getElementById(id);
+  const safe = (s) => (s == null ? "" : String(s));
+
+  function createChip(text, options = {}) {
+    const chip = document.createElement("div");
+    chip.className = "chip clickable";
+    chip.textContent = text;
+    chip.tabIndex = 0;
+
+    if (options.onClick) {
+      chip.addEventListener("click", () => options.onClick(text));
+      chip.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          options.onClick(text);
+        }
+      });
+    }
+
+    if (options.draggable !== false) {
+      chip.draggable = true;
+      chip.addEventListener("dragstart", (e) => {
+        try {
+          e.dataTransfer.setData("text/plain", text);
+        } catch {}
+      });
+    }
+
+    return chip;
+  }
+
+  /* ----------------- IMAGE ----------------- */
+  async function loadOilImageFromServer(oilName) {
+    const imgEl = el("oilImage");
+    const placeholder = el("imagePlaceholder");
+
+    if (!oilName) {
+      imgEl.style.display = "none";
+      placeholder.style.display = "block";
+      return;
+    }
+
+    try {
+      const res = await fetch(
+        `/get-oil-image?oil_name=${encodeURIComponent(oilName)}`
+      );
+      const data = await res.json();
+
+      if (data && data.image_url) {
+        imgEl.src = data.image_url;
+        imgEl.onload = () => {
+          imgEl.classList.add("loaded");
+          imgEl.style.display = "block";
+          placeholder.style.display = "none";
+        };
+        imgEl.onerror = () => {
+          imgEl.style.display = "none";
+          placeholder.style.display = "block";
+        };
+      } else {
+        imgEl.style.display = "none";
+        placeholder.style.display = "block";
+      }
+    } catch (err) {
+      console.error(err);
+      imgEl.style.display = "none";
+      placeholder.style.display = "block";
+    }
+  }
+
+  // Populate aroma profile chips
+  function populateAromaChips() {
+    const container = el("aromaChips");
+    container.innerHTML = "";
+    if (!oilData.aroma_profile || !oilData.aroma_profile.length) {
+      container.innerHTML = '<div class="muted">-</div>';
+      return;
+    }
+    (Array.isArray(oilData.aroma_profile)
+      ? oilData.aroma_profile
+      : oilData.aroma_profile.split(",").map((s) => s.trim())
+    ).forEach((aroma) => container.appendChild(createChip(aroma)));
+  }
+
+  // Therapeutic properties
+  function populateTherapeuticChips() {
+    const container = el("therapeuticChips");
+    const seeMore = el("theraSeeMore");
+    const maxVisible = 4;
+    container.innerHTML = "";
+
+    if (
+      !oilData.therapeutic_properties ||
+      !oilData.therapeutic_properties.length
+    ) {
+      container.innerHTML = '<div class="muted">-</div>';
+      seeMore.style.display = "none";
+      return;
+    }
+
+    oilData.therapeutic_properties.forEach((prop, idx) => {
+      const chip = createChip(prop);
+      if (idx >= maxVisible) chip.classList.add("hidden-when-collapsed");
+      container.appendChild(chip);
+    });
+
+    if (oilData.therapeutic_properties.length > maxVisible) {
+      seeMore.style.display = "inline-block";
+      let expanded = false;
+      container.classList.add("collapsed");
+      const toggle = () => {
+        expanded = !expanded;
+        seeMore.textContent = expanded ? "See less" : "See more";
+        container.classList.toggle("collapsed", !expanded);
+      };
+      seeMore.addEventListener("click", toggle);
+      seeMore.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    } else seeMore.style.display = "none";
+  }
+
+  // Chemical components table
+  function populateChemicalTable() {
+    const tbody = el("chemicalTable");
+    tbody.innerHTML = "";
+    if (
+      !oilData.main_chemical_components ||
+      !oilData.main_chemical_components.length
+    ) {
+      const tr = document.createElement("tr");
+      const td = document.createElement("td");
+      td.colSpan = 2;
+      td.textContent = "No data available";
+      tr.appendChild(td);
+      tbody.appendChild(tr);
+      return;
+    }
+    (Array.isArray(oilData.main_chemical_components)
+      ? oilData.main_chemical_components
+      : [oilData.main_chemical_components]
+    ).forEach((comp) => {
+      const tr = document.createElement("tr");
+      const nameTd = document.createElement("td");
+      const percentTd = document.createElement("td");
+      if (typeof comp === "string") {
+        nameTd.textContent = comp;
+        percentTd.textContent = "-";
+      } else {
+        nameTd.textContent = comp.name || "-";
+        percentTd.textContent = comp.percentage || "-";
+      }
+      tr.appendChild(nameTd);
+      tr.appendChild(percentTd);
+      tbody.appendChild(tr);
+    });
+  }
+
+  // Notes (Top/Middle/Base)
+  function populateNotes() {
+    const container = el("notesGrid");
+    container.innerHTML = "";
+    const notesOrder = ["Top", "Middle", "Base"];
+    notesOrder.forEach((noteType) => {
+      const card = document.createElement("div");
+      card.className = "note-card";
+      const titleEl = document.createElement("strong");
+      titleEl.textContent = noteType;
+      const tick = document.createElement("div");
+      tick.className = "tick";
+      tick.innerHTML = oilData.note === noteType ? "✔️" : "";
+      card.appendChild(titleEl);
+      card.appendChild(tick);
+      container.appendChild(card);
+    });
+  }
+
+  // Blend compatibility
+  function populateBlendCompatibility() {
+    const container = el("blendChips");
+    container.innerHTML = "";
+    if (!oilData.blends_well_with || !oilData.blends_well_with.length) {
+      container.innerHTML =
+        '<div class="muted">No blend suggestions available</div>';
+      return;
+    }
+    oilData.blends_well_with.forEach((oil) => {
+      const chip = createChip(oil, { onClick: (name) => addToBlend({ name }) });
+      container.appendChild(chip);
+    });
+  }
+
+  // Quick add
+  function populateQuickAdd() {
+    const container = el("quickAddList");
+    container.innerHTML = "";
+    (oilData.blends_well_with || []).slice(0, 3).forEach((oil) => {
+      container.appendChild(
+        createChip(oil, { onClick: (name) => addToBlend({ name }) })
+      );
+    });
+  }
+
+  // Blend builder
+  let blend = [];
+
+  function addToBlend(oil) {
+    if (!oil?.name) return;
+    const existing = blend.find((i) => i.name === oil.name);
+    if (existing) {
+      existing.ratio = Math.min(99, (existing.ratio || 10) + 10);
+      renderBlend();
+      return;
+    }
+    blend.push({ name: oil.name, ratio: Math.round(100 / (blend.length + 1)) });
+    normalizeBlend();
+  }
+
+  function normalizeBlend() {
+    if (!blend.length) return;
+    let total = blend.reduce((s, i) => s + (i.ratio || 0), 0);
+    if (!total) blend.forEach((i, idx) => (i.ratio = idx === 0 ? 100 : 0));
+    else blend.forEach((i) => (i.ratio = Math.round((i.ratio / total) * 100)));
+    let diff = 100 - blend.reduce((s, i) => s + i.ratio, 0);
+    for (let i = 0; i < Math.abs(diff); i++)
+      blend[i % blend.length].ratio += Math.sign(diff);
+    renderBlend();
+  }
+
+  function renderBlend() {
+    const slot = el("blendSlot");
+    slot.innerHTML = "";
+    if (!blend.length) {
+      slot.innerHTML = '<small class="muted">Drop oils here</small>';
+      updateBlendSummary();
+      return;
+    }
+    blend.forEach((item, index) => {
+      const blendItem = document.createElement("div");
+      blendItem.className = "blend-item";
+      blendItem.dataset.index = index;
+      blendItem.draggable = false;
+      const ratio = item.ratio || Math.round(100 / blend.length);
+      blendItem.innerHTML = `<div class="fw-semibold">${safe(
+        item.name
+      )}</div><div style="flex:1"></div>
+                <input class="ratio" type="range" min="1" max="99" value="${ratio}" data-index="${index}" style="width:60px;" />
+                <div style="width:40px;text-align:right" data-index="label-${index}">${ratio}%</div>`;
+      blendItem.querySelector("input").addEventListener("input", (e) => {
+        const idx = +e.target.dataset.index;
+        blend[idx].ratio = +e.target.value;
+        blendItem.querySelector(`[data-index="label-${idx}"]`).textContent =
+          e.target.value + "%";
+        updateBlendSummary();
+      });
+      blendItem.addEventListener("dblclick", () => {
+        blend.splice(index, 1);
+        renderBlend();
+      });
+      slot.appendChild(blendItem);
+    });
+    updateBlendSummary();
+  }
+
+  function updateBlendSummary() {
+    const summary = el("blendSummary");
+    if (!blend.length) {
+      summary.textContent = "No oils yet.";
+      summary.classList.remove("warning");
+      return;
+    }
+    const total = blend.reduce((s, i) => s + (i.ratio || 0), 0);
+    summary.textContent =
+      blend.map((i) => `${i.name} ${i.ratio || 0}%`).join(" • ") +
+      ` — Total ${total}%`;
+    summary.classList.toggle("warning", total !== 100);
+  }
+
+  // Search & Compare (unchanged)
+  function searchOils(query) {
+    if (!query) return [];
+    const lower = query.toLowerCase().trim();
+    return allOils
+      .filter((o) => o.oil_name.toLowerCase().includes(lower))
+      .slice(0, 20)
+      .map((o) => o.oil_name);
+  }
+  function renderSearchResults(results, container, onSelect) {
+    if (!container) return;
+    container.innerHTML = "";
+    if (!results.length) {
+      container.style.display = "none";
+      return;
+    }
+    results.forEach((r) => {
+      container.appendChild(
+        createChip(r, {
+          onClick: (name) => {
+            onSelect(name);
+            container.style.display = "none";
+          },
+        })
+      );
+    });
+    container.style.display = "flex";
+  }
+  function setupBlendSearch() {
+    const input = el("blendSearch");
+    const results = el("blendSearchResults");
+    input.addEventListener("input", (e) => {
+      const q = e.target.value.trim();
+      if (!q) {
+        results.style.display = "none";
+        return;
+      }
+      const res = searchOils(q);
+      renderSearchResults(res, results, (name) => {
+        addToBlend({ name });
+        input.value = "";
+      });
+    });
+    document.addEventListener("click", (e) => {
+      if (!input.contains(e.target) && !results.contains(e.target))
+        results.style.display = "none";
+    });
+  }
+
+   /* ----------------- COMPARE: FIXED SECTION (replace existing compare code) ----------------- */
+
+  // Selected oils (kept outside so devtools can inspect)
+  let selectedOils = [];
+
+  function setupCompareModal(maxCompare = 3) {
+    const modal = el("compareModal");
+    const searchInput = el("compareSearch");
+    const searchResults = el("compareResults");
+    const selectedContainer = el("selectedCompareOils");
+    const compareContentWrapper = el("compareContent");
+    const compareGrid = el("compareGrid");
+    const doCompareBtn = el("doCompareBtn");
+    const openCompareBtn = el("compareBtn"); // header button
+    const closeBtn = el("closeCompare");
+
+    // Defensive checks — if something's missing, log and bail so we don't throw.
+    if (!modal || !searchInput || !searchResults || !selectedContainer || !compareContentWrapper || !compareGrid || !doCompareBtn || !openCompareBtn || !closeBtn) {
+      console.warn("Compare modal: missing element(s). Check that HTML IDs exist:", {
+        modal: !!modal,
+        searchInput: !!searchInput,
+        searchResults: !!searchResults,
+        selectedContainer: !!selectedContainer,
+        compareContentWrapper: !!compareContentWrapper,
+        compareGrid: !!compareGrid,
+        doCompareBtn: !!doCompareBtn,
+        openCompareBtn: !!openCompareBtn,
+        closeBtn: !!closeBtn,
+      });
+      return;
+    }
+
+    // Helper: show/hide modal
+    function openModal() {
+      modal.style.display = "flex";
+      // reset search and UI
+      searchInput.value = "";
+      searchResults.innerHTML = "";
+      selectedContainer.innerHTML = "";
+      compareGrid.innerHTML = "";
+      compareContentWrapper.style.display = "none";
+      // include current oil as first entry if valid
+      if (oilData && oilData.oil_name) selectedOils = [oilData];
+      else selectedOils = [];
+      renderSelectedOils();
+      setTimeout(() => searchInput.focus(), 50);
+    }
+    function closeModal() {
+      modal.style.display = "none";
+      selectedOils = [];
+      searchInput.value = "";
+      searchResults.innerHTML = "";
+      selectedContainer.innerHTML = "";
+      compareGrid.innerHTML = "";
+      compareContentWrapper.style.display = "none";
+    }
+
+    // Close when clicking overlay (but not when clicking inside modal card)
+    modal.addEventListener("click", (ev) => {
+      if (ev.target === modal) closeModal();
+    });
+
+    // Open/close button wiring
+    openCompareBtn.addEventListener("click", openModal);
+    closeBtn.addEventListener("click", closeModal);
+
+    // Render selected chips
+    function renderSelectedOils() {
+      selectedContainer.innerHTML = "";
+      selectedOils.forEach((o, idx) => {
+        const chip = createChip(o.oil_name, {
+          onClick: (text) => {
+            // if clicked, remove oil (but keep the first/current oil locked)
+            if (idx === 0) return;
+            selectedOils.splice(idx, 1);
+            renderSelectedOils();
+          },
+        });
+        // Add a small removable 'x' indicator for chips after the first
+        if (idx !== 0) {
+          const x = document.createElement("span");
+          x.textContent = " ×";
+          x.style.marginLeft = "6px";
+          x.style.opacity = "0.7";
+          x.style.fontWeight = "700";
+          x.style.cursor = "pointer";
+          x.addEventListener("click", (ev) => {
+            ev.stopPropagation();
+            selectedOils.splice(idx, 1);
+            renderSelectedOils();
+          });
+          chip.appendChild(x);
+        } else {
+          chip.title = "Current oil (cannot remove)";
+        }
+        selectedContainer.appendChild(chip);
+      });
+    }
+
+    // Add oil by name into selectedOils (safe)
+    function addOilByName(name) {
+      const oil = allOils.find((o) => o.oil_name === name);
+      if (!oil) return;
+      if (selectedOils.find((s) => s.oil_name === oil.oil_name)) return;
+      if (selectedOils.length >= maxCompare) {
+        alert(`Maximum ${maxCompare} oils can be compared`);
+        return;
+      }
+      selectedOils.push(oil);
+      renderSelectedOils();
+    }
+
+    // Render search results specifically for compare (so we control click behavior)
+    function showCompareSearchResults(names) {
+      searchResults.innerHTML = "";
+      if (!names.length) {
+        searchResults.style.display = "none";
+        return;
+      }
+      names.forEach((name) => {
+        const chip = createChip(name, {
+          onClick: () => {
+            addOilByName(name);
+            searchResults.innerHTML = "";
+            searchResults.style.display = "none";
+            searchInput.value = "";
+            setTimeout(() => searchInput.focus(), 50);
+          },
+        });
+        searchResults.appendChild(chip);
+      });
+      searchResults.style.display = "flex";
+    }
+
+    // Hide search results when clicking outside search area (UX)
+    document.addEventListener("click", (ev) => {
+      const t = ev.target;
+      if (!searchInput.contains(t) && !searchResults.contains(t)) {
+        searchResults.innerHTML = "";
+        searchResults.style.display = "none";
+      }
+    });
+
+    // Search input handler
+    let searchDebounce = null;
+    searchInput.addEventListener("input", (e) => {
+      const q = e.target.value.trim();
+      clearTimeout(searchDebounce);
+      searchResults.innerHTML = "";
+      if (!q) {
+        searchResults.style.display = "none";
+        return;
+      }
+      // small debounce just in case
+      searchDebounce = setTimeout(() => {
+        const names = searchOils(q); // returns array of oil_name strings
+        showCompareSearchResults(names);
+      }, 120);
+    });
+
+    // Do compare button - builds comparison grid
+    doCompareBtn.addEventListener("click", () => {
+      if (!selectedOils.length) {
+        alert("Select at least 1 oil to compare.");
+        return;
+      }
+      renderComparison();
+    });
+
+    // Render comparison cards into compareGrid
+    function renderComparison() {
+        const compareGrid = el("compareGrid");
+        const compareContent = el("compareContent");
+        if (!compareGrid || !compareContent) return;
+
+        compareGrid.innerHTML = "";
+        compareContent.style.display = "block"; // show wrapper
+        compareGrid.style.display = "flex";
+        compareGrid.style.flexWrap = "wrap";
+        compareGrid.style.gap = "1rem";
+
+        selectedOils.forEach((oil) => {
+            if (!oil || !oil.oil_name) return;
+
+            // Ensure aroma_profile is always an array
+            const aroma = Array.isArray(oil.aroma_profile)
+            ? oil.aroma_profile
+            : oil.aroma_profile
+            ? [oil.aroma_profile]
+            : [];
+
+            // Ensure main_chemical_components is always an array
+            const chemicals = Array.isArray(oil.main_chemical_components)
+            ? oil.main_chemical_components
+            : oil.main_chemical_components
+            ? [oil.main_chemical_components]
+            : [];
+
+            const chemText = chemicals
+            .slice(0, 4)
+            .map((c) => (typeof c === "string" ? c : c.name || "-"))
+            .join(", ");
+
+            const card = document.createElement("div");
+            card.className = "card-glass p-3";
+            card.style.flex = "1 1 260px";
+            card.style.minWidth = "220px";
+            card.innerHTML = `
+            <h6>${safe(oil.oil_name)}</h6>
+            <div class="muted mb-2">${safe(oil.botanical_name)}</div>
+            <div>${safe(aroma.join(", "))}</div>
+            <div class="small muted" style="margin-top:.5rem">${chemText}</div>
+            `;
+            compareGrid.appendChild(card);
+        });
+
+        if (!compareGrid.children.length) {
+            compareGrid.innerHTML = "<div class='muted'>No oils to compare</div>";
+        } else {
+            compareGrid.scrollIntoView({ behavior: "smooth" });
+        }
+        }
+
+  }
+
+  /* ----------------- END COMPARE FIXES ----------------- */
+
+  // Initialize
+  document.addEventListener("DOMContentLoaded", () => {
+    loadOilImageFromServer(oilData.oil_name);
+    populateAromaChips();
+    populateTherapeuticChips();
+    populateChemicalTable();
+    populateNotes();
+    populateBlendCompatibility();
+    populateQuickAdd();
+    setupBlendSearch();
+    setupCompareModal();
+    renderBlend();
+
+    // --- HEADER BUTTONS ---
+    const addBlendBtn = el("addBlend");
+    const favBtn = el("favBtn");
+    const favIcon = el("favIcon");
+    const addInsightBtn = el("addInsightBtn");
+
+    if (addBlendBtn)
+      addBlendBtn.addEventListener("click", () =>
+        addToBlend({ name: oilData.oil_name })
+      );
+    if (favBtn && favIcon) {
+      let isFav = false;
+      favBtn.addEventListener("click", () => {
+        isFav = !isFav;
+        favIcon.className = isFav ? "fa-solid fa-heart" : "fa-regular fa-heart";
+        favBtn.setAttribute("aria-pressed", isFav);
+      });
+    }
+    if (addInsightBtn)
+      addInsightBtn.addEventListener("click", () => {
+        alert("Add insight clicked");
+      });
+
+    // --- BLEND ACTION BUTTONS ---
+    const normalizeBtn = el("normalizeBlend");
+    const saveBtn = el("savePreset");
+    const clearBtn = el("clearBlend");
+    const calcBtn = el("calcMl");
+    const totalInput = el("totalMl");
+    const calcResult = el("calcResult");
+
+    if (normalizeBtn) normalizeBtn.addEventListener("click", normalizeBlend);
+    if (clearBtn)
+      clearBtn.addEventListener("click", () => {
+        blend = [];
+        renderBlend();
+      });
+    if (saveBtn)
+      saveBtn.addEventListener("click", () => {
+        console.log("Blend saved:", blend);
+        alert("Blend saved (check console)");
+      });
+    if (calcBtn && totalInput && calcResult) {
+      calcBtn.addEventListener("click", () => {
+        const total = +totalInput.value || 0;
+        if (!total || !blend.length) {
+          alert("Enter total ml and add oils to blend.");
+          return;
+        }
+        calcResult.textContent = blend
+          .map((i) => `${i.name}: ${((i.ratio / 100) * total).toFixed(1)} ml`)
+          .join("\n");
+      });
+    }
+  });
+
+  // Expose for debugging
+  window.oilDebug = {
+    oilData,
+    allOils,
+    blend,
+    addToBlend,
+    renderBlend,
+    normalizeBlend,
+  };
+</script>
+
+
+{% endblock %}

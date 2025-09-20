@@ -1,0 +1,5796 @@
+[
+  {
+    "oil_id": 1,
+    "oil_name": "African Sandalwood",
+    "botanical_name": "Brachylaena hutchinsii / Brachylaena huillensis",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Amorphene",
+      "Brachyl oxide",
+      "Copaenol",
+      "Copaenal",
+      "Gamma-Cadinene",
+      "A-Calacorene",
+      "Ylangenal",
+      "Cubebol"
+    ],
+    "therapeutic_properties": [
+      "Anti-Inflammatory",
+      "Meditation",
+      "Spiritual Applications",
+      "Perfumery Fixative"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm"
+    ],
+    "aroma_profile": "Woody, Sweet, Balsamic, Sandalwood, Medicinal, Orange, Amber",
+    "note": "Base",
+    "blends_well_with": [
+      "Amyris",
+      "Virginian Cedarwood",
+      "Buddha Wood",
+      "East Indian Sandalwood",
+      "Australian Sandalwood"
+    ],
+    "color": "Orange / Amber",
+    "origin": "United Kingdom, Kenya",
+    "url": "https://www.aromaweb.com/essential-oils/muhuhu-essential-oil.php"
+  },
+  {
+    "oil_id": 2,
+    "oil_name": "Agarwood",
+    "botanical_name": "Aquilaria crassna",
+    "composition": [],
+    "main_chemical_components": [
+      "Valerianol",
+      "alpha-Eudesmol",
+      "beta-Eudesmol",
+      "gamma-Eudesmol",
+      "10-epi-gamma-Eudesmol",
+      "Dehydrofukinone"
+    ],
+    "therapeutic_properties": [
+      "Spirituality",
+      "Chakra Balancing",
+      "Subtle Aromatherapy",
+      "Perfumery and Fragrancing"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Grounding"
+    ],
+    "aroma_profile": "Woody, Earthy",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Dark Brown",
+    "origin": "United Kingdom, Thailand",
+    "url": "https://www.aromaweb.com/essential-oils/agarwood-oud-essential-oil.php"
+  },
+  {
+    "oil_id": 3,
+    "oil_name": "Allspice",
+    "botanical_name": "Pimenta dioica / Pimenta officinalis",
+    "composition": [],
+    "main_chemical_components": [
+      "Eugenol",
+      "1,8-Cineole",
+      "B-Caryophyllene",
+      "a-Caryophyllene",
+      "Methyleugenol",
+      "Gamma-Cadinenel",
+      "Caryophyllene oxide"
+    ],
+    "therapeutic_properties": [
+      "Arthritis",
+      "Muscle Tone",
+      "Stiffness",
+      "Rheumatism",
+      "Muscular And Gastric Cramps",
+      "Indigestion",
+      "Nausea",
+      "Depression",
+      "Nervous Tension/Exhaustion",
+      "Neuralgia",
+      "Coughs",
+      "Bronchitis"
+    ],
+    "emotional_effects": [
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Spicy, Sweet",
+    "note": "Middle",
+    "blends_well_with": [
+      "Cinnamon",
+      "Bergamot",
+      "Allspice"
+    ],
+    "color": "Cocoa Brown",
+    "origin": "United Kingdom, Dominican Republic",
+    "url": "https://www.aromaweb.com/essential-oils/allspice-essential-oil.php"
+  },
+  {
+    "oil_id": 4,
+    "oil_name": "Aloeswood",
+    "botanical_name": "Aquilaria crassna",
+    "composition": [],
+    "main_chemical_components": [
+      "Valerianol",
+      "alpha-Eudesmol",
+      "beta-Eudesmol",
+      "gamma-Eudesmol",
+      "10-epi-gamma-Eudesmol",
+      "Dehydrofukinone"
+    ],
+    "therapeutic_properties": [
+      "Spirituality",
+      "Chakra Balancing",
+      "Subtle Aromatherapy",
+      "Perfumery and Fragrancing"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Grounding"
+    ],
+    "aroma_profile": "Woody, Earthy",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Dark Brown",
+    "origin": "United Kingdom, Thailand",
+    "url": "https://www.aromaweb.com/essential-oils/agarwood-oud-essential-oil.php"
+  },
+  {
+    "oil_id": 5,
+    "oil_name": "Ambrette Seed Absolute",
+    "botanical_name": "Abelmoschus moschatus / Hibiscus abelmoschus",
+    "composition": [],
+    "main_chemical_components": [
+      "Farnesyl acetate",
+      "Farnesol",
+      "Ambrettolide",
+      "Decyl acetate",
+      "Dodecyl acetate"
+    ],
+    "therapeutic_properties": [
+      "Aches",
+      "Stiffness",
+      "Poor Blood Circulation",
+      "Low Blood Pressure",
+      "Anxiety",
+      "Depression"
+    ],
+    "emotional_effects": [
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/ambrette-seed-absolute.php"
+  },
+  {
+    "oil_id": 6,
+    "oil_name": "Amyris",
+    "botanical_name": "Amyris balsamifera",
+    "composition": [],
+    "main_chemical_components": [
+      "Valerianol",
+      "a-Eudesmol",
+      "7-epi-a-Eudesmol",
+      "10-epi-Gamma-Eudesmol",
+      "Elemol"
+    ],
+    "therapeutic_properties": [
+      "Perfumery/Fragrancing",
+      "Acts as a Fixative",
+      "Coughs and Congestion",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Woody, Sandalwood, Vanilla, Cedar",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/amyris-essential-oil.php"
+  },
+  {
+    "oil_id": 7,
+    "oil_name": "Angelica Root",
+    "botanical_name": "Angelica archangelica",
+    "composition": [],
+    "main_chemical_components": [
+      "a-pinene",
+      "Camphene",
+      "B-pinene",
+      "Sabinene",
+      "d-3-carene,",
+      "a-Phellandrene",
+      "Myrcene",
+      "Limonene",
+      "B-phellandrene",
+      "cis-Ocimene",
+      "Trans-ocimene",
+      "p-Cymene",
+      "Terpinolene",
+      "Copaene",
+      "Bornyl acetate Terpinen-4-ol Cryptone B-bisabolene Humulene monoxide Tridecanolide Pentadecanolide",
+      "acetate",
+      "Terpinen-4-ol",
+      "Cryptone",
+      "B-bisabolene",
+      "Humulene monoxide",
+      "Tridecanolide",
+      "Pentadecanolide"
+    ],
+    "therapeutic_properties": [
+      "Coughs",
+      "Sinus Infections",
+      "Arthritis",
+      "Gout",
+      "Fatigue",
+      "Psoriasis",
+      "Stress",
+      "Quitting Smoking and Nicotine Addiction"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Woody, Peppery, Orange, Bergamot, Rose",
+    "note": "Base",
+    "blends_well_with": [
+      "Juniper Berry",
+      "Bergamot"
+    ],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/angelica-root-essential-oil.php"
+  },
+  {
+    "oil_id": 8,
+    "oil_name": "Anise",
+    "botanical_name": "Pimpinella anisum",
+    "composition": [],
+    "main_chemical_components": [
+      "(E)-Anethole",
+      "(+)-Limonene",
+      "Estragole",
+      "Anisyl alcohol"
+    ],
+    "therapeutic_properties": [
+      "Bronchitis",
+      "Colds",
+      "Coughs",
+      "Flatulence",
+      "Flu",
+      "Muscle Aches",
+      "Rheumatism"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm"
+    ],
+    "aroma_profile": "",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/anise-essential-oil.php"
+  },
+  {
+    "oil_id": 9,
+    "oil_name": "Anise, Star",
+    "botanical_name": "Illicium verum",
+    "composition": [],
+    "main_chemical_components": [
+      "(E)-anethole",
+      "Foeniculin",
+      "Methyl chavicol",
+      "Limonene",
+      "Linalool",
+      "Nerolidol",
+      "Cinnamyl Acetate"
+    ],
+    "therapeutic_properties": [
+      "Rheumatism",
+      "Bronchitis",
+      "Coughing",
+      "Colic",
+      "Indigestion/Cramping",
+      "Colds",
+      "Flu"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/star-anise-essential-oil.php"
+  },
+  {
+    "oil_id": 10,
+    "oil_name": "Anthopogon",
+    "botanical_name": "Rhododendron anthopogon",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "B-Pinene",
+      "Limonene",
+      "Delta-Cadinene",
+      "(3Z)-B-Ocimene",
+      "a-Amorphene",
+      "a-Muurolene",
+      "p-Cymene"
+    ],
+    "therapeutic_properties": [
+      "Sore Muscles",
+      "Coughs",
+      "Congestion",
+      "Lungs",
+      "Inflammation",
+      "Emotional Discomfort",
+      "Anxiety",
+      "Stress",
+      "Heart Chakra"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Energy"
+    ],
+    "aroma_profile": "Bergamot, Rose, Citrus, Floral, Sweet, Green, Woody",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/rhododendron-essential-oil.php"
+  },
+  {
+    "oil_id": 11,
+    "oil_name": "Atlas Cedarwood",
+    "botanical_name": "Cedrus atlantica",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Himachalene",
+      "a-Himachalene",
+      "(E)-a-Atlantone",
+      "Gamma-Himachalene",
+      "Deodarone",
+      "(E)-Gamma-Atlantone",
+      "Himachalol, Isocedranol"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Arthritis",
+      "Bronchitis",
+      "Coughing",
+      "Cystitis",
+      "Dandruff",
+      "Dermatitis",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Aphrodisiac",
+      "Emotion",
+      "Calm",
+      "Grounding",
+      "Meditation"
+    ],
+    "aroma_profile": "Woody",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Light Golden Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/atlas-cedarwood-essential-oil.php"
+  },
+  {
+    "oil_id": 12,
+    "oil_name": "Australian Sandalwood",
+    "botanical_name": "Santalum spicatum",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Santalol",
+      "a-Bisabolol",
+      "(Z)-Nuciferol",
+      "(E,E)-Farnesol",
+      "Dendrolasin",
+      "(Z)-B-Santalol",
+      "(E)-B-Santalol"
+    ],
+    "therapeutic_properties": [
+      "Anti-inflammatory",
+      "Anxiety/Agitation",
+      "Varicose Veins",
+      "Swollen Lymph Nodes",
+      "Headache",
+      "Insomnia",
+      "Bronchitis",
+      "Dry Cough",
+      "Oily Skin",
+      "Acne",
+      "Eczema",
+      "Psoriasis",
+      "Scalp Irritations",
+      "Genitourinary Tract Infections",
+      "Meditation",
+      "Prayer",
+      "Chakra Balancing"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Sandalwood, Woody, Balsamic, Resinous, Sweet",
+    "note": "Base",
+    "blends_well_with": [
+      "Myrrh"
+    ],
+    "color": "Clear to Sometimes Translucent Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/australian-sandalwood-essential-oil.php"
+  },
+  {
+    "oil_id": 13,
+    "oil_name": "Balsam Fir",
+    "botanical_name": "Abies balsamea",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Pinene",
+      "delta-3-Carene",
+      "Bornyl Acetate",
+      "a-Pinene",
+      "(+)-Limonene",
+      "B-Phellandrene",
+      "Camphene",
+      "a + B-Terpineol"
+    ],
+    "therapeutic_properties": [
+      "Minor Cuts and Wounds",
+      "Bronchitis",
+      "Coughs",
+      "Sore Throat",
+      "Depression",
+      "Nervous Tension",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Focus"
+    ],
+    "aroma_profile": "Fresh",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom, United States",
+    "url": "https://www.aromaweb.com/essential-oils/balsam-fir-essential-oil.php"
+  },
+  {
+    "oil_id": 14,
+    "oil_name": "Balsam, Peru",
+    "botanical_name": "Myroxylon balsamum / Myroxylon pereirae",
+    "composition": [],
+    "main_chemical_components": [
+      "Benzoic Acid",
+      "Cinnamic Acid",
+      "Benzyl Cinnamate",
+      "Cinnamyl Cinnamate"
+    ],
+    "therapeutic_properties": [
+      "Bronchitis",
+      "Chapped Skin",
+      "Colds",
+      "Coughing",
+      "Eczema",
+      "Flu",
+      "Poor Circulation",
+      "Rashes",
+      "Sensitive Skin",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Woody, Sweet, Vanilla",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Dark Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/peru-balsam-essential-oil.php"
+  },
+  {
+    "oil_id": 15,
+    "oil_name": "Basil",
+    "botanical_name": "Ocimum basilicum",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalool",
+      "Fenchol",
+      "Eugenol",
+      "Methyl Chavicol",
+      "Beta-Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Bronchitis",
+      "Colds",
+      "Coughs",
+      "Exhaustion",
+      "Flatulence",
+      "Flu",
+      "Gout",
+      "Insect Bites",
+      "Insect Repellent",
+      "Muscle Aches",
+      "Rheumatism",
+      "Sinusitis"
+    ],
+    "emotional_effects": [
+      "Focus",
+      "Energ"
+    ],
+    "aroma_profile": "",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/basil-essential-oil.php"
+  },
+  {
+    "oil_id": 16,
+    "oil_name": "Basil, Holy",
+    "botanical_name": "Ocimum tenuiflorum(Synonym: Ocimum sanctum)",
+    "composition": [],
+    "main_chemical_components": [
+      "Eugenol",
+      "1,8-Cineole",
+      "Estragole",
+      "B-Bisabolene",
+      "(Z)-a-Bisabolene"
+    ],
+    "therapeutic_properties": [
+      "Muscular Spasms",
+      "Respiratory Conditions",
+      "Cramps",
+      "Menstrual Issues",
+      "Headache",
+      "Mental and Physical Fatigue"
+    ],
+    "emotional_effects": [
+      "Energ",
+      "Focus"
+    ],
+    "aroma_profile": "Sweet",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/holy-basil-tulsi-essential-oil.php"
+  },
+  {
+    "oil_id": 17,
+    "oil_name": "Bay",
+    "botanical_name": "Pimenta racemosa var racemosa",
+    "composition": [],
+    "main_chemical_components": [
+      "Eugenol",
+      "Myrcene",
+      "Chavicol",
+      "Linalool",
+      "Limonene"
+    ],
+    "therapeutic_properties": [
+      "Dandruff",
+      "Hair Care",
+      "Neuralgia",
+      "Oily Skin",
+      "Poor Circulation",
+      "Sprains",
+      "Strains"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Deep Golden Yellow",
+    "origin": "United Kingdom, Dominican Republic",
+    "url": "https://www.aromaweb.com/essential-oils/bay-essential-oil.php"
+  },
+  {
+    "oil_id": 18,
+    "oil_name": "Bay Laurel",
+    "botanical_name": "Laurus nobilis",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Pinene",
+      "a-Terpinyl Acetate",
+      "Linalool",
+      "B-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Amenorrhea",
+      "Colds",
+      "Flu",
+      "Loss Of Appetite",
+      "Tonsillitis"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Focus"
+    ],
+    "aroma_profile": "Spicy, Sweet, Floral, Fruity",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/bay-laurel-leaf-essential-oil.php"
+  },
+  {
+    "oil_id": 19,
+    "oil_name": "Beeswax Absolute",
+    "botanical_name": "Apis mellifera",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Perfumery",
+      "Fragrancing",
+      "Diffusion"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm"
+    ],
+    "aroma_profile": "Sweet, Floral",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Deep Golden Brown",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/beeswax-absolute.php"
+  },
+  {
+    "oil_id": 20,
+    "oil_name": "Benzoin Absolute",
+    "botanical_name": "Styrax benzoin / Styrax tonkinensis",
+    "composition": [],
+    "main_chemical_components": [
+      "Benzyl Benzoate",
+      "Benzyl Alcohol",
+      "(Z)-Cinnamyl (E)-Cinnamate",
+      "Cinnamic Acid",
+      "Ethyl Cinnamate",
+      "Benzoic Acid"
+    ],
+    "therapeutic_properties": [
+      "Arthritis",
+      "Bronchitis",
+      "Chapped Skin",
+      "Coughing",
+      "Laryngitis",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Grounding"
+    ],
+    "aroma_profile": "Sweet, Vanilla, Resinous",
+    "note": "Base",
+    "blends_well_with": [
+      "Myrrh",
+      "Frankincense",
+      "Sweet Orange",
+      "Mandarin",
+      "Tangerine",
+      "Bergamot"
+    ],
+    "color": "Golden Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/benzoin-absolute.php"
+  },
+  {
+    "oil_id": 21,
+    "oil_name": "Bergamot",
+    "botanical_name": "Citrus bergamia",
+    "composition": [
+      "Limonene",
+      "Linalyl acetate"
+    ],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "Linalyl Acetate",
+      "Linalool",
+      "Sabinene",
+      "Gamma-Terpinene",
+      "Bergapten"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Abscesses",
+      "Anxiety",
+      "Boils",
+      "Cold Sores",
+      "Cystitis",
+      "Depression",
+      "Halitosis",
+      "Itching",
+      "Loss of Appetite",
+      "Oily Skin",
+      "Psoriasis",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Calm"
+    ],
+    "aroma_profile": "Orange, Bergamot, Citrus, Green, Floral",
+    "note": "Top",
+    "blends_well_with": [
+      "Bergamot"
+    ],
+    "color": "Green/Golden",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/bergamot-essential-oil.php"
+  },
+  {
+    "oil_id": 22,
+    "oil_name": "Bergamot Mint",
+    "botanical_name": "Mentha citrata/ Mentha aquatica L. var. citrata",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalyl Acetate",
+      "Linalool",
+      "B-terpineol",
+      "1,8-cineole",
+      "Geranyl Acetate"
+    ],
+    "therapeutic_properties": [
+      "Respiratory",
+      "Congestion",
+      "Sore Muscles",
+      "Digestion",
+      "Nausea",
+      "Motivation",
+      "Inspiration"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Uplift"
+    ],
+    "aroma_profile": "Bergamot, Fresh, Citrus",
+    "note": "Top-Middle",
+    "blends_well_with": [
+      "Lavender"
+    ],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/bergamot-mint-essential-oil.php"
+  },
+  {
+    "oil_id": 23,
+    "oil_name": "Bitter Orange",
+    "botanical_name": "Citrus aurantium",
+    "composition": [],
+    "main_chemical_components": [
+      "Limonene",
+      "B-Myrcene",
+      "Linalool",
+      "Bergapten"
+    ],
+    "therapeutic_properties": [
+      "Anxiety",
+      "Improvement of Mood",
+      "Colds",
+      "Constipation",
+      "Dull Skin",
+      "Flatulence",
+      "Flu",
+      "Gums",
+      "Mouth",
+      "Slow Digestion",
+      "Stress"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Orange, Sweet, Fresh, Bergamot, Citrus",
+    "note": "Top",
+    "blends_well_with": [
+      "Sweet Orange",
+      "Grapefruit",
+      "Bitter Orange"
+    ],
+    "color": "Yellowish Orange to Greenish Orange",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/bitter-orange-essential-oil.php"
+  },
+  {
+    "oil_id": 24,
+    "oil_name": "Black Pepper",
+    "botanical_name": "Piper nigrum",
+    "composition": [],
+    "main_chemical_components": [
+      "Limonene",
+      "Pinene",
+      "Myrcene",
+      "Phellandrene",
+      "Beta-caryophyllene",
+      "B-bisabolene",
+      "Sabinene",
+      "Linalol",
+      "Pinocarveol",
+      "a-Terpineol",
+      "Camphene",
+      "a-Terpenene"
+    ],
+    "therapeutic_properties": [
+      "Aching Muscles",
+      "Arthritis",
+      "Chilblains",
+      "Constipation",
+      "Muscle Cramps",
+      "Poor Circulation",
+      "Sluggish Digestion",
+      "Quitting Smoking and Nicotine Addiction"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Green, Floral",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/black-pepper-essential-oil.php"
+  },
+  {
+    "oil_id": 25,
+    "oil_name": "Black Spruce",
+    "botanical_name": "Picea mariana",
+    "composition": [],
+    "main_chemical_components": [
+      "Bornyl Acetate",
+      "B-Pinene",
+      "a-Pinene",
+      "Camphene",
+      "(+)-Limonene",
+      "Camphor"
+    ],
+    "therapeutic_properties": [
+      "Respiratory Support",
+      "Clearing Mucus And Congestion",
+      "Calming Inflammation",
+      "Soothing Sore Muscles",
+      "Calming Muscle Spasms Including Coughs",
+      "Immune Support",
+      "Arthritis",
+      "Rheumatism",
+      "Gout",
+      "Over-exercised Muscles",
+      "Joint Stiffness",
+      "Muscular Strain",
+      "Tendonitis",
+      "Cellulite"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Energ"
+    ],
+    "aroma_profile": "Fresh",
+    "note": "Top",
+    "blends_well_with": [
+      "Black Spruce"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/black-spruce-essential-oil.php"
+  },
+  {
+    "oil_id": 26,
+    "oil_name": "Blood Orange",
+    "botanical_name": "Citrus sinensis",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Do not take any oils internally",
+      "Do not apply undiluted essential oils",
+      "Absolutes",
+      "Co2s",
+      "Other concentrated essences onto the skin without advanced essential oil knowledge",
+      "Consultation from a qualified aromatherapy practitioner."
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Sweet, Orange, Citrus",
+    "note": "Top",
+    "blends_well_with": [
+      "Sweet Orange",
+      "Blood Orange"
+    ],
+    "color": "Ranges from Pale Yellow - Orangish",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/blood-orange-essential-oil.php"
+  },
+  {
+    "oil_id": 27,
+    "oil_name": "Blue Cypress",
+    "botanical_name": "Callitris intratropica",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Eudesmol",
+      "Dihydrocolumellarin",
+      "Guaiol",
+      "Gamma-Eudesmol",
+      "a-Eudesmol"
+    ],
+    "therapeutic_properties": [
+      "Arthritis",
+      "Asthma",
+      "Fragrance Fixative"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Grounding"
+    ],
+    "aroma_profile": "Woody, Sweet, Lemony, Fruity, Fresh, Cedar",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Lemon",
+      "Rosewood",
+      "Rosalina",
+      "Cypress",
+      "Blue Cypress",
+      "German Chamomile"
+    ],
+    "color": "Pale Blue",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/blue-cypress-essential-oil.php"
+  },
+  {
+    "oil_id": 28,
+    "oil_name": "Blue Spruce",
+    "botanical_name": "Picea pungens",
+    "composition": [],
+    "main_chemical_components": [
+      "Limonene",
+      "a Pinene",
+      "B Pinene",
+      "Camphene",
+      "Delta 3 Carene",
+      "Bornyl Acetate",
+      "B Myrcene",
+      "Camphor"
+    ],
+    "therapeutic_properties": [
+      "Coughs",
+      "Colds",
+      "Pain",
+      "Emotionally Uplifting",
+      "Potential Support for Seasonal Affective Disorder"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Focus"
+    ],
+    "aroma_profile": "Fresh, Lemony, Woody, Earthy, Camphor",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United States",
+    "url": "https://www.aromaweb.com/essential-oils/blue-spruce-essential-oil.php"
+  },
+  {
+    "oil_id": 29,
+    "oil_name": "Blue Tansy",
+    "botanical_name": "Vogtia annua(Synonym: Tanacetum annuum)",
+    "composition": [
+      "Chamazulene",
+      "Sabinene"
+    ],
+    "main_chemical_components": [
+      "Chamazulene",
+      "B-Myrcene",
+      "Camphor",
+      "Sabinene",
+      "B-Eudesmol",
+      "3,6-Dihydrochamazulene",
+      "B-Pinene",
+      "a-Phellandrene"
+    ],
+    "therapeutic_properties": [
+      "Asthma",
+      "Muscular Aches",
+      "Eczema"
+    ],
+    "emotional_effects": [
+      "Calm"
+    ],
+    "aroma_profile": "Sweet, Floral",
+    "note": "Middle",
+    "blends_well_with": [
+      "Lavender",
+      "Geranium",
+      "Chamomile"
+    ],
+    "color": "Deep Blue",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/blue-tansy-essential-oil.php"
+  },
+  {
+    "oil_id": 30,
+    "oil_name": "Bois de Rose",
+    "botanical_name": "Aniba rosaeodora",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalool",
+      "a-Terpineol",
+      "(Z)-Linalool Oxide",
+      "(E)-Linalool Oxide",
+      "1,8-Cineole"
+    ],
+    "therapeutic_properties": [
+      "Bronchial Infection",
+      "Tonsillitis",
+      "Cough",
+      "Stress Headache",
+      "Convalescence",
+      "Acne",
+      "Eczema",
+      "Psoriasis",
+      "Scarring",
+      "Insect Bites",
+      "Stings",
+      "Nervousness",
+      "Depression",
+      "Anxiety",
+      "Stress"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Sweet, Woody, Fruity, Floral",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/rosewood-essential-oil.php"
+  },
+  {
+    "oil_id": 31,
+    "oil_name": "Boronia Absolute",
+    "botanical_name": "Boronia megastigma",
+    "composition": [],
+    "main_chemical_components": [
+      "(E)-B-Ionene",
+      "Heptadecene",
+      "(Z)-Methyl Cinnamate+N-Tiglamide",
+      "(E)-Methyl Cinnamate",
+      "(E)-Cinnamic Ccid"
+    ],
+    "therapeutic_properties": [
+      "(E)-B-Ionene",
+      "Heptadecene",
+      "(Z)-Methyl Cinnamate+N-Tiglamide",
+      "(E)-Methyl Cinnamate",
+      "(E)-Cinnamic Ccid"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift"
+    ],
+    "aroma_profile": "Floral, Sweet, Fruity",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Golden Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/boronia-absolute.php"
+  },
+  {
+    "oil_id": 32,
+    "oil_name": "Buddha Wood",
+    "botanical_name": "Eremophila mitchellii",
+    "composition": [],
+    "main_chemical_components": [
+      "Eremophilone",
+      "9-Hydroxy-7(11),9eremophiladien-8-one",
+      "Santalcamphor"
+    ],
+   "therapeutic_properties": [
+      "Analgesic",
+      "Anti-depressant",
+      "Anti-inflammatory",
+      "Anti-anxiety",
+      "Anti-microbial",
+      "Anti-bacterial",
+      "Sedative",
+      "Perfumery Fixative",
+      "Possible Insecticidal Activity",
+      "Meditation",
+      "Aphrodisiac"
+    ],
+
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Meditation",
+      "Grounding",
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Woody, Sweet, Earthy, Orange, Neroli, Jasmine, Ylang, Sandalwood",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Golden to Amber Brown",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/buddha-wood-essential-oil.php"
+  },
+  {
+    "oil_id": 33,
+    "oil_name": "Bursera Graveolens",
+    "botanical_name": "Bursera graveolens",
+    "composition": [],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "(+)-Menthofuran",
+      "a-Terpineol",
+      "Carvone",
+      "Germacrene D"
+    ],
+    "therapeutic_properties": [
+      "Joint Pain",
+      "Inflammation",
+      "General Aches And Pains",
+      "Arthritis",
+      "Headaches",
+      "Allergies",
+      "Migrain",
+      "Stress",
+      "Anxiety",
+      "Panic",
+      "Dizziness",
+      "Nervousness",
+      "Concentration",
+      "Immune System Support",
+      "Negativity",
+      "Respiratory Infections",
+      "Circulatory Stimulant"
+    ],
+    "emotional_effects": [
+      "Meditation",
+      "Calm",
+      "Grounding",
+      "Emotion"
+    ],
+    "aroma_profile": "Sweet, Balsamic, Woody",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear - Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/palo-santo-essential-oil.php"
+  },
+  {
+    "oil_id": 34,
+    "oil_name": "Cade",
+    "botanical_name": "Juniperus oxycedrus",
+    "composition": [],
+    "main_chemical_components": [
+      "delta-Cadinene",
+      "Torreyol",
+      "Epicubenol",
+      "Zonarene",
+      "B-Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Cuts",
+      "Dandruff",
+      "Dermatitis",
+      "Eczema",
+      "Spots"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Grounding",
+      "Meditation"
+    ],
+    "aroma_profile": "Smoky, Woody",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Generally Light to Medium Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cade-essential-oil.php"
+  },
+  {
+    "oil_id": 35,
+    "oil_name": "Cajeput",
+    "botanical_name": "Melaleuca leucadendron / Melaleuca cajuputi",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Terpineol",
+      "p-Cymene",
+      "Terpinolene",
+      "Gamma-Terpinene",
+      "(+)-Limonene",
+      "Linalool",
+      "a-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Asthma",
+      "Bronchitis",
+      "Coughs",
+      "Muscle Aches",
+      "Oily Skin",
+      "Rheumatism",
+      "Sinusitis",
+      "Sore Throat",
+      "Spots"
+    ],
+    "emotional_effects": [
+      "Uplift"
+    ],
+    "aroma_profile": "Fresh, Fruity",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear with a Yellow Tinge",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cajeput-essential-oil.php"
+  },
+  {
+    "oil_id": 36,
+    "oil_name": "Camphor, White",
+    "botanical_name": "Cinnamomum camphora",
+    "composition": [],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "p-Cymene",
+      "a-Pinene",
+      "1,8-Cineole",
+      "Sabinene",
+      "B-Pinene",
+      "Camphene",
+      "Camphor"
+    ],
+    "therapeutic_properties": [
+      "Muscular Aches and Pains",
+      "Rheumatism",
+      "Cough",
+      "Bronchitis",
+      "Colds",
+      "Acne",
+      "Rashes",
+      "Parasitic Skin Infections",
+      "Contusions",
+      "Bruises",
+      "Insect Repellent"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/white-camphor-essential-oil.php"
+  },
+  {
+    "oil_id": 37,
+    "oil_name": "Cananga",
+    "botanical_name": "Cananga odorata / Cananga odorata var macrophylla",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Caryophyllene",
+      "a-Caryophyllene",
+      "Germacrene D",
+      "delta-Cadinene",
+      "Linalool"
+    ],
+    "therapeutic_properties": [
+      "Oily Skin/Hair",
+      "Insect Bites",
+      "High Blood Pressure",
+      "Anxiety",
+      "Nervous Tension",
+      "Stress",
+      "Fragrancing"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Ylang, Floral, Sweet, Woody",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cananga-essential-oil.php"
+  },
+  {
+    "oil_id": 38,
+    "oil_name": "Cannabis",
+    "botanical_name": "Cannabis sativa",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Myrcene",
+      "B-Caryophyllene",
+      "(E)-B-Ocimene",
+      "Terpinolene",
+      "a-Pinene",
+      "a-Caryophyllene",
+      "B-Pinene"
+    ],
+    "therapeutic_properties": [
+      "B-Myrcene",
+      "B-Caryophyllene",
+      "(E)-B-Ocimene",
+      "Terpinolene",
+      "a-Pinene",
+      "a-Caryophyllene",
+      "B-Pinene"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Citrus, Floral",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hemp-cannabis-essential-oil.php"
+  },
+  {
+    "oil_id": 39,
+    "oil_name": "Caraway Seed",
+    "botanical_name": "Carum carvi",
+    "composition": [],
+    "main_chemical_components": [
+      "(+)-Carvone",
+      "(+)-Limonene",
+      "B-Myrcene"
+    ],
+    "therapeutic_properties": [
+      "Bronchitis",
+      "Coughing",
+      "Laryngitis",
+      "Colds"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Energ"
+    ],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/caraway-seed-essential-oil.php"
+  },
+  {
+    "oil_id": 40,
+    "oil_name": "Cardamom",
+    "botanical_name": "Elettaria cardamomum",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Terpinyl Acetate",
+      "Linalyl acetate",
+      "(+)-Limonene",
+      "Linalool"
+    ],
+    "therapeutic_properties": [
+      "Appetite (loss of)",
+      "Colic",
+      "Fatigue",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Energ",
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Sweet, Spicy, Citrus",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cardamom-essential-oil.php"
+  },
+  {
+    "oil_id": 41,
+    "oil_name": "Carrot Seed",
+    "botanical_name": "Daucus carota",
+    "composition": [],
+    "main_chemical_components": [
+      "Carotol",
+      "a-Pinene",
+      "Dauca-4,8-diene",
+      "B-Caryophyllene",
+      "(E)-Dauc-8-en-4B-ol"
+    ],
+    "therapeutic_properties": [
+      "Eczema",
+      "Gout",
+      "Mature Skin",
+      "Toxin Build-up",
+      "Water Retention"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Golden Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/carrot-seed-essential-oil.php"
+  },
+  {
+    "oil_id": 42,
+    "oil_name": "Cassia",
+    "botanical_name": "Cinnamomum cassia",
+    "composition": [],
+    "main_chemical_components": [
+      "(E)-Cinnamaldehyde",
+      "(Z)-Cinnamaldehyde",
+      "(E)-Cinnamyl Acetate",
+      "Benzaldehyde",
+      "2-Phenylethyl acetate"
+    ],
+    "therapeutic_properties": [
+      "Fragrancing",
+      "Indigestion",
+      "Gas",
+      "Colic",
+      "Diarrhea",
+      "Rheumatism",
+      "Cold/Flu"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Golden Yellow/Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cassia-essential-oil.php"
+  },
+  {
+    "oil_id": 43,
+    "oil_name": "Catnip",
+    "botanical_name": "Nepeta cataria",
+    "composition": [],
+    "main_chemical_components": [
+      "Nepetalactone Isomers",
+      "Nepetalic Acid",
+      "Dihydronepetalactone",
+      "B-Caryophyllene",
+      "Caryophyllene Oxide"
+    ],
+    "therapeutic_properties": [
+      "Anti-Microbial",
+      "Antiseptic",
+      "Anti-Spasmodic",
+      "Congestion",
+      "Mosquito-Repellent"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Orange",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow/Orange",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/catnip-essential-oil.php"
+  },
+  {
+    "oil_id": 44,
+    "oil_name": "Cedarwood, Atlas",
+    "botanical_name": "Cedrus atlantica",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Himachalene",
+      "a-Himachalene",
+      "(E)-a-Atlantone",
+      "Gamma-Himachalene",
+      "Deodarone",
+      "(E)-Gamma-Atlantone",
+      "Himachalol, Isocedranol"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Arthritis",
+      "Bronchitis",
+      "Coughing",
+      "Cystitis",
+      "Dandruff",
+      "Dermatitis",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Aphrodisiac",
+      "Emotion",
+      "Calm",
+      "Grounding",
+      "Meditation"
+    ],
+    "aroma_profile": "Woody",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Light Golden Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/atlas-cedarwood-essential-oil.php"
+  },
+  {
+    "oil_id": 45,
+    "oil_name": "Cedarwood, Virginian",
+    "botanical_name": "Juniperus virginiana",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Cedrene",
+      "Thujopsene",
+      "Cedrol",
+      "B-Cedrene",
+      "a-Selinene"
+    ],
+    "therapeutic_properties": [
+      "Anxiety",
+      "Nervous Tension",
+      "Concentration",
+      "Catarrhal Conditions",
+      "Coughs",
+      "Chronic Bronchitis",
+      "Cystitis",
+      "UTI",
+      "Oily Skin",
+      "Acne",
+      "Insect Repellent",
+      "Arthritis",
+      "Bronchitis",
+      "Dandruff",
+      "Dermatitis",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Meditation"
+    ],
+    "aroma_profile": "Sweet, Woody, Cedar",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/virginian-cedarwood-essential-oil.php"
+  },
+  {
+    "oil_id": 46,
+    "oil_name": "Chamomile, German",
+    "botanical_name": "Matricaria chamomilla(Synonym: Matricaria recutita)",
+    "composition": [],
+    "main_chemical_components": [
+      "Bisabolol",
+      "Farnesol",
+      "Azulene",
+      "Farnasene",
+      "Thujanol"
+    ],
+    "therapeutic_properties": [
+      "Abscesses",
+      "Allergies",
+      "Arthritis",
+      "Boils",
+      "Colic",
+      "Cuts",
+      "Cystitis",
+      "Dermatitis",
+      "Dysmenorrhea",
+      "Ear Ache",
+      "Flatulence",
+      "Hair",
+      "Headache",
+      "Inflamed Skin",
+      "Insect Bites",
+      "Insomnia",
+      "Nausea",
+      "Neuralgia",
+      "PMS",
+      "Rheumatism",
+      "Sores",
+      "Sprains",
+      "Strains",
+      "Stress",
+      "Wounds"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Sweet, Herbal, Fruity",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Deep Blue",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/german-chamomile-essential-oil.php"
+  },
+  {
+    "oil_id": 47,
+    "oil_name": "Chamomile, Roman",
+    "botanical_name": "Chamaemelum nobile / Anthemis nobilis",
+    "composition": [],
+    "main_chemical_components": [
+      "Isobutyl Angelate",
+      "Butyl Angelate",
+      "3-Methylpentyl Angelate",
+      "Isobutyl Butyrate",
+      "Isoamyl Angelate"
+    ],
+    "therapeutic_properties": [
+      "Abscesses",
+      "Allergies",
+      "Arthritis",
+      "Boils",
+      "Colic",
+      "Cuts",
+      "Cystitis",
+      "Dermatitis",
+      "Dysmenorrhea",
+      "Earache",
+      "Flatulence",
+      "Hair",
+      "Headache",
+      "Inflamed Skin",
+      "Insect Bites",
+      "Insomnia",
+      "Nausea",
+      "Neuralgia",
+      "PMS",
+      "Rheumatism",
+      "Sores",
+      "Sprains",
+      "Strains",
+      "Stress",
+      "Wounds"
+    ],
+    "emotional_effects": [
+      "Calm"
+    ],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Gray/Very Pale Blue",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/roman-chamomile-essential-oil.php"
+  },
+  {
+    "oil_id": 48,
+    "oil_name": "Cilantro",
+    "botanical_name": "Coriandrum sativum",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalool",
+      "a-Pinene",
+      "Gamma-Terpinene",
+      "B-Pinene",
+      "p-Cymene"
+    ],
+    "therapeutic_properties": [
+      "Analgesic",
+      "Aperitif",
+      "Antispasmodic",
+      "Bactericidal",
+      "Depurative",
+      "Digestive",
+      "Carminative",
+      "Stimulant",
+      "Stomachic"
+    ],
+    "emotional_effects": [
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/coriander-essential-oil.php"
+  },
+  {
+    "oil_id": 49,
+    "oil_name": "Champaca, White",
+    "botanical_name": "Michelia alba",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalol (Linalool)",
+      "B-Elemene",
+      "B-Caryophyllene",
+      "(E)-B-Ocimene",
+      "(Z)-B--Ocimene",
+      "Methyl 2-methylbutyrate",
+      "Methyleugenol"
+    ],
+    "therapeutic_properties": [
+      "Scars",
+      "Muscular Aches",
+      "Abdominal Cramps",
+      "Fear-Induced Anxiety",
+      "Insomnia",
+      "Improving Communication",
+      "Depression"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Floral, Neroli, Rose, Ylang",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Orange / Amber",
+    "origin": "United Kingdom, Thailand",
+    "url": "https://www.aromaweb.com/essential-oils/magnolia-essential-oil.php"
+  },
+  {
+    "oil_id": 50,
+    "oil_name": "Cinnamon",
+    "botanical_name": "Cinnamomum verum / Cinnamomum zeylanicum",
+    "composition": [],
+    "main_chemical_components": [
+      "(E)-Cinnamaldehyde",
+      "Eugenol",
+      "(E)-Cinnamyl Acetate",
+      "Linalool",
+      "B-Caryophyllene",
+      "p-Cymene"
+    ],
+    "therapeutic_properties": [
+      "Sluggish Digestion",
+      "Colds/Flu Exhaustion",
+      "Lice",
+      "Circulation",
+      "Rheumatism",
+      "Scabies",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Energ"
+    ],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Golden Yellow/Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cinnamon-essential-oil.php"
+  },
+  {
+    "oil_id": 51,
+    "oil_name": "Cistus",
+    "botanical_name": "Cistus ladaniferus",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "Camphene",
+      "Hexen-1-ol",
+      "Trimethylcyclohexanone",
+      "Bornyl Acetate"
+    ],
+    "therapeutic_properties": [
+      "Antiseptic",
+      "Anti-microbial",
+      "Astringent",
+      "Emmenagogue",
+      "Expectorant",
+      "Sedative",
+      "Vulnerary"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Grounding",
+      "Meditation"
+    ],
+    "aroma_profile": "Balsamic",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Golden Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/cistus-essential-oil.php"
+  },
+  {
+    "oil_id": 52,
+    "oil_name": "Citronella",
+    "botanical_name": "Cymbopogon nardus / Cymbopogon winterianus",
+    "composition": [],
+    "main_chemical_components": [
+      "Citronellal",
+      "Geraniol",
+      "(-)-Citronellol",
+      "(-)-Limonene",
+      "(E)-Methyl Isoeugenol",
+      "Champhene",
+      "Citronellyl acetate"
+    ],
+    "therapeutic_properties": [
+      "Muscular Aches",
+      "Infectious Skin Conditions",
+      "Fevers",
+      "Heat Rash",
+      "Excessive Perspiration",
+      "Fungal Infections",
+      "Fatigue",
+      "Insect Bites",
+      "Insect Deterrent"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Fruity, Fresh, Sweet, Citrus, Floral",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/citronella-essential-oil.php"
+  },
+  {
+    "oil_id": 53,
+    "oil_name": "Clary Sage",
+    "botanical_name": "Salvia sclarea",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalyl Acetate",
+      "Linalool",
+      "a-Terpineol",
+      "Germacrene D",
+      "B-Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Boils",
+      "Skin Inflammation",
+      "Hair Loss",
+      "Dandruff",
+      "Dry Or Mature Skin",
+      "Muscular Aches And Pains",
+      "Whooping Cough",
+      "Asthma Attacks",
+      "Eases Menstrual Pain",
+      "Regulation Of Menstrual Flow",
+      "Flatulence",
+      "Intestinal Cramping",
+      "Colic",
+      "Stress",
+      "Nerves",
+      "High Blood Pressure",
+      "Amenorrhea",
+      "Asthma",
+      "Coughing",
+      "Dysmenorrhea",
+      "Exhaustion",
+      "Labor Pains",
+      "Sore Throat"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Emotion",
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Earthy, Floral, Fruity",
+    "note": "Middle",
+    "blends_well_with": [
+      "Clary Sage"
+    ],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/clary-sage-essential-oil.php"
+  },
+  {
+    "oil_id": 54,
+    "oil_name": "Clove Bud",
+    "botanical_name": "Syzygium aromaticum / Eugenia caryophyllata",
+    "composition": [],
+    "main_chemical_components": [
+      "Eugenol",
+      "B-Caryophyllene",
+      "Eugenyl Acetate",
+      "a-Caryophyllene",
+      "Isoeugenol",
+      "Methyleugenol"
+    ],
+    "therapeutic_properties": [
+      "Pain Relief",
+      "Bacterial Infection",
+      "Fungal Infection",
+      "Viral Skin Infection",
+      "Warts",
+      "Verrucas",
+      "Toothache",
+      "Gum Disease",
+      "Muscle Pain",
+      "Rheumatism",
+      "Flu",
+      "Bronchitis",
+      "Tired Limbs",
+      "Nausea",
+      "Flatulence",
+      "Stomach Cramp",
+      "Abdominal Spasm",
+      "Parasitic",
+      "Infection",
+      "Scabies",
+      "Ringworm"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Spicy, Woody",
+    "note": "Middle",
+    "blends_well_with": [
+      "Cinnamon"
+    ],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/clove-bud-essential-oil.php"
+  },
+  {
+    "oil_id": 55,
+    "oil_name": "Coffee",
+    "botanical_name": "Coffea arabica",
+    "composition": [],
+    "main_chemical_components": ["2-furanmethanol",
+      "Methylpyrazine",
+      "2,6 Dimethylpyrazine",
+      "5-Methylfurfural",
+      "Furfuryl Acetate",
+      "Caffeine (< 0.5%)"
+    ],
+    "therapeutic_properties": [
+      "Perfumery and Fragrancing",
+      "Diffusion"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Enticing, Rich, Strong",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Dark Brown",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/coffee-essential-oil.php"
+  },
+  {
+    "oil_id": 56,
+    "oil_name": "Combava Petitgrain",
+    "botanical_name": "Citrus hystrix",
+    "composition": [],
+    "main_chemical_components": [
+      "Citronellal",
+      "Citronellyl acetate",
+      "Isopulegol",
+      "Sabinene",
+      "Linalool",
+      "B-Pinene",
+      "B-Myrcene",
+      "Gamma-Terpinene"
+    ],
+    "therapeutic_properties": [
+      "Combava Petitgrain Essential Oil",
+      "Combava Leaf Essential Oil",
+      "Makrut Lime Petitgrain Essential Oil",
+      "Makrut Lime Leaf Essential Oil"
+    ],
+    "emotional_effects": [
+      "Focus"
+    ],
+    "aroma_profile": "Fresh, Floral, Citrus, Sweet",
+    "note": "Top",
+    "blends_well_with": [
+      "Lime"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/kaffir-lime-leaf-petitgrain-essential-oil.php"
+  },
+  {
+    "oil_id": 57,
+    "oil_name": "Common Sage",
+    "botanical_name": "Salvia officinalis",
+    "composition": [],
+    "main_chemical_components": [
+      "Camphor",
+      "a-Thujone",
+      "Borneol",
+      "1,8-Cineole",
+      "B-Thujone",
+      "B-Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Muscular Aches",
+      "Joints",
+      "Headaches",
+      "Digestive Upsets",
+      "Sore Throat",
+      "Menstrual Cramping",
+      "Nervousness",
+      "Mental Fatigue",
+      "Emotional Exhaustion",
+      "Memory Loss",
+      "Acne"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Fruity, Fresh, Citrus",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/dalmatian-sage-essential-oil.php"
+  },
+  {
+    "oil_id": 58,
+    "oil_name": "Copaiba Balsam",
+    "botanical_name": "Copaifera officinalis",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Caryophyllene",
+      "a-Copaiene",
+      "delta-Cadinene",
+      "Gamma-Cadinene",
+      "Cedrol"
+    ],
+    "therapeutic_properties": [
+      "Bronchitis",
+      "Coughs",
+      "Colds",
+      "Stress",
+      "Perfumery Fixative"
+    ],
+    "emotional_effects": [
+      "Grounding",
+      "Emotion",
+      "Calm"
+    ],
+    "aroma_profile": "Earthy",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Light Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/copaiba-balsam-essential-oil.php"
+  },
+  {
+    "oil_id": 59,
+    "oil_name": "Coriander",
+    "botanical_name": "Coriandrum sativum",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalool",
+      "a-Pinene",
+      "Gamma-Terpinene",
+      "B-Pinene",
+      "p-Cymene"
+    ],
+    "therapeutic_properties": [
+      "Analgesic",
+      "Aperitif",
+      "Antispasmodic",
+      "Bactericidal",
+      "Depurative",
+      "Digestive",
+      "Carminative",
+      "Stimulant",
+      "Stomachic"
+    ],
+    "emotional_effects": [
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/coriander-essential-oil.php"
+  },
+  {
+    "oil_id": 60,
+    "oil_name": "Cornmint",
+    "botanical_name": "Mentha arvensis",
+    "composition": [],
+    "main_chemical_components": [
+      "Menthol",
+      "Menthone",
+      "Isomenthone",
+      "Limonene",
+      "Pinene"
+    ],
+    "therapeutic_properties": [
+      "Menthol",
+      "Menthone",
+      "Isomenthone",
+      "Limonene",
+      "Pinene"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Top",
+    "blends_well_with": [
+      "Peppermint"
+    ],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cornmint-essential-oil.php"
+  },
+  {
+    "oil_id": 61,
+    "oil_name": "Cubeb",
+    "botanical_name": "Piper cubeba",
+    "composition": [],
+    "main_chemical_components": [
+      "Sabinene",
+      "Cubebol",
+      "a-Copaene",
+      "B-Cubebene",
+      "Delta-Cadinene",
+      "a-Cubebene",
+      "a-Pinene",
+      "Gamma-Humulene",
+      "(+)-Limonene",
+      "(-)-allo-Aromadendrene",
+      "Gamma-Muurolene",
+      "(Z)-Calamene",
+      "B-Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Cystitis",
+      "Urethritis",
+      "Leukorrhea",
+      "Bronchitis",
+      "Congestion",
+      "Coughs",
+      "Mucus",
+      "Sinusitis",
+      "Throat Infections",
+      "Flatulence",
+      "Sluggish Digestion",
+      "Indigestion"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Energ",
+      "Uplift"
+    ],
+    "aroma_profile": "Sweet, Peppery",
+    "note": "Middle - Base",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cubeb-essential-oil.php"
+  },
+  {
+    "oil_id": 62,
+    "oil_name": "Cumin",
+    "botanical_name": "Cuminum cyminum",
+    "composition": [],
+    "main_chemical_components": [
+      "Cuminaldehyde",
+      "Cymene",
+      "Phellandrene",
+      "Myrcene",
+      "Limonene",
+      "Farnesene",
+      "Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Toxin Buildup",
+      "Poor Circulation",
+      "Low Blood Pressure",
+      "Colic",
+      "Stomach Cramps",
+      "Indigestion",
+      "Gas",
+      "Fatigue"
+    ],
+    "emotional_effects": [
+      "Sensual"
+    ],
+    "aroma_profile": "Spicy, Earthy",
+    "note": "Middle - Base",
+    "blends_well_with": [],
+    "color": "Deep Golden Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cumin-essential-oil.php"
+  },
+  {
+    "oil_id": 63,
+    "oil_name": "Cypress",
+    "botanical_name": "Cupressus sempervirens",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "delta-3-Carene",
+      "Cedrol",
+      "a-Terpinyl acetate",
+      "Terpinolene",
+      "(+)-Limonene"
+    ],
+    "therapeutic_properties": [
+      "Astringent",
+      "Excessive Perspiration",
+      "Hemorrhoids",
+      "Menorrhagia",
+      "Oily Skin",
+      "Rheumatism",
+      "Vericose Veins"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Woody, Citrus, Cedar, Fresh",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/cypress-essential-oil.php"
+  },
+  {
+    "oil_id": 64,
+    "oil_name": "Cypress, Blue",
+    "botanical_name": "Callitris intratropica",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Eudesmol",
+      "Dihydrocolumellarin",
+      "Guaiol",
+      "Gamma-Eudesmol",
+      "a-Eudesmol"
+    ],
+    "therapeutic_properties": [
+      "Arthritis",
+      "Asthma",
+      "Fragrance Fixative"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Grounding"
+    ],
+    "aroma_profile": "Woody, Sweet, Lemony, Fruity, Fresh, Cedar",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Lemon",
+      "Rosewood",
+      "Rosalina",
+      "Cypress",
+      "Blue Cypress",
+      "German Chamomile"
+    ],
+    "color": "Pale Blue",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/blue-cypress-essential-oil.php"
+  },
+  {
+    "oil_id": 65,
+    "oil_name": "Cypress, Japanese",
+    "botanical_name": "Chamaecyparis obtusa",
+    "composition": [],
+    "main_chemical_components": [
+      "Elemol",
+      "a-Terpinyl Acetate",
+      "Gamma-Eudesmol",
+      "Bornyl Acetate",
+      "B-Eudesmol",
+      "Gamma-Muurolene",
+      "a-Eudesmol",
+      "B-Cedrene",
+      "a-Muurolene",
+      "(+)-Limonene",
+      "Delta-Cadinene",
+      "B-Pinene",
+      "a-Fenchol"
+    ],
+    "therapeutic_properties": [
+      "Possible Neuroprotective Affects Against AB 1-40",
+      "Anti-asthmatic",
+      "Antibiotic",
+      "Anti-inflammatory",
+      "Anxiety",
+      "Hair Growth",
+      "Immune Stimulant",
+      "Insecticidal"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Energ"
+    ],
+    "aroma_profile": "Woody, Sweet",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hinoki-essential-oil.php"
+  },
+  {
+    "oil_id": 66,
+    "oil_name": "Cypress, Taiwan (Formosan)",
+    "botanical_name": "Chamaecyparis formosensis",
+    "composition": [],
+    "main_chemical_components": [
+      "Beta-eudesmol",
+      "Tau-muurolol",
+      "Elemol",
+      "Totarol",
+      "Alpha-cadinol"
+    ],
+    "therapeutic_properties": [
+      "Beta-eudesmol",
+      "Tau-muurolol",
+      "Elemol",
+      "Totarol",
+      "Alpha-cadinol"
+    ],
+    "emotional_effects": [
+      "Meditation",
+      "Emotion"
+    ],
+    "aroma_profile": "Woody",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/taiwan-hinoki-essential-oil.php"
+  },
+  {
+    "oil_id": 67,
+    "oil_name": "Davana",
+    "botanical_name": "Artemisia pallens",
+    "composition": [],
+    "main_chemical_components": [
+      "(Z)-Davanone",
+      "Nerol",
+      "Furans",
+      "(E)-Davanone",
+      "Geraniol",
+      "(Z)-Hydroxy-davanone",
+      "Isodavanone",
+      "Davanic Acid",
+      "Cinnamyl Cinnamate"
+    ],
+    "therapeutic_properties": [
+      "Bacterial Infection",
+      "Bronchial Congestion",
+      "Coughs",
+      "Colds",
+      "Influenza",
+      "Nervous Stomach",
+      "Indigestion",
+      "Nausea",
+      "Menstrual Cramps",
+      "Menopausal Symptoms",
+      "General Debility",
+      "Anxiety",
+      "Stress",
+      "Irritability",
+      "Tension",
+      "Wound Healing",
+      "Antiseptic"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Fruity, Woody, Floral, Citrus",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Burnt Orange",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/davana-essential-oil.php"
+  },
+  {
+    "oil_id": 68,
+    "oil_name": "Dill",
+    "botanical_name": "Anethum graveolens",
+    "composition": [],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "(+)-Carvone",
+      "(E)-Dihydrocarvone",
+      "a-Phellandrene",
+      "(Z)-Dihydrocarvone"
+    ],
+    "therapeutic_properties": [
+      "Dyspepsia",
+      "Flatulence",
+      "Indigestion",
+      "Bronchial Asthma",
+      "Dysmenorrhoea and the Promotion of Lactation"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Earthy, Fresh, Sweet, Citrus",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/dill-essential-oil.php"
+  },
+  {
+    "oil_id": 69,
+    "oil_name": "Dalmatian Sage",
+    "botanical_name": "Salvia officinalis",
+    "composition": [],
+    "main_chemical_components": [
+      "Camphor",
+      "a-Thujone",
+      "Borneol",
+      "1,8-Cineole",
+      "B-Thujone",
+      "B-Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Muscular Aches",
+      "Joints",
+      "Headaches",
+      "Digestive Upsets",
+      "Sore Throat",
+      "Menstrual Cramping",
+      "Nervousness",
+      "Mental Fatigue",
+      "Emotional Exhaustion",
+      "Memory Loss",
+      "Acne"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Fruity, Fresh, Citrus",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/dalmatian-sage-essential-oil.php"
+  },
+  {
+    "oil_id": 70,
+    "oil_name": "Desert Rosewood",
+    "botanical_name": "Eremophila mitchellii",
+    "composition": [],
+    "main_chemical_components": [
+      "Eremophilone",
+      "9-Hydroxy-7(11),9eremophiladien-8-one",
+      "Santalcamphor"
+    ],
+    "therapeutic_properties": [
+      "Analgesic",
+      "Anti-depressant",
+      "Anti-inflammatory",
+      "Anti-anxiety",
+      "Anti-microbial",
+      "Anti-bacterial",
+      "Sedative",
+      "Perfumery Fixative",
+      "Possible Insecticidal Activity",
+      "Meditation",
+      "Aphrodisiac"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Meditation",
+      "Grounding",
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Woody, Sweet, Earthy, Orange, Neroli, Jasmine, Ylang, Sandalwood",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Golden to Amber Brown",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/buddha-wood-essential-oil.php"
+  },
+  {
+    "oil_id": 71,
+    "oil_name": "Douglas Fir",
+    "botanical_name": "Pseudotsuga menziesii",
+    "composition": [],
+    "main_chemical_components": [
+      "Camphene",
+      "a-Pinene",
+      "B-Pinene",
+      "Bornyl acetate",
+      "Terpinolene",
+      "Sabinene",
+      "Terpinen-4-ol"
+    ],
+    "therapeutic_properties": [
+      "Diarrhea",
+      "Cystitis",
+      "Colitis",
+      "Colds/Flu",
+      "Emotionally Uplifting"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift"
+    ],
+    "aroma_profile": "Pine, Rose, Fruity, Floral",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/douglas-fir-essential-oil.php"
+  },
+  {
+    "oil_id": 72,
+    "oil_name": "East Indian Sandalwood",
+    "botanical_name": "Santalum album",
+    "composition": [],
+    "main_chemical_components": [
+      "(Z)-a-Santalol",
+      "(Z)-B-Santalol",
+      "(Z)-Nuciferol",
+      "epi-B-Santalol",
+      "(Z)-a-trans-Bergamotol"
+    ],
+    "therapeutic_properties": [
+      "Anti-inflammatory",
+      "Anxiety/Agitation",
+      "Depression",
+      "Varicose Veins",
+      "Swollen Lymph Nodes",
+      "Headache",
+      "Insomnia",
+      "Bronchitis",
+      "Dry Cough",
+      "Dry Skin",
+      "Oily Skin",
+      "Acne",
+      "Eczema",
+      "Psoriasis",
+      "Stretch Marks",
+      "Scalp Irritations",
+      "Genitourinary Tract Infections",
+      "Meditation",
+      "Prayer",
+      "Chakra Balancing"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Aphrodisiac",
+      "Grounding"
+    ],
+    "aroma_profile": "Sandalwood, Woody",
+    "note": "Base",
+    "blends_well_with": [
+      "East Indian Sandalwood"
+    ],
+    "color": "Clear with a Yellow Tinge",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/sandalwood-essential-oil.php"
+  },
+  {
+    "oil_id": 73,
+    "oil_name": "Elemi",
+    "botanical_name": "Canarium luzonicum / Canarium vulgare",
+    "composition": [],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "Elemol",
+      "a-Phellandrene",
+      "Elemicin",
+      "p-Cymene",
+      "a-Pinene",
+      "1,8-Cineole"
+    ],
+    "therapeutic_properties": [
+      "Respiratory Tract Infections",
+      "Chronic Coughs",
+      "Catarrh",
+      "Stress-Related Bronchial Conditions",
+      "Muscular Fatigue",
+      "Infectious Skin Conditions",
+      "Wounds",
+      "Cuts",
+      "Fatigue"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [
+      "Frankincense",
+      "Elemi"
+    ],
+    "color": "Clear with a Tinge of Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/elemi-essential-oil.php"
+  },
+  {
+    "oil_id": 74,
+    "oil_name": "Ericifolia",
+    "botanical_name": "Melaleuca ericifolia",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalol",
+      "1,8-Cineole",
+      "a-Pinene",
+      "Terpinolene",
+      "(+)-Limonene"
+    ],
+    "therapeutic_properties": [
+      "Restlessness",
+      "Nervousness",
+      "Irritability",
+      "Acne",
+      "Pimples",
+      "Insect Bites",
+      "Respiratory Support",
+      "Allergies",
+      "Sinus Congestion",
+      "Sore Throats",
+      "Coughs",
+      "Inflammation",
+      "Household Cleaning",
+      "Relaxation"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Uplift"
+    ],
+    "aroma_profile": "Fresh, Lemony",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/rosalina-essential-oil.php"
+  },
+  {
+    "oil_id": 75,
+    "oil_name": "Eucalyptus Globulus",
+    "botanical_name": "Eucalyptus globulus",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Pinene",
+      "(+)-Limonene",
+      "Globulol",
+      "(E)-Pinocarveol"
+    ],
+    "therapeutic_properties": [
+      "Respiratory Infection",
+      "Bronchitis",
+      "Infectious Disease",
+      "Fever",
+      "Catarrh",
+      "Sinusitis",
+      "Muscular Aches And Pains",
+      "Rheumatism",
+      "Arthritis",
+      "Urinary Infection",
+      "Cystitis",
+      "Parasitic Infection"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Fresh, Woody, Medicinal",
+    "note": "Top - Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/eucalyptus-globulus-essential-oil.php"
+  },
+  {
+    "oil_id": 76,
+    "oil_name": "Eucalyptus, Lemon",
+    "botanical_name": "Corymbia citriodora(Synonym: Eucalyptus citriodora)",
+    "composition": [],
+    "main_chemical_components": [
+      "Citronellal",
+      "Citronellol",
+      "Isopulegol"
+    ],
+    "therapeutic_properties": [
+      "Muscular Injury",
+      "Fungal Skin Infection",
+      "Bacterial Skin Infection",
+      "Sores",
+      "Wounds",
+      "Respiratory Tract Conditions",
+      "Asthma",
+      "Fever",
+      "Candida",
+      "Insect Bites",
+      "Insect Repellent"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Energy"
+    ],
+    "aroma_profile": "Camphor, Sweet, Lemony, Fresh",
+    "note": "Top - Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-eucalyptus-essential-oil.php"
+  },
+  {
+    "oil_id": 77,
+    "oil_name": "Eucalyptus Radiata",
+    "botanical_name": "Eucalyptus radiata",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Terpineol",
+      "(Z)-Piperitol",
+      "(+)-Limonene",
+      "Piperitone",
+      "Geraniol",
+      "a-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Respiratory Tract Infection",
+      "Bronchitis",
+      "Catarrh",
+      "Sinusitis",
+      "Rhinitis",
+      "Colds",
+      "Influenza",
+      "Fever",
+      "Asthma",
+      "Rheumatism",
+      "Muscular Aches And Pains",
+      "Neuralgia",
+      "Abdominal Cramps",
+      "Menstrual Cramps",
+      "Headaches",
+      "Mental Exhaustion",
+      "Fatigue",
+      "Insect Stings And Bites",
+      "General Simulant and Tonic"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Top - Middle",
+    "blends_well_with": [
+      "Eucalyptus Globulus"
+    ],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/eucalyptus-radiata-essential-oil.php"
+  },
+  {
+    "oil_id": 78,
+    "oil_name": "Eucalyptus Staigeriana",
+    "botanical_name": "Eucalyptus staigeriana",
+    "composition": [],
+    "main_chemical_components": [
+      "Methyl geranate",
+      "Geranyl acetate",
+      "beta-Phellandrene",
+      "Limonene",
+      "Neral",
+      "Geraniol"
+    ],
+    "therapeutic_properties": [
+      "Anti-infectious",
+      "Antiviral",
+      "Antiseptic",
+      "Expectorant",
+      "Anti-inflammatory",
+      "Digestive stimulant",
+      "Insect repellent",
+      "Stress",
+      "Perfumery",
+      "Odor-masking"
+    ],
+    "emotional_effects": [
+      "Uplift"
+    ],
+    "aroma_profile": "Lemony, Sweet, Woody, Fresh, Citrus, Floral, Herbal",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-scented-ironbark-essential-oil.php"
+  },
+  {
+    "oil_id": 79,
+    "oil_name": "Fennel",
+    "botanical_name": "Foeniculum vulgare",
+    "composition": [],
+    "main_chemical_components": [
+      "(E)-Anethole",
+      "(+)-Limonene",
+      "Fenchone",
+      "Estragole",
+      "a-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Digestive Disorders",
+      "Dyspepsia",
+      "Gastrointestinal Spasm",
+      "Flatulence",
+      "Nausea",
+      "Constipation",
+      "Irritable Bowel Syndrome",
+      "Abdominal Spasm",
+      "Menstrual Problems",
+      "Menstrual Cramps",
+      "Premenstrual Syndrome",
+      "Fertility",
+      "Endometriosis",
+      "Menopausal Symptoms",
+      "Cellulite",
+      "Fluid Retention",
+      "Heavy Legs",
+      "Bronchitis",
+      "Respiratory Conditions",
+      "Parasitic Infections"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Focus"
+    ],
+    "aroma_profile": "Sweet, Spicy, Peppery",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Anise"
+    ],
+    "color": "Clear with a Faint Yellow Tinge",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/fennel-essential-oil.php"
+  },
+  {
+    "oil_id": 80,
+    "oil_name": "Fir, Balsam",
+    "botanical_name": "Abies balsamea",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Pinene",
+      "delta-3-Carene",
+      "Bornyl Acetate",
+      "a-Pinene",
+      "(+)-Limonene",
+      "B-Phellandrene",
+      "Camphene",
+      "a + B-Terpineol"
+    ],
+    "therapeutic_properties": [
+      "Minor Cuts and Wounds",
+      "Bronchitis",
+      "Coughs",
+      "Sore Throat",
+      "Depression",
+      "Nervous Tension",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Focus"
+    ],
+    "aroma_profile": "Fresh",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom, United States",
+    "url": "https://www.aromaweb.com/essential-oils/balsam-fir-essential-oil.php"
+  },
+  {
+    "oil_id": 81,
+    "oil_name": "Fir, Douglas",
+    "botanical_name": "Pseudotsuga menziesii",
+    "composition": [],
+    "main_chemical_components": [
+      "Camphene",
+      "a-Pinene",
+      "B-Pinene",
+      "Bornyl acetate",
+      "Terpinolene",
+      "Sabinene",
+      "Terpinen-4-ol"
+    ],
+    "therapeutic_properties": [
+      "Diarrhea",
+      "Cystitis",
+      "Colitis",
+      "Colds/Flu",
+      "Emotionally Uplifting"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift"
+    ],
+    "aroma_profile": "Pine, Rose, Fruity, Floral",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/douglas-fir-essential-oil.php"
+  },
+  {
+    "oil_id": 82,
+    "oil_name": "Fir, Siberian",
+    "botanical_name": "Abies sibirica",
+    "composition": [],
+    "main_chemical_components": [
+      "Bornyl acetate",
+      "Camphene",
+      "A-Pinene",
+      "gamma-3-Carene",
+      "(+)-Limonene",
+      "Santene"
+    ],
+    "therapeutic_properties": [
+      "Arthritis",
+      "Colds/Flu",
+      "Digestion",
+      "Muscle Recovery",
+      "Pain",
+      "Respiratory Issues",
+      "Anxiety",
+      "Confidence",
+      "Anger"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Emotion",
+      "Uplift"
+    ],
+    "aroma_profile": "Woody, Medicinal, Camphor, Fresh",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/siberian-fir-essential-oil.php"
+  },
+  {
+    "oil_id": 83,
+    "oil_name": "Fir, Silver",
+    "botanical_name": "Abies alba",
+    "composition": [],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "Camphene",
+      "a-Pinene",
+      "Santene",
+      "B-Caryophyllene",
+      "Tricyclene"
+    ],
+    "therapeutic_properties": [
+      "Catarrh",
+      "Sinusitis",
+      "Bronchitis",
+      "Bronchia",
+      "Tract Discomfort",
+      "Dry Cough",
+      "Rheumatism",
+      "Muscular Aches And Pains",
+      "Feverishness",
+      "Anxiety",
+      "Tension",
+      "Winter Blues and Seasonal Affective Disorder (SAD)."
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Energ"
+    ],
+    "aroma_profile": "Citrus, Fresh, Woody, Sweet, Rose",
+    "note": "Top - Middle",
+    "blends_well_with": [],
+    "color": "Clear with a Tinge of Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/silver-fir-essential-oil.php"
+  },
+  {
+    "oil_id": 84,
+    "oil_name": "Fragonia",
+    "botanical_name": "Taxandria fragrans / Agonis fragrans",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Pinene",
+      "Linalol",
+      "a-Terpineol",
+      "Terpinen-4-ol"
+    ],
+    "therapeutic_properties": [
+      "Respiratory Conditions",
+      "Bronchitis",
+      "Catarrh",
+      "Sinus Congestion",
+      "Colds",
+      "Bacterial And Fungal Infections",
+      "Pain",
+      "Acne",
+      "Inflammatory Muscular Conditions"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Energ",
+      "Calm",
+      "Sleep"
+    ],
+    "aroma_profile": "Fresh, Citrus, Floral, Woody",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/fragonia-essential-oil.php"
+  },
+  {
+    "oil_id": 85,
+    "oil_name": "Frankincense",
+    "botanical_name": "Boswellia sacra(Synonym: Boswellia carteri)",
+    "composition": [
+      "Alpha-pinene",
+      "Limonene"
+    ],
+    "main_chemical_components": [
+      "Alpha-pinene",
+      "Limonene"
+    ],
+    "therapeutic_properties": [
+      "Anxiety",
+      "Asthma",
+      "Bronchitis",
+      "Extreme Coughing",
+      "Scars",
+      "Stress",
+      "Stretch Marks"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Grounding",
+      "Meditation"
+    ],
+    "aroma_profile": "Resinous, Earthy, Sweet, Fruity, Spicy",
+    "note": "Base",
+    "blends_well_with": [
+      "Myrrh"
+    ],
+    "color": "Light Yellow",
+    "origin": "United Kingdom, Kenya, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/frankincense-essential-oil.php"
+  },
+  {
+    "oil_id": 86,
+    "oil_name": "Galbanum",
+    "botanical_name": "Ferula galbaniflua",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Pinene",
+      "Gamma-3-Carene",
+      "a-Pinene",
+      "Sabinene",
+      "B-Myrecene",
+      "(+)-Limonene"
+    ],
+    "therapeutic_properties": [
+      "Inflammatory Skin Disorders",
+      "Acne",
+      "Pimples",
+      "Cuts",
+      "Wounds",
+      "Scars",
+      "Bronchitis",
+      "Coughs",
+      "Respiratory Issues",
+      "Inflammatory Muscular Aches And Pains",
+      "Rheumatoid Arthritis",
+      "Indigestion",
+      "Nerve-related Conditions"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Meditation"
+    ],
+    "aroma_profile": "",
+    "note": "Top",
+    "blends_well_with": [
+      "Galbanum"
+    ],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/galbanum-essential-oil.php"
+  },
+  {
+    "oil_id": 87,
+    "oil_name": "Geranium",
+    "botanical_name": "Pelargonium graveolens / Pelargonium asperum",
+    "composition": [
+      "Citronellol",
+      "Geraniol"
+    ],
+    "main_chemical_components": [
+      "Citronellol",
+      "Geraniol",
+      "Linalol",
+      "Citronellyl formate",
+      "Isomenthone",
+      "10-epi-Gamma-Eudesmol",
+      "Geranyl Formate"
+    ],
+    "therapeutic_properties": [
+      "Female Reproductive Disorders",
+      "Menstrual Cramps",
+      "Infertility",
+      "Endometriosis",
+      "Premenstrual Syndrome",
+      "Menopausal Symptoms",
+      "Circulatory Disorders",
+      "Reynaud'S Disease",
+      "Varicose Veins",
+      "Hemorrhoids",
+      "Neuralgia",
+      "Nervous Skin Disorders",
+      "Depression",
+      "Fatigue",
+      "Emotional Crisis",
+      "Stress-related Conditions",
+      "Wounds",
+      "Acne",
+      "Bruises",
+      "Minor Burns",
+      "Dermatitis",
+      "Eczema",
+      "Ulcers",
+      "Head Lice",
+      "Ringworm",
+      "Sebum Balacing",
+      "Urinary and Liver Tonic"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm"
+    ],
+    "aroma_profile": "Earthy, Rose, Floral, Green, Fresh, Sweet, Fruity",
+    "note": "Middle",
+    "blends_well_with": [
+      "Lavender",
+      "Rose",
+      "Citrus oils"
+    ],
+    "color": "Clear to Pale Yellow/Green",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/geranium-essential-oil.php"
+  },
+  {
+    "oil_id": 88,
+    "oil_name": "Geranium, Rose",
+    "botanical_name": "Pelargonium roseum",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Acne",
+      "Cellulites",
+      "Dull Skin",
+      "Lice",
+      "Menopause",
+      "Oily Skin"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Medium",
+    "blends_well_with": [
+      "Geranium"
+    ],
+    "color": "Pale Yellow/Green",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/rose-geranium-essential-oil.php"
+  },
+  {
+    "oil_id": 89,
+    "oil_name": "German Chamomile",
+    "botanical_name": "Matricaria chamomilla(Synonym: Matricaria recutita)",
+    "composition": [],
+    "main_chemical_components": [
+      "Bisabolol",
+      "Farnesol",
+      "Azulene",
+      "Farnasene",
+      "Thujanol"
+    ],
+    "therapeutic_properties": [
+      "Abscesses",
+      "Allergies",
+      "Arthritis",
+      "Boils",
+      "Colic",
+      "Cuts",
+      "Cystitis",
+      "Dermatitis",
+      "Dysmenorrhea",
+      "Ear Ache",
+      "Flatulence",
+      "Hair",
+      "Headache",
+      "Inflamed Skin",
+      "Insect Bites",
+      "Insomnia",
+      "Nausea",
+      "Neuralgia",
+      "PMS",
+      "Rheumatism",
+      "Sores",
+      "Sprains",
+      "Strains",
+      "Stress",
+      "Wounds"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Sweet, Herbal, Fruity",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Deep Blue",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/german-chamomile-essential-oil.php"
+  },
+  {
+    "oil_id": 90,
+    "oil_name": "Greenland Moss",
+    "botanical_name": "Ledum groenlandicum / Rhododendron groenlandicum",
+    "composition": [],
+    "main_chemical_components": [
+      "Sabinene",
+      "Terpinen-4-ol",
+      "B-Selinene",
+      "Myrtenal",
+      "Bornyl acetate"
+    ],
+    "therapeutic_properties": [
+      "Aching Muscles and Joints",
+      "Colds",
+      "Bronchitis",
+      "Immune Support",
+      "Anxiety",
+      "Tension"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Meditation"
+    ],
+    "aroma_profile": "Citrus, Fruity, Green, Woody, Earthy, Resinous",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/ledum-essential-oil.php"
+  },
+  {
+    "oil_id": 91,
+    "oil_name": "Ginger",
+    "botanical_name": "Zingiber officinale",
+    "composition": [],
+    "main_chemical_components": [
+      "Zingiberene",
+      "ar-Curcumene",
+      "B-Sesquiphellandrene",
+      "B-Bisabolene",
+      "Camphene",
+      "B-Phellandrene",
+      "Borneol",
+      "1,8-Cineole",
+      "a-Pinene",
+      "B-Elemene"
+    ],
+    "therapeutic_properties": [
+      "Aching Muscles",
+      "Arthritis",
+      "Nausea",
+      "Indigestion",
+      "Poor Circulation",
+      "Nervous Exhaustion"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Energ",
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Fresh, Spicy",
+    "note": "Middle/Base",
+    "blends_well_with": [],
+    "color": "Light Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/ginger-essential-oil.php"
+  },
+  {
+    "oil_id": 92,
+    "oil_name": "Goldenrod",
+    "botanical_name": "Solidago canadensis",
+    "composition": [],
+    "main_chemical_components": [
+      "Germacrene D",
+      "Limonene",
+      "Myrcene",
+      "a-pinene",
+      "B-phellandrene",
+      "Bornyl acetate"
+    ],
+    "therapeutic_properties": [
+      "Coughs and Colds",
+      "Respiratory Congestion",
+      "Sinus Infection",
+      "Anxiety",
+      "Depression",
+      "Stress"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Earthy",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Virtually Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/goldenrod-essential-oil.php"
+  },
+  {
+    "oil_id": 93,
+    "oil_name": "Grapefruit",
+    "botanical_name": "Citrus paradisi",
+    "composition": [],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "B-Myrcene",
+      "a-Pinene",
+      "Sabinene",
+      "Nootkatone",
+      "Bergapten"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Oily Skin",
+      "Cellulitis",
+      "Dull Skin",
+      "Toxin Build-up",
+      "Water Retention",
+      "Nervous Exhaustion"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Energ"
+    ],
+    "aroma_profile": "Sweet, Citrus",
+    "note": "Top",
+    "blends_well_with": [
+      "Grapefruit",
+      "Rosemary"
+    ],
+    "color": "Pale Yellow - Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/grapefruit-essential-oil.php"
+  },
+  {
+    "oil_id": 94,
+    "oil_name": "Gurjum Balsam",
+    "botanical_name": "Dipterocarpus jourdainii / Dipterocarpus turbinatus",
+    "composition": [],
+    "main_chemical_components": [
+      "B-caryophyllene",
+      "a-gurjunene",
+      "B-gurjunene",
+      "allo-aromadendrene"
+    ],
+    "therapeutic_properties": [
+      "Anti-inflammatory",
+      "Skin Inflammation",
+      "Bronchial Infections",
+      "Colitis",
+      "Anxiety"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Woody, Sweet, Citrus",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/gurjum-balsam-essential-oil.php"
+  },
+  {
+    "oil_id": 95,
+    "oil_name": "Helichrysum Gymnocephalum",
+    "botanical_name": "Helichrysum gymnocephalum",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "Bicyclosesquiphellandrene",
+      "Gamma-Curcumene",
+      "a-Amorphene",
+      "Bicylogermacrene",
+      "p-Cymene",
+      "Delta-Cadinene",
+      "B-Selinene",
+      "Terpinen-4-ol"
+    ],
+    "therapeutic_properties": [
+      "Expectorant",
+      "Anti-Allergic",
+      "Anti-Inflammatory",
+      "Astringent",
+      "Deodorizing"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Camphor",
+    "note": "Top - Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/helichrysum-gymnocephalum-essential-oil.php"
+  },
+  {
+    "oil_id": 96,
+    "oil_name": "Helichrysum Italicum",
+    "botanical_name": "Helichrysum italicum / Helichrysum angustifolia",
+    "composition": [],
+    "main_chemical_components": [
+      "Neryl Acetate: 6-40%",
+      "a-Pinene: 3-30%",
+      "Gamma-Curcumene: 8-15%",
+      "Italidiones: 3-10%"
+    ],
+    "therapeutic_properties": [
+      "Muscular Aches And Pains",
+      "Abscesses",
+      "Acne",
+      "Boils",
+      "Bronchial Congestion",
+      "Burns",
+      "Cuts",
+      "Dermatitis",
+      "Eczema",
+      "Irritated Skin",
+      "Wounds",
+      "Nervous Exhaustion",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Meditation"
+    ],
+    "aroma_profile": "Sweet, Fruity, Orange, Fresh, Earthy",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Light Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/helichrysum-italicum-essential-oil.php"
+  },
+  {
+    "oil_id": 97,
+    "oil_name": "Hemlock Spruce",
+    "botanical_name": "Tsuga canadensis / Pinus canadensis",
+    "composition": [],
+    "main_chemical_components": [
+      "Isobornyl acetate",
+      "B-Pinene",
+      "Gamma-3-Carene",
+      "(+)-Limonene",
+      "a-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Muscular Aches",
+      "Bronchitis",
+      "Coughs",
+      "Colds",
+      "Flu",
+      "Anxiety",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Energ",
+      "Calm",
+      "Focus"
+    ],
+    "aroma_profile": "Fresh",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hemlock-spruce-essential-oil.php"
+  },
+  {
+    "oil_id": 98,
+    "oil_name": "Hemp",
+    "botanical_name": "Cannabis sativa",
+    "composition": [],
+    "main_chemical_components": [
+      "B-Myrcene",
+      "B-Caryophyllene",
+      "(E)-B-Ocimene",
+      "Terpinolene",
+      "a-Pinene",
+      "a-Caryophyllene",
+      "B-Pinene"
+    ],
+    "therapeutic_properties": [
+      "B-Myrcene",
+      "B-Caryophyllene",
+      "(E)-B-Ocimene",
+      "Terpinolene",
+      "a-Pinene",
+      "a-Caryophyllene",
+      "B-Pinene"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Citrus, Floral",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hemp-cannabis-essential-oil.php"
+  },
+  {
+    "oil_id": 99,
+    "oil_name": "Hinoki",
+    "botanical_name": "Chamaecyparis obtusa",
+    "composition": [
+      "α-Pinene",
+      "Sabinene",
+      "Camphene"
+    ],
+    "main_chemical_components": [
+      "Elemol",
+      "a-Terpinyl Acetate",
+      "Gamma-Eudesmol",
+      "Bornyl Acetate",
+      "B-Eudesmol",
+      "Gamma-Muurolene",
+      "a-Eudesmol",
+      "B-Cedrene",
+      "a-Muurolene",
+      "(+)-Limonene",
+      "Delta-Cadinene",
+      "B-Pinene",
+      "a-Fenchol"
+    ],
+    "therapeutic_properties": [
+      "Possible Neuroprotective Affects Against AB 1-40",
+      "Anti-asthmatic",
+      "Antibiotic",
+      "Anti-inflammatory",
+      "Anxiety",
+      "Hair Growth",
+      "Immune Stimulant",
+      "Insecticidal"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Energ"
+    ],
+    "aroma_profile": "Woody, Sweet",
+    "note": "Middle",
+    "blends_well_with": [
+      "Frankincense",
+      "Cedarwood",
+      "Spikenard"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hinoki-essential-oil.php"
+  },
+  {
+    "oil_id": 100,
+    "oil_name": "Hinoki, Taiwan",
+    "botanical_name": "Chamaecyparis formosensis",
+    "composition": [],
+    "main_chemical_components": [
+      "Beta-eudesmol",
+      "Tau-muurolol",
+      "Elemol",
+      "Totarol",
+      "Alpha-cadinol"
+    ],
+    "therapeutic_properties": [
+      "Beta-eudesmol",
+      "Tau-muurolol",
+      "Elemol",
+      "Totarol",
+      "Alpha-cadinol"
+    ],
+    "emotional_effects": [
+      "Meditation",
+      "Emotion"
+    ],
+    "aroma_profile": "Woody",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/taiwan-hinoki-essential-oil.php"
+  },
+  {
+    "oil_id": 101,
+    "oil_name": "Ho Leaf",
+    "botanical_name": "Camphora officinarum(Synonym: Cinnamomum camphora)",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Influenza",
+      "Shingles",
+      "Supports the Immune System",
+      "Stress",
+      "Depression",
+      "Calms the Nerves",
+      "Promotes Sleep",
+      "Muscular Aches and Pains"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Focus"
+    ],
+    "aroma_profile": "Citrus",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/ravintsara-essential-oil.php"
+  },
+  {
+    "oil_id": 102,
+    "oil_name": "Ho Wood",
+    "botanical_name": "Cinnamomum camphora var linalool",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Colds/Flu",
+      "Menstrual Cramps",
+      "Wounds",
+      "Cuts",
+      "Eczema",
+      "Acne",
+      "Stress",
+      "Anxiety"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm"
+    ],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/ho-wood-essential-oil.php"
+  },
+  {
+    "oil_id": 103,
+    "oil_name": "Holy Basil",
+    "botanical_name": "Ocimum tenuiflorum(Synonym: Ocimum sanctum)",
+    "composition": [],
+    "main_chemical_components": [
+      "Eugenol",
+      "1,8-Cineole",
+      "Estragole",
+      "B-Bisabolene",
+      "(Z)-a-Bisabolene"
+    ],
+    "therapeutic_properties": [
+      "Muscular Spasms",
+      "Respiratory Conditions",
+      "Cramps",
+      "Menstrual Issues",
+      "Headache",
+      "Mental and Physical Fatigue"
+    ],
+    "emotional_effects": [
+      "Energ",
+      "Focus"
+    ],
+    "aroma_profile": "Sweet",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/holy-basil-tulsi-essential-oil.php"
+  },
+  {
+    "oil_id": 104,
+    "oil_name": "Hong Kuai",
+    "botanical_name": "Chamaecyparis formosensis",
+    "composition": [],
+    "main_chemical_components": [
+      "Beta-eudesmol",
+      "Tau-muurolol",
+      "Elemol",
+      "Totarol",
+      "Alpha-cadinol"
+    ],
+    "therapeutic_properties": [
+      "Beta-eudesmol",
+      "Tau-muurolol",
+      "Elemol",
+      "Totarol",
+      "Alpha-cadinol"
+    ],
+    "emotional_effects": [
+      "Meditation",
+      "Emotion"
+    ],
+    "aroma_profile": "Woody",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/taiwan-hinoki-essential-oil.php"
+  },
+  {
+    "oil_id": 105,
+    "oil_name": "Hops",
+    "botanical_name": "Humulus lupulus",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Caryophyllene",
+      "B-Myrcene",
+      "B-Caryophyllene",
+      "gamma-Cadinene",
+      "delta-Cadinene",
+      "a-Muurolene"
+    ],
+    "therapeutic_properties": [
+      "Sedative",
+      "Anxiety",
+      "Stress",
+      "Nervousness",
+      "Insomnia",
+      "Neuralgia",
+      "Bruising",
+      "Menstrual Issues"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Citrus, Fresh, Sweet, Earthy, Rose",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Golden Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hops-essential-oil.php"
+  },
+  {
+    "oil_id": 106,
+    "oil_name": "Hyssop",
+    "botanical_name": "Hyssopus officinalis var. decumbens",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Coughs",
+      "Colds",
+      "Influenza",
+      "Bronchitis",
+      "Catarrh",
+      "Asthma",
+      "Bronchial Infections",
+      "Contusions",
+      "Bruising",
+      "Wounds",
+      "Arthritis",
+      "Rhematism",
+      "Muscular Aches and Pains",
+      "Digestive Problems"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Fresh, Earthy, Fruity, Woody, Sweet",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hyssop-essential-oil.php"
+  },
+  {
+    "oil_id": 107,
+    "oil_name": "Indian Sandalwood (East Indian)",
+    "botanical_name": "Santalum album",
+    "composition": [],
+    "main_chemical_components": [
+      "(Z)-a-Santalol",
+      "(Z)-B-Santalol",
+      "(Z)-Nuciferol",
+      "epi-B-Santalol",
+      "(Z)-a-trans-Bergamotol"
+    ],
+    "therapeutic_properties": [
+      "Anti-inflammatory",
+      "Anxiety/Agitation",
+      "Depression",
+      "Varicose Veins",
+      "Swollen Lymph Nodes",
+      "Headache",
+      "Insomnia",
+      "Bronchitis",
+      "Dry Cough",
+      "Dry Skin",
+      "Oily Skin",
+      "Acne",
+      "Eczema",
+      "Psoriasis",
+      "Stretch Marks",
+      "Scalp Irritations",
+      "Genitourinary Tract Infections",
+      "Meditation",
+      "Prayer",
+      "Chakra Balancing"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Aphrodisiac",
+      "Grounding"
+    ],
+    "aroma_profile": "Sandalwood, Woody",
+    "note": "Base",
+    "blends_well_with": [
+      "East Indian Sandalwood"
+    ],
+    "color": "Clear with a Yellow Tinge",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/sandalwood-essential-oil.php"
+  },
+  {
+    "oil_id": 108,
+    "oil_name": "Ironbark, Lemon-Scented",
+    "botanical_name": "Eucalyptus staigeriana",
+    "composition": [],
+    "main_chemical_components": [
+      "Methyl geranate",
+      "Geranyl acetate",
+      "beta-Phellandrene",
+      "Limonene",
+      "Neral",
+      "Geraniol"
+    ],
+    "therapeutic_properties": [
+      "Anti-infectious",
+      "Antiviral",
+      "Antiseptic",
+      "Expectorant",
+      "Anti-inflammatory",
+      "Digestive stimulant",
+      "Insect repellent",
+      "Stress",
+      "Perfumery",
+      "Odor-masking"
+    ],
+    "emotional_effects": [
+      "Uplift"
+    ],
+    "aroma_profile": "Lemony, Sweet, Woody, Fresh, Citrus, Floral, Herbal",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-scented-ironbark-essential-oil.php"
+  },
+  {
+    "oil_id": 109,
+    "oil_name": "Ishpingo",
+    "botanical_name": "Ocotea quixos",
+    "composition": [],
+    "main_chemical_components": [
+      "Cinnamyl acetate",
+      "Beta caryophyllene",
+      "Methyl cinnamate",
+      "Cinnamaldehyde",
+      "B-Selinene"
+    ],
+    "therapeutic_properties": [
+      "Emotionally Balancing",
+      "Anxiety",
+      "Stress",
+      "Anti-Inflammatory",
+      "Spirituality and Meditation"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Uplift"
+    ],
+    "aroma_profile": "Sweet, Spicy, Woody, Fruity, Floral",
+    "note": "Middle",
+    "blends_well_with": [
+      "Cinnamon"
+    ],
+    "color": "Pale Yellow",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/ocotea-essential-oil.php"
+  },
+  {
+    "oil_id": 110,
+    "oil_name": "Immortelle",
+    "botanical_name": "Helichrysum italicum / Helichrysum angustifolia",
+    "composition": [],
+    "main_chemical_components": [
+      "Neryl Acetate: 6-40%",
+      "a-Pinene: 3-30%",
+      "Gamma-Curcumene: 8-15%",
+      "Italidiones: 3-10%"
+    ],
+    "therapeutic_properties": [
+      "Muscular Aches And Pains",
+      "Abscesses",
+      "Acne",
+      "Boils",
+      "Bronchial Congestion",
+      "Burns",
+      "Cuts",
+      "Dermatitis",
+      "Eczema",
+      "Irritated Skin",
+      "Wounds",
+      "Nervous Exhaustion",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Meditation"
+    ],
+    "aroma_profile": "Sweet, Fruity, Orange, Fresh, Earthy",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Light Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/helichrysum-italicum-essential-oil.php"
+  },
+  {
+    "oil_id": 111,
+    "oil_name": "Japanese Cypress",
+    "botanical_name": "Chamaecyparis obtusa",
+    "composition": [],
+    "main_chemical_components": [
+      "Elemol",
+      "a-Terpinyl Acetate",
+      "Gamma-Eudesmol",
+      "Bornyl Acetate",
+      "B-Eudesmol",
+      "Gamma-Muurolene",
+      "a-Eudesmol",
+      "B-Cedrene",
+      "a-Muurolene",
+      "(+)-Limonene",
+      "Delta-Cadinene",
+      "B-Pinene",
+      "a-Fenchol"
+    ],
+    "therapeutic_properties": [
+      "Possible Neuroprotective Affects Against AB 1-40",
+      "Anti-asthmatic",
+      "Antibiotic",
+      "Anti-inflammatory",
+      "Anxiety",
+      "Hair Growth",
+      "Immune Stimulant",
+      "Insecticidal"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Energ"
+    ],
+    "aroma_profile": "Woody, Sweet",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/hinoki-essential-oil.php"
+  },
+  {
+    "oil_id": 112,
+    "oil_name": "Jasmine Absolute",
+    "botanical_name": "Jasminum grandiflorum or Jasminum sambac",
+    "composition": [],
+    "main_chemical_components": [
+      "Benzyl acetate",
+      "Benzyl benzoate",
+      "Phytol",
+      "Squalene 2,3-oxide",
+      "Isophytol",
+      "Phytyl acetate",
+      "Linalool",
+      "Squalene",
+      "Geranyl linalool",
+      "Indole",
+      "(Z)-Jasmone",
+      "Eugenol"
+    ],
+    "therapeutic_properties": [
+      "Depression",
+      "Dry Skin",
+      "Exhaustion",
+      "Labor Pains",
+      "Sensitive Skin"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Aphrodisiac"
+    ],
+    "aroma_profile": "Floral, Jasmine",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Deep Brown with a Golden Tinge",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/jasmine-absolute.php"
+  },
+  {
+    "oil_id": 113,
+    "oil_name": "Jatamansi",
+    "botanical_name": "Nardostachys jatamansi",
+    "composition": [],
+    "main_chemical_components": [
+      "Nardol",
+      "Formic Acid",
+      "a-Selinene",
+      "Dihydro-B-ionone",
+      "Nardol Isomer",
+      "Selinene Isomer",
+      "Propionic Acid",
+      "B-Caryophyllene",
+      "Cubebol"
+    ],
+    "therapeutic_properties": [
+      "Insomnia",
+      "Menstrual Problems",
+      "Muscular Spasm",
+      "Muscular Contractions",
+      "Neuralgia",
+      "Sciatica",
+      "Bodily Congestion",
+      "Aging Skin",
+      "Physical Tension",
+      "Stress-related Conditions",
+      "Anxiety",
+      "Nervous Tension",
+      "Soothing",
+      "Calming"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Sleep",
+      "Meditation",
+      "Grounding",
+      "Focus"
+    ],
+    "aroma_profile": "Earthy, Woody, Amber, Musky",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Pale Amber to Amber or Greenish-Amber in Color",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/spikenard-essential-oil.php"
+  },
+  {
+    "oil_id": 114,
+    "oil_name": "Java Pepper",
+    "botanical_name": "Piper cubeba",
+    "composition": [],
+    "main_chemical_components": [
+      "Sabinene",
+      "Cubebol",
+      "a-Copaene",
+      "B-Cubebene",
+      "Delta-Cadinene",
+      "a-Cubebene",
+      "a-Pinene",
+      "Gamma-Humulene",
+      "(+)-Limonene",
+      "(-)-allo-Aromadendrene",
+      "Gamma-Muurolene",
+      "(Z)-Calamene",
+      "B-Caryophyllene"
+    ],
+    "therapeutic_properties": [
+      "Cystitis",
+      "Urethritis",
+      "Leukorrhea",
+      "Bronchitis",
+      "Congestion",
+      "Coughs",
+      "Mucus",
+      "Sinusitis",
+      "Throat Infections",
+      "Flatulence",
+      "Sluggish Digestion",
+      "Indigestion"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Energ",
+      "Uplift"
+    ],
+    "aroma_profile": "Sweet, Peppery",
+    "note": "Middle - Base",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/cubeb-essential-oil.php"
+  },
+  {
+    "oil_id": 115,
+    "oil_name": "Juniper Berry",
+    "botanical_name": "Juniperus communis",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "Sabinene",
+      "B-Myrcene",
+      "Terpinene-4-ol",
+      "(+)-Limonene",
+      "B-Pinene",
+      "Gamma-Terpinene",
+      "Delta-3-Carene",
+      "a-Terpinene"
+    ],
+    "therapeutic_properties": [
+      "Colds",
+      "Flu",
+      "Acne",
+      "Cellulitis",
+      "Gout",
+      "Hemorrhoids",
+      "Obesity",
+      "Rheumatism",
+      "Toxin Build-up"
+    ],
+    "emotional_effects": [
+      "Energ",
+      "Emotion",
+      "Calm",
+      "Meditation",
+      "Grounding"
+    ],
+    "aroma_profile": "Woody, Sweet, Fresh",
+    "note": "Middle",
+    "blends_well_with": [
+      "Rosewood",
+      "Cypress"
+    ],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/juniper-berry-essential-oil.php"
+  },
+  {
+    "oil_id": 116,
+    "oil_name": "Kaffir Lime Petitgrain",
+    "botanical_name": "Citrus hystrix",
+    "composition": [],
+    "main_chemical_components": [
+      "Citronellal",
+      "Citronellyl acetate",
+      "Isopulegol",
+      "Sabinene",
+      "Linalool",
+      "B-Pinene",
+      "B-Myrcene",
+      "Gamma-Terpinene"
+    ],
+    "therapeutic_properties": [
+      "Combava Petitgrain Essential Oil",
+      "Combava Leaf Essential Oil",
+      "Makrut Lime Petitgrain Essential Oil",
+      "Makrut Lime Leaf Essential Oil"
+    ],
+    "emotional_effects": [
+      "Focus"
+    ],
+    "aroma_profile": "Fresh, Floral, Citrus, Sweet",
+    "note": "Top",
+    "blends_well_with": [
+      "Lime"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/kaffir-lime-leaf-petitgrain-essential-oil.php"
+  },
+  {
+    "oil_id": 117,
+    "oil_name": "Kanuka",
+    "botanical_name": "Kunzea ericoides / Leptospermum ericoides",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "Viridifloraol",
+      "1,8-Cineole",
+      "(+)-Limonene",
+      "p-Cymene",
+      "Calamenene",
+      "Gamma-Terpinene",
+      "a-Selinene"
+    ],
+    "therapeutic_properties": [
+      "Chronic Inflammatory Conditions Including Rheumatoid Arthritis and Fibromyalgia",
+      "Sore Muscles",
+      "Strains",
+      "Back Pain",
+      "Pain Associated with Burns",
+      "Intestinal Complaints"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/kanuka-essential-oil.php"
+  },
+  {
+    "oil_id": 118,
+    "oil_name": "Kunzea",
+    "botanical_name": "Kunzea ambigua",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "1,8-Cineole",
+      "Viridiflorol",
+      "Globulol",
+      "Bicyclogermacrene",
+      "a-Terpineol"
+    ],
+    "therapeutic_properties": [
+      "Respiratory Support",
+      "Congestion",
+      "Sinus Headaches",
+      "Inflammation",
+      "Sore Muscles",
+      "Relaxation",
+      "Insect Repellent",
+      "Muscular Aches",
+      "Joint Pain",
+      "Nervous Tension",
+      "Emotional Pain",
+      "Emotional Blockages"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Fresh, Woody",
+    "note": "Top to Middle",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/kunzea-essential-oil.php"
+  },
+  {
+    "oil_id": 119,
+    "oil_name": "Labdanum",
+    "botanical_name": "Cistus ladaniferus",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "Camphene",
+      "Hexen-1-ol",
+      "Trimethylcyclohexanone",
+      "Bornyl Acetate"
+    ],
+    "therapeutic_properties": [
+      "Antiseptic",
+      "Anti-microbial",
+      "Astringent",
+      "Emmenagogue",
+      "Expectorant",
+      "Sedative",
+      "Vulnerary"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Grounding",
+      "Meditation"
+    ],
+    "aroma_profile": "Balsamic",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Golden Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/cistus-essential-oil.php"
+  },
+  {
+    "oil_id": 120,
+    "oil_name": "Laurel Leaf",
+    "botanical_name": "Laurus nobilis",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Pinene",
+      "a-Terpinyl Acetate",
+      "Linalool",
+      "B-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Amenorrhea",
+      "Colds",
+      "Flu",
+      "Loss Of Appetite",
+      "Tonsillitis"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Focus"
+    ],
+    "aroma_profile": "Spicy, Sweet, Floral, Fruity",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/bay-laurel-leaf-essential-oil.php"
+  },
+  {
+    "oil_id": 121,
+    "oil_name": "Lavandin",
+    "botanical_name": "Lavandula abrialis / Lavandin Abrialis, Lavandula intermedia or Lavandula hybrida",
+    "composition": [],
+    "main_chemical_components": ["Linalool", "Linalyl acetate", "1,8-Cineole"],
+    "therapeutic_properties": ["Calming", "Antiseptic", "Anti-inflammatory", "Analgesic", "Antispasmodic"],
+    "emotional_effects": ["Relaxing", "Mood-lifting", "Stress-reducing"],
+    "aroma_profile": "",
+    "note": "Top/Middle",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/lavandin-essential-oil.php"
+  },
+  {
+    "oil_id": 122,
+    "oil_name": "Lavender",
+    "botanical_name": "Lavandula angustifolia(Synonym: Lavandula officinalis)",
+    "composition": [
+      "Linalool",
+      "Linalyl acetate"
+    ],
+    "main_chemical_components": [
+      "Linalyl Acetate",
+      "Linalool",
+      "(Z)-B-Ocimene",
+      "Lavandulyl acetate",
+      "Terpinene-4-ol",
+      "B-Caryophyllene",
+      "(E)-B-Farnesene",
+      "(E)-B-Ocimene",
+      "3-Octanyl Acetate"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Allergies",
+      "Anxiety",
+      "Asthma",
+      "Athlete's Foot",
+      "Bruises",
+      "Burns",
+      "Chicken Pox",
+      "Colic",
+      "Cuts",
+      "Cystitis",
+      "Depression",
+      "Dermatitis",
+      "Dysmenorrhea",
+      "Earache",
+      "Flatulence",
+      "Headache",
+      "Hypertension",
+      "Insect Bites",
+      "Insect Repellent",
+      "Itching",
+      "Labor Pains",
+      "Migraine",
+      "Oily Skin",
+      "Rheumatism",
+      "Scabies",
+      "Scars",
+      "Sores",
+      "Sprains",
+      "Strains",
+      "Stress",
+      "Stretch Marks",
+      "Vertigo",
+      "Whooping Cough"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Sleep"
+    ],
+    "aroma_profile": "Floral, Fresh, Sweet, Fruity",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Rose",
+      "Peppermint", 
+      "Bergamot"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/lavender-essential-oil.php"
+  },
+  {
+    "oil_id": 123,
+    "oil_name": "Lavender, Spike",
+    "botanical_name": "Lavandula latifolia",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalool",
+      "1,8-Cineole",
+      "Camphor",
+      "Borneol",
+      "B-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Linalool",
+      "1,8-Cineole",
+      "Camphor",
+      "Borneol",
+      "B-Pinene"
+    ],
+    "emotional_effects": [
+      "Calm",
+      "Sleep",
+      "Emotion",
+      "Energy",
+      "Focus"
+    ],
+    "aroma_profile": "Floral",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Lavender",
+      "Spike Lavender",
+      "Rosemary"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/spike-lavender-essential-oil.php"
+  },
+  {
+    "oil_id": 124,
+    "oil_name": "Lavender Tea Tree",
+    "botanical_name": "Melaleuca ericifolia",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalol",
+      "1,8-Cineole",
+      "a-Pinene",
+      "Terpinolene",
+      "(+)-Limonene"
+    ],
+    "therapeutic_properties": [
+      "Restlessness",
+      "Nervousness",
+      "Irritability",
+      "Acne",
+      "Pimples",
+      "Insect Bites",
+      "Respiratory Support",
+      "Allergies",
+      "Sinus Congestion",
+      "Sore Throats",
+      "Coughs",
+      "Inflammation",
+      "Household Cleaning",
+      "Relaxation"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Uplift"
+    ],
+    "aroma_profile": "Fresh, Lemony",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/rosalina-essential-oil.php"
+  },
+  {
+    "oil_id": 125,
+    "oil_name": "Ledum",
+    "botanical_name": "Ledum groenlandicum / Rhododendron groenlandicum",
+    "composition": [],
+    "main_chemical_components": [
+      "Sabinene",
+      "Terpinen-4-ol",
+      "B-Selinene",
+      "Myrtenal",
+      "Bornyl acetate"
+    ],
+    "therapeutic_properties": [
+      "Aching Muscles and Joints",
+      "Colds",
+      "Bronchitis",
+      "Immune Support",
+      "Anxiety",
+      "Tension"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Meditation"
+    ],
+    "aroma_profile": "Citrus, Fruity, Green, Woody, Earthy, Resinous",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/ledum-essential-oil.php"
+  },
+  {
+    "oil_id": 126,
+    "oil_name": "Lemon",
+    "botanical_name": "Citrus limon",
+    "composition": [
+      "Limonene",
+      "Beta-pinene"
+    ],
+    "main_chemical_components": [
+      "(+)-Limonene",
+      "B-Pinene",
+      "Gamma-Terpinene",
+      "a-Terpineol",
+      "a-Pinene",
+      "Geranial"
+    ],
+    "therapeutic_properties": [
+      "Athlete's Foot",
+      "Chiliblains",
+      "Colds",
+      "Corns",
+      "Dull Skin",
+      "Flu",
+      "Oily Skin",
+      "Spots",
+      "Varicose Veins",
+      "Warts"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Energ"
+    ],
+    "aroma_profile": "Fresh, Lemony, Citrus",
+    "note": "Top",
+    "blends_well_with": [
+      "Lemon"
+    ],
+    "color": "Pale Yellow to Deep Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-essential-oil.php"
+  },
+  {
+    "oil_id": 127,
+    "oil_name": "Lemon Balm",
+    "botanical_name": "Melissa officinalis",
+    "composition": [],
+    "main_chemical_components": [
+      "Geranial",
+      "Neral",
+      "6-methyl-5-hepten-2-one",
+      "B-Caryophyllene",
+      "Citronellal",
+      "Geranyl Acetate",
+      "Aesculetine"
+    ],
+    "therapeutic_properties": [
+      "Insomnia",
+      "Sleep Disorders",
+      "Indigestion",
+      "Nausea",
+      "Fungal Infections",
+      "Candida",
+      "Viral Skin Infections",
+      "Herpes",
+      "Menopausal Symptoms",
+      "Nervousness",
+      "Stress",
+      "Anxiety-related Symptoms",
+      "Depression"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Fresh, Lemony, Green",
+    "note": "Top/Middle",
+    "blends_well_with": [],
+    "color": "Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/melissa-essential-oil.php"
+  },
+  {
+    "oil_id": 128,
+    "oil_name": "Lemon Eucalyptus",
+    "botanical_name": "Corymbia citriodora(Synonym: Eucalyptus citriodora)",
+    "composition": [],
+    "main_chemical_components": [
+      "Citronellal",
+      "Citronellol",
+      "Isopulegol"
+    ],
+    "therapeutic_properties": [
+      "Muscular Injury",
+      "Fungal Skin Infection",
+      "Bacterial Skin Infection",
+      "Sores",
+      "Wounds",
+      "Respiratory Tract Conditions",
+      "Asthma",
+      "Fever",
+      "Candida",
+      "Insect Bites",
+      "Insect Repellent"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Energ"
+    ],
+    "aroma_profile": "Camphor, Sweet, Lemony, Fresh",
+    "note": "Top - Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-eucalyptus-essential-oil.php"
+  },
+  {
+    "oil_id": 129,
+    "oil_name": "Lemon Myrtle",
+    "botanical_name": "Backhousia citriodora",
+    "composition": [],
+    "main_chemical_components": [
+      "Geranial",
+      "Neral",
+      "Isogeranial",
+      "Isoneral",
+      "6-Methyl-5-hepten-2-one",
+      "Linalool"
+    ],
+    "therapeutic_properties": [
+      "Influenza",
+      "Bronchitis",
+      "Herpes Simplex",
+      "Antibacterial",
+      "Antifungal",
+      "Sedative",
+      "Carminative"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Calm"
+    ],
+    "aroma_profile": "Lemony, Citrus, Floral, Fresh, Sweet",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-myrtle-essential-oil.php"
+  },
+  {
+    "oil_id": 130,
+    "oil_name": "Lemon Petitgrain",
+    "botanical_name": "Citrus limon",
+    "composition": [],
+    "main_chemical_components": [
+      "Geranial",
+      "(+)-Limonene",
+      "Neral",
+      "Geraniol",
+      "B-Pinene",
+      "Neryl acetate",
+      "Nerol",
+      "a-Terpinyl acetate",
+      "Linalyl acetate",
+      "Geranyl acetate",
+      "Citronellal"
+    ],
+    "therapeutic_properties": [
+      "Perfumery",
+      "Stress",
+      "Anxiety",
+      "Mental Fatigue"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Focus"
+    ],
+    "aroma_profile": "Sweet, Lemony, Woody, Green, Fresh",
+    "note": "Top",
+    "blends_well_with": [
+      "Lemon Petitgrain",
+      "Lemon"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-leaf-petitgrain-essential-oil.php"
+  },
+  {
+    "oil_id": 131,
+    "oil_name": "Lemon-Scented Ironbark",
+    "botanical_name": "Eucalyptus staigeriana",
+    "composition": [],
+    "main_chemical_components": [
+      "Methyl geranate",
+      "Geranyl acetate",
+      "beta-Phellandrene",
+      "Limonene",
+      "Neral",
+      "Geraniol"
+    ],
+    "therapeutic_properties": [
+      "Anti-infectious",
+      "Antiviral",
+      "Antiseptic",
+      "Expectorant",
+      "Anti-inflammatory",
+      "Digestive stimulant",
+      "Insect repellent",
+      "Stress",
+      "Perfumery",
+      "Odor-masking"
+    ],
+    "emotional_effects": [
+      "Uplift"
+    ],
+    "aroma_profile": "Lemony, Sweet, Woody, Fresh, Citrus, Floral, Herbal",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Pale Yellow",
+    "origin": "Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-scented-ironbark-essential-oil.php"
+  },
+  {
+    "oil_id": 132,
+    "oil_name": "Lemon Tea Tree",
+    "botanical_name": "Leptospermum petersonii",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Household Cleaning",
+      "Anti-bacterial Applications",
+      "Oily Skin",
+      "Odors",
+      "Insect Repellent",
+      "Anxiety",
+      "Stress"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Calm"
+    ],
+    "aroma_profile": "Lemony, Medicinal",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-tea-tree-essential-oil.php"
+  },
+  {
+    "oil_id": 133,
+    "oil_name": "Lemon Verbena",
+    "botanical_name": "Aloysia citriodora(Synonym: Lippia citriodora)",
+    "composition": [],
+    "main_chemical_components": [
+      "Geranial",
+      "Neral",
+      "(+)-Limonene",
+      "Zingiberene",
+      "Germacrene D",
+      "Sabinene"
+    ],
+    "therapeutic_properties": [
+      "Anxiety",
+      "Insomnia",
+      "Stress",
+      "Indigestion",
+      "Perfumery"
+    ],
+    "emotional_effects": [
+      "Uplift"
+    ],
+    "aroma_profile": "Lemony, Citrus, Fruity, Green, Woody, Sweet",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-verbena-essential-oil.php"
+  },
+  {
+    "oil_id": 134,
+    "oil_name": "Lemongrass",
+    "botanical_name": "West Indian Lemongrass (Xiang Mao):Cymbopogon citratus (Synonym: Andropogon citratus)",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Muscular Aches And Pains",
+      "Gastrointestinal Disorders",
+      "Indigestion",
+      "Physical And Mental Exhaustion",
+      "Acne",
+      "Insect Repellent"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Emotion",
+      "Focus",
+      "Energ"
+    ],
+    "aroma_profile": "Lemony, Fresh, Citrus",
+    "note": "Top",
+    "blends_well_with": [
+      "Geranium",
+      "Peppermint",
+      "Lemongrass",
+      "Lemon"
+    ],
+    "color": "Pale Yellow to Vivid Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lemongrass-essential-oil.php"
+  },
+  {
+    "oil_id": 135,
+    "oil_name": "Lime",
+    "botanical_name": "Citrus aurantifolia",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "B-Pinene",
+      "Sabinene",
+      "Myrcene",
+      "Limonene",
+      "y-Terpinene",
+      "Terpinolene",
+      "Octanal",
+      "Nonanal",
+      "Tetradecanal",
+      "Pentadecanal",
+      "Trans-a-bergaptene",
+      "Caryophyllene",
+      "B-bisabolene",
+      "Geranial",
+      "Neryl Acetate",
+      "Geranyl Acetate",
+      "a-Terpineo",
+      "Linalool"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Asthma",
+      "Chilblains",
+      "Colds",
+      "Dull Skin",
+      "Flu",
+      "Varicose Veins"
+    ],
+    "emotional_effects": [
+      "Energ"
+    ],
+    "aroma_profile": "Fresh, Sweet, Floral, Neroli, Citrus, Fruity",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Light Green With a Hint of Orange/Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lime-essential-oil.php"
+  },
+  {
+    "oil_id": 136,
+    "oil_name": "Linden Blossom Absolute",
+    "botanical_name": "Tilia vulgaris / Tilia cordata",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Headache",
+      "Insomnia",
+      "Migraine",
+      "Stress"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Deep Coffee Brown",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/linden-blossom-absolute.php"
+  },
+  {
+    "oil_id": 137,
+    "oil_name": "Magnolia",
+    "botanical_name": "Michelia alba",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalol (Linalool)",
+      "B-Elemene",
+      "B-Caryophyllene",
+      "(E)-B-Ocimene",
+      "(Z)-B--Ocimene",
+      "Methyl 2-methylbutyrate",
+      "Methyleugenol"
+    ],
+    "therapeutic_properties": [
+      "Scars",
+      "Muscular Aches",
+      "Abdominal Cramps",
+      "Fear-Induced Anxiety",
+      "Insomnia",
+      "Improving Communication",
+      "Depression"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Floral, Neroli, Rose, Ylang",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Orange / Amber",
+    "origin": "United Kingdom, Thailand",
+    "url": "https://www.aromaweb.com/essential-oils/magnolia-essential-oil.php"
+  },
+  {
+    "oil_id": 138,
+    "oil_name": "Makrut Lime Petitgrain",
+    "botanical_name": "Citrus hystrix",
+    "composition": [],
+    "main_chemical_components": [
+      "Citronellal",
+      "Citronellyl acetate",
+      "Isopulegol",
+      "Sabinene",
+      "Linalool",
+      "B-Pinene",
+      "B-Myrcene",
+      "Gamma-Terpinene"
+    ],
+    "therapeutic_properties": [
+      "Combava Petitgrain Essential Oil",
+      "Combava Leaf Essential Oil",
+      "Makrut Lime Petitgrain Essential Oil",
+      "Makrut Lime Leaf Essential Oil"
+    ],
+    "emotional_effects": [
+      "Focus"
+    ],
+    "aroma_profile": "Fresh, Floral, Citrus, Sweet",
+    "note": "Top",
+    "blends_well_with": [
+      "Lime"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/kaffir-lime-leaf-petitgrain-essential-oil.php"
+  },
+  {
+    "oil_id": 139,
+    "oil_name": "Mandarin",
+    "botanical_name": "Citrus reticulata",
+    "composition": [],
+    "main_chemical_components": [
+      "A-Sinensal",
+      "Dimethyl anthranilate",
+      "Decanal",
+      "Linalool",
+      "Limonene",
+      "Gamma-Terpinene",
+      "Octanal",
+      "Myrcene",
+      "B-Pinene",
+      "a-Pinene"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Dull Skin",
+      "Insomnia",
+      "Oily Skin",
+      "Scars",
+      "Spots",
+      "Stress",
+      "Wrinkles"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Focus"
+    ],
+    "aroma_profile": "Green, Citrus, Bergamot, Floral, Sweet",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/mandarin-essential-oil.php"
+  },
+  {
+    "oil_id": 140,
+    "oil_name": "Manuka",
+    "botanical_name": "Leptospermum scoparium",
+    "composition": [],
+    "main_chemical_components": [
+      "Leptospermone",
+      "(E)-Calamenene",
+      "a-Pinene",
+      "Cadina-3,5-diene",
+      "Delta-Cadinene",
+      "a-Copaene",
+      "Favesone",
+      "Cadina-1,4-diene",
+      "B-Selinene",
+      "a-Selinene",
+      "Isoleptospermone"
+    ],
+    "therapeutic_properties": [
+      "Bronchial Infections",
+      "Bronchitis",
+      "Catarrh",
+      "Coughs",
+      "Influenza",
+      "Skin Infections",
+      "Wounds",
+      "Cuts",
+      "Contusions",
+      "Fungal Skin Infections",
+      "Athlete'S Foot",
+      "Parasitic Infection",
+      "Ringworm",
+      "Mites",
+      "Head Lice",
+      "Scabies"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Grounding"
+    ],
+    "aroma_profile": "Earthy, Fresh",
+    "note": "Middle",
+    "blends_well_with": [
+      "Myrrh",
+      "Manuka"
+    ],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/manuka-essential-oil.php"
+  },
+  {
+    "oil_id": 141,
+    "oil_name": "Marjoram",
+    "botanical_name": "Origanum majorana",
+    "composition": [],
+    "main_chemical_components": [
+      "Terpinen-4-ol",
+      "(Z)-Sabinene Hydrate",
+      "Linalyl Acetate",
+      "Gamma-Terpinene",
+      "a-Terpineol",
+      "(E)-Sabinene Hydrate"
+    ],
+    "therapeutic_properties": [
+      "Muscle Relaxant",
+      "Muscular And Abdominal Pain",
+      "Headaches",
+      "Menstrual And Menopausal Symptoms",
+      "Bruises",
+      "Gastrointestinal Disorders",
+      "Indigestion",
+      "Spasms",
+      "Constipation",
+      "Irritable Bowel Syndrome",
+      "Diverticulosis",
+      "Insomnia",
+      "Stress",
+      "Anxiety"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Herbal, Rose, Neroli, Sweet",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear to Faint Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/marjoram-essential-oil.php"
+  },
+  {
+    "oil_id": 142,
+    "oil_name": "May Chang",
+    "botanical_name": "Litsea cubeba",
+    "composition": [],
+    "main_chemical_components": [
+      "Geranial",
+      "Neral",
+      "(+)-Limonene",
+      "Methyl Heptenone",
+      "B-Myrcene",
+      "Linalool",
+      "Geraniol",
+      "Sabinene",
+      "Linalyl Acetate",
+      "a-Pinene",
+      "B-Pinene",
+      "Nerol"
+    ],
+    "therapeutic_properties": [
+      "Acne",
+      "Oily Skin",
+      "Perspiration",
+      "Indigestion"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Lemony",
+    "note": "Medium",
+    "blends_well_with": [],
+    "color": "Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/may-chang-essential-oil.php"
+  },
+  {
+    "oil_id": 143,
+    "oil_name": "Melissa",
+    "botanical_name": "Melissa officinalis",
+    "composition": [],
+    "main_chemical_components": [
+      "Geranial",
+      "Neral",
+      "6-methyl-5-hepten-2-one",
+      "B-Caryophyllene",
+      "Citronellal",
+      "Geranyl Acetate",
+      "Aesculetine"
+    ],
+    "therapeutic_properties": [
+      "Insomnia",
+      "Sleep Disorders",
+      "Indigestion",
+      "Nausea",
+      "Fungal Infections",
+      "Candida",
+      "Viral Skin Infections",
+      "Herpes",
+      "Menopausal Symptoms",
+      "Nervousness",
+      "Stress",
+      "Anxiety-related Symptoms",
+      "Depression"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Fresh, Lemony, Green",
+    "note": "Top/Middle",
+    "blends_well_with": [],
+    "color": "Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/melissa-essential-oil.php"
+  },
+  {
+    "oil_id": 144,
+    "oil_name": "Muhuhu",
+    "botanical_name": "Brachylaena hutchinsii / Brachylaena huillensis",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Amorphene",
+      "Brachyl oxide",
+      "Copaenol",
+      "Copaenal",
+      "Gamma-Cadinene",
+      "A-Calacorene",
+      "Ylangenal",
+      "Cubebol"
+    ],
+    "therapeutic_properties": [
+      "Anti-Inflammatory",
+      "Meditation",
+      "Spiritual Applications",
+      "Perfumery Fixative"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm"
+    ],
+    "aroma_profile": "Woody, Sweet, Balsamic, Sandalwood, Medicinal, Orange, Amber",
+    "note": "Base",
+    "blends_well_with": [
+      "Amyris",
+      "Virginian Cedarwood",
+      "Buddha Wood",
+      "East Indian Sandalwood",
+      "Australian Sandalwood"
+    ],
+    "color": "Orange / Amber",
+    "origin": "United Kingdom, Kenya",
+    "url": "https://www.aromaweb.com/essential-oils/muhuhu-essential-oil.php"
+  },
+  {
+    "oil_id": 145,
+    "oil_name": "Myrrh",
+    "botanical_name": "Commiphora myrrha",
+    "composition": [],
+    "main_chemical_components": [
+      "Furanoeudesma-1,3-diene",
+      "Furanodiene",
+      "Lindestrene",
+      "B-Elemene",
+      "Germacrene B",
+      "Geracrene D",
+      "Delta-Elemene",
+      "2-Methoxyfuranodiene"
+    ],
+    "therapeutic_properties": [
+      "Amenorrhea",
+      "Athlete's Foot",
+      "Bronchitis",
+      "Chapped Skin",
+      "Dysmenorrhea",
+      "Gums",
+      "Halitosis",
+      "Hemorrhoids",
+      "Itching",
+      "Mouth",
+      "Ringworm",
+      "Toothache"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Grounding"
+    ],
+    "aroma_profile": "Woody, Earthy, Balsamic",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Golden Yellow/Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/myrrh-essential-oil.php"
+  },
+  {
+    "oil_id": 146,
+    "oil_name": "Myrrh, Sweet",
+    "botanical_name": "Commiphora guidottii / Commiphora erythraea",
+    "composition": [],
+    "main_chemical_components": [
+      "(E)-B-Ocimene",
+      "(z)-a-Bisabolene",
+      "a-Santalene",
+      "(E)-B-Bergamotene",
+      "a-Bergamotene",
+      "Germacrene D",
+      "Decanol"
+    ],
+    "therapeutic_properties": [
+      "Antiseptic",
+      "Antispasmodic",
+      "Expectorant",
+      "Fragrance Fixative"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Grounding"
+    ],
+    "aroma_profile": "Floral, Citrus",
+    "note": "Middle/Base",
+    "blends_well_with": [
+      "Myrrh",
+      "Opoponax"
+    ],
+    "color": "Pale Yellow",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/opopanax-essential-oil.php"
+  },
+  {
+    "oil_id": 147,
+    "oil_name": "Myrtle",
+    "botanical_name": "Myrtus communis",
+    "composition": [],
+    "main_chemical_components": [
+      "a-Pinene",
+      "1,8-Cineole",
+      "Myrtenyl Acetate",
+      "(+)-Limonene",
+      "Linalool"
+    ],
+    "therapeutic_properties": [
+      "Respiratory Issues",
+      "Bronchitis",
+      "Coughs",
+      "Colds",
+      "Fatigue",
+      "Exhaustion",
+      "Insomnia",
+      "Acne",
+      "Boils",
+      "Hemorrhoids",
+      "Urinary Tract Infections"
+    ],
+    "emotional_effects": [
+      "Uplift",
+      "Emotion",
+      "Calm",
+      "Sleep"
+    ],
+    "aroma_profile": "Green, Fresh, Camphor, Sweet",
+    "note": "Top - Middle",
+    "blends_well_with": [],
+    "color": "Green Myrtle Essential Oil is typically pale yellow in color. Red Myrtle Essential Oil typically possesses an orange-red hue.",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/myrtle-essential-oil.php"
+  },
+  {
+    "oil_id": 148,
+    "oil_name": "Myrtle, Lemon",
+    "botanical_name": "Backhousia citriodora",
+    "composition": [],
+    "main_chemical_components": [
+      "Geranial",
+      "Neral",
+      "Isogeranial",
+      "Isoneral",
+      "6-Methyl-5-hepten-2-one",
+      "Linalool"
+    ],
+    "therapeutic_properties": [
+      "Influenza",
+      "Bronchitis",
+      "Herpes Simplex",
+      "Antibacterial",
+      "Antifungal",
+      "Sedative",
+      "Carminative"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Uplift",
+      "Calm"
+    ],
+    "aroma_profile": "Lemony, Citrus, Floral, Fresh, Sweet",
+    "note": "Top",
+    "blends_well_with": [],
+    "color": "Clear to Pale Yellow",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/lemon-myrtle-essential-oil.php"
+  },
+  {
+    "oil_id": 149,
+    "oil_name": "Nard",
+    "botanical_name": "Nardostachys jatamansi",
+    "composition": [],
+    "main_chemical_components": [
+      "Nardol",
+      "Formic Acid",
+      "a-Selinene",
+      "Dihydro-B-ionone",
+      "Nardol Isomer",
+      "Selinene Isomer",
+      "Propionic Acid",
+      "B-Caryophyllene",
+      "Cubebol"
+    ],
+    "therapeutic_properties": [
+      "Insomnia",
+      "Menstrual Problems",
+      "Muscular Spasm",
+      "Muscular Contractions",
+      "Neuralgia",
+      "Sciatica",
+      "Bodily Congestion",
+      "Aging Skin",
+      "Physical Tension",
+      "Stress-related Conditions",
+      "Anxiety",
+      "Nervous Tension",
+      "Soothing",
+      "Calming"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Sleep",
+      "Meditation",
+      "Grounding",
+      "Focus"
+    ],
+    "aroma_profile": "Earthy, Woody, Amber, Musky",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Pale Amber to Amber or Greenish-Amber in Color",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/spikenard-essential-oil.php"
+  },
+  {
+    "oil_id": 150,
+    "oil_name": "Neroli",
+    "botanical_name": "Citrus aurantium",
+    "composition": [],
+    "main_chemical_components": [
+      "Linalool",
+      "(+)-Limonene",
+      "Linalyl Acetate",
+      "(E)-B-Ocimene",
+      "a-Terpineol",
+      "B-Pinene",
+      "Geranyl Acetate",
+      "(E)-Nerolidol",
+      "Geraniol"
+    ],
+    "therapeutic_properties": [
+      "Depression",
+      "Frigidity",
+      "Insomnia",
+      "Mature Skin",
+      "Scars",
+      "Shock",
+      "Stress",
+      "Stretch Marks"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Floral, Citrus, Neroli, Sweet",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Pale Yellow to Golden",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/neroli-essential-oil.php"
+  },
+  {
+    "oil_id": 151,
+    "oil_name": "Niaouli",
+    "botanical_name": "Melaleuca quinquenervia",
+    "composition": [],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "a-Pinene",
+      "(+)-Limonene",
+      "a-Terpineol",
+      "B-Pinene",
+      "Viridiflorol"
+    ],
+    "therapeutic_properties": [
+      "Bronchitis",
+      "Respiratory Tract Disorders",
+      "Influenza",
+      "Sinus Congestion",
+      "Sore Throats",
+      "Catarrh",
+      "Coughs",
+      "Colds",
+      "Uterine Infections",
+      "Rheumatism",
+      "Muscular Injury",
+      "Rashes",
+      "Pimples",
+      "Acne",
+      "Herpes",
+      "Wounds",
+      "Cuts",
+      "Grazes",
+      "Insect Repellent"
+    ],
+    "emotional_effects": [
+      "Emotion"
+    ],
+    "aroma_profile": "Earthy, Medicinal",
+    "note": "Middle",
+    "blends_well_with": [
+      "Rosemary"
+    ],
+    "color": "Clear",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/niaouli-essential-oil.php"
+  },
+  {
+    "oil_id": 152,
+    "oil_name": "Nutmeg",
+    "botanical_name": "Myristica fragrans",
+    "composition": [],
+    "main_chemical_components": [
+      "Sabinene",
+      "a-Pinene",
+      "B-Pinene",
+      "Myristicin",
+      "Terpinene-4-ol",
+      "Gamma-Terpinene",
+      "Linalool",
+      "(+)-Limonene",
+      "a-Phellandrene",
+      "a-Terpinene",
+      "Safrole",
+      "a-Thujene",
+      "Methyleugenol (reported for East Indian Nutmeg Oil)"
+    ],
+    "therapeutic_properties": [
+      "Gastrointestinal Spasm",
+      "Nausea",
+      "Upset Stomach",
+      "Rheumatism",
+      "Arthritis",
+      "Muscular Aches And Pains",
+      "Muscular Injury",
+      "Menstrual Cramps",
+      "Nervousness",
+      "Tension"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Focus",
+      "Energy"
+    ],
+    "aroma_profile": "Sweet, Spicy, Woody",
+    "note": "Middle",
+    "blends_well_with": [],
+    "color": "Clear",
+    "origin": "United Kingdom, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/nutmeg-essential-oil.php"
+  },
+  {
+    "oil_id": 153,
+    "oil_name": "Oakmoss Absolute",
+    "botanical_name": "Evernia prunastri",
+    "composition": [],
+    "main_chemical_components": [
+      "Methyl B-orcinolcarboxylate",
+      "Ethyl Everninate",
+      "Ethyl Hematonmate",
+      "Ethyl Chlorohematommate"
+    ],
+    "therapeutic_properties": [
+      "Fragrance Fixative"
+    ],
+    "emotional_effects": [],
+    "aroma_profile": "Earthy",
+    "note": "Base",
+    "blends_well_with": [],
+    "color": "Dark Brown",
+    "origin": "United Kingdom",
+    "url": "https://www.aromaweb.com/essential-oils/oakmoss-absolute.php"
+  },
+  {
+    "oil_id": 154,
+    "oil_name": "Ocotea",
+    "botanical_name": "Ocotea quixos",
+    "composition": [],
+    "main_chemical_components": [
+      "Cinnamyl acetate",
+      "Beta caryophyllene",
+      "Methyl cinnamate",
+      "Cinnamaldehyde",
+      "B-Selinene"
+    ],
+    "therapeutic_properties": [
+      "Emotionally Balancing",
+      "Anxiety",
+      "Stress",
+      "Anti-Inflammatory",
+      "Spirituality and Meditation"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Uplift"
+    ],
+    "aroma_profile": "Sweet, Spicy, Woody, Fruity, Floral",
+    "note": "Middle",
+    "blends_well_with": [
+      "Cinnamon"
+    ],
+    "color": "Pale Yellow",
+    "origin": "",
+    "url": "https://www.aromaweb.com/essential-oils/ocotea-essential-oil.php"
+  },
+  {
+    "oil_id": 155,
+    "oil_name": "Olibanum",
+    "botanical_name": "Boswellia sacra(Synonym: Boswellia carteri)",
+    "composition": [],
+    "main_chemical_components": [],
+    "therapeutic_properties": [
+      "Anxiety",
+      "Asthma",
+      "Bronchitis",
+      "Extreme Coughing",
+      "Scars",
+      "Stress",
+      "Stretch Marks"
+    ],
+    "emotional_effects": [
+      "Emotion",
+      "Calm",
+      "Grounding",
+      "Meditation"
+    ],
+    "aroma_profile": "Resinous, Earthy, Sweet, Fruity, Spicy",
+    "note": "Base",
+    "blends_well_with": [
+      "Myrrh",
+      "Frankincense"
+    ],
+    "color": "Light Yellow",
+    "origin": "United Kingdom, Kenya, Australia",
+    "url": "https://www.aromaweb.com/essential-oils/frankincense-essential-oil.php"
+  },
+  {
+    "oil_id": 156,
+    "oil_name": "Peppermint",
+    "botanical_name": "Mentha piperita",
+    "composition": [
+      "Menthol",
+      "Menthone"
+    ],
+    "main_chemical_components": [
+      "Menthol",
+      "Menthone"
+    ],
+    "therapeutic_properties": [
+      "Analgesic",
+      "Cooling",
+      "Antispasmodic"
+    ],
+    "emotional_effects": [
+      "Refreshing",
+      "Invigorating"
+    ],
+    "aroma_profile": "Minty, Fresh, Cool",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Lavender",
+      "Lemon",
+      "Eucalyptus"
+    ]
+  },
+  {
+    "oil_id": 157,
+    "oil_name": "Eucalyptus",
+    "botanical_name": "Eucalyptus globulus",
+    "composition": [
+      "Eucalyptol",
+      "Alpha-pinene"
+    ],
+    "main_chemical_components": [
+      "Eucalyptol",
+      "Alpha-pinene"
+    ],
+    "therapeutic_properties": [
+      "Antiseptic",
+      "Anti-inflammatory",
+      "Expectorant"
+    ],
+    "emotional_effects": [
+      "Refreshing",
+      "Clearing"
+    ],
+    "aroma_profile": "Fresh, Camphoraceous, Medicinal",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Peppermint",
+      "Lavender",
+      "Tea Tree"
+    ]
+  },
+  {
+    "oil_id": 158,
+    "oil_name": "Rosemary",
+    "botanical_name": "Rosmarinus officinalis",
+    "composition": [
+      "1,8-Cineole",
+      "Camphor"
+    ],
+    "main_chemical_components": [
+      "1,8-Cineole",
+      "Camphor"
+    ],
+    "therapeutic_properties": [
+      "Stimulant",
+      "Antimicrobial"
+    ],
+    "emotional_effects": [
+      "Invigorating",
+      "Focus"
+    ],
+    "aroma_profile": "Herbaceous, Woody, Fresh",
+    "note": "Middle",
+    "blends_well_with": [
+      "Lavender",
+      "Lemon",
+      "Peppermint"
+    ]
+  },
+  {
+    "oil_id": 159,
+    "oil_name": "Tea Tree",
+    "botanical_name": "Melaleuca alternifolia",
+    "composition": [
+      "Terpinen-4-ol",
+      "Alpha-terpineol"
+    ],
+    "main_chemical_components": [
+      "Terpinen-4-ol",
+      "Alpha-terpineol"
+    ],
+    "therapeutic_properties": [
+      "Antiseptic",
+      "Anti-inflammatory",
+      "Antifungal"
+    ],
+    "emotional_effects": [
+      "Refreshing",
+      "Cleansing"
+    ],
+    "aroma_profile": "Fresh, Medicinal, Camphoraceous",
+    "note": "Top/Middle",
+    "blends_well_with": [
+      "Lavender",
+      "Eucalyptus",
+      "Lemon"
+    ]
+  },
+  {
+    "oil_id": 160,
+    "oil_name": "Chamomile",
+    "botanical_name": "Matricaria recutita",
+    "composition": [
+      "Alpha-bisabolol",
+      "Chamazulene"
+    ],
+    "main_chemical_components": [
+      "Alpha-bisabolol",
+      "Chamazulene"
+    ],
+    "therapeutic_properties": [
+      "Anti-inflammatory",
+      "Calming",
+      "Antispasmodic"
+    ],
+    "emotional_effects": [
+      "Relaxing",
+      "Soothing"
+    ],
+    "aroma_profile": "Sweet, Herbaceous, Apple-like",
+    "note": "Middle/Base",
+    "blends_well_with": [
+      "Lavender",
+      "Rose",
+      "Citrus oils"
+    ]
+  },
+  {
+    "oil_id": 161,
+    "oil_name": "Palmarosa",
+    "botanical_name": "Cymbopogon martinii",
+    "composition": [
+      "Geraniol",
+      "Linalool"
+    ],
+    "main_chemical_components": [
+      "Geraniol",
+      "Linalool"
+    ],
+    "therapeutic_properties": [
+      "Antibacterial",
+      "Hydrating"
+    ],
+    "emotional_effects": [
+      "Uplifting",
+      "Soothing"
+    ],
+    "aroma_profile": "Floral, Sweet, Rosy",
+    "note": "Middle",
+    "blends_well_with": [
+      "Ylang Ylang",
+      "Geranium",
+      "Bergamot"
+    ]
+  },
+  {
+    "oil_id": 162,
+    "oil_name": "Spikenard",
+    "botanical_name": "Nardostachys jatamansi",
+    "composition": [
+      "Valeranone",
+      "Jatamansone"
+    ],
+    "main_chemical_components": [
+      "Valeranone",
+      "Jatamansone"
+    ],
+    "therapeutic_properties": [
+      "Sedative",
+      "Anti-inflammatory"
+    ],
+    "emotional_effects": [
+      "Grounding",
+      "Relaxing"
+    ],
+    "aroma_profile": "Earthy, Woody, Rich",
+    "note": "Base",
+    "blends_well_with": [
+      "Frankincense",
+      "Patchouli",
+      "Sandalwood"
+    ]
+  },
+  {
+    "oil_id": 163,
+    "oil_name": "Melissa (Lemon Balm)",
+    "botanical_name": "Melissa officinalis",
+    "composition": [
+      "Citral",
+      "Geraniol",
+      "Nerol"
+    ],
+    "main_chemical_components": [
+      "Citral",
+      "Geraniol",
+      "Nerol"
+    ],
+    "therapeutic_properties": [
+      "Calming",
+      "Antiviral"
+    ],
+    "emotional_effects": [
+      "Uplifting",
+      "Soothing"
+    ],
+    "aroma_profile": "Citrusy, Herbaceous, Sweet",
+    "note": "Top",
+    "blends_well_with": [
+      "Lavender",
+      "Bergamot",
+      "Palmarosa"
+    ]
+  }
+]
