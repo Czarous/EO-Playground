@@ -1,0 +1,306 @@
+[
+  {
+    "oil_name": "Atlas Cedarwood",
+    "safe_name": "Atlas_Cedarwood",
+    "confidence": 0.48,
+    "source_url": "https://i0.wp.com/thrivetools.co/wp-content/uploads/2023/04/cedarwood-1.webp?fit=600%2C600&ssl=1",
+    "query_used": "Atlas Cedarwood flower",
+    "timestamp": 1758396996.8809743
+  },
+  {
+    "oil_name": "Basil, Holy",
+    "safe_name": "Basil__Holy",
+    "confidence": 0.25,
+    "source_url": "https://images.unsplash.com/photo-1636759172088-bff27f6fc98c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDY4NDJ8MHwxfHNlYXJjaHw1fHxCYXNpbCUyQyUyMEhvbHklMjBlc3NlbnRpYWwlMjBvaWx8ZW58MHx8fHwxNzU4Mzk2OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "query_used": "Basil, Holy essential oil",
+    "timestamp": 1758396998.1804903
+  },
+  {
+    "oil_name": "Balsam, Peru",
+    "safe_name": "Balsam__Peru",
+    "confidence": 0.21,
+    "source_url": "https://images.unsplash.com/photo-1750182315615-fc30eb55d0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDY4NDJ8MHwxfHNlYXJjaHw1fHxCYWxzYW0lMkMlMjBQZXJ1JTIwcGxhbnR8ZW58MHx8fHwxNzU4Mzk2OTc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "query_used": "Balsam, Peru plant",
+    "timestamp": 1758396998.5136333
+  },
+  {
+    "oil_name": "Anise, Star",
+    "safe_name": "Anise__Star",
+    "confidence": 0.54,
+    "source_url": "https://c8.alamy.com/comp/WNMYMW/star-anise-essential-oil-isolated-on-white-background-illicium-verum-oil-bottle-with-dropper-WNMYMW.jpg",
+    "query_used": "Illicium verum essential oil",
+    "timestamp": 1758397003.8645866
+  },
+  {
+    "oil_name": "Camphor, White",
+    "safe_name": "Camphor__White",
+    "confidence": 0.58,
+    "source_url": "https://thumbs.dreamstime.com/b/cinnamomum-camphora-flower-summer-64614143.jpg",
+    "query_used": "Cinnamomum camphora leaf",
+    "timestamp": 1758397017.9374619
+  },
+  {
+    "oil_name": "Cannabis",
+    "safe_name": "Cannabis",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397026.0762873
+  },
+  {
+    "oil_name": "Cedarwood, Atlas",
+    "safe_name": "Cedarwood__Atlas",
+    "confidence": 0.48,
+    "source_url": "https://essentialoilapothecary.com/wp-content/uploads/2021/05/il_fullxfull.2522783690_13s7-scaled.jpg",
+    "query_used": "Cedarwood, Atlas essential oil",
+    "timestamp": 1758397036.9534779
+  },
+  {
+    "oil_name": "Cedarwood, Virginian",
+    "safe_name": "Cedarwood__Virginian",
+    "confidence": 0.54,
+    "source_url": "https://www.lsu.edu/departments/horticulture/plantmaterials/Plant Groups/Evergreen Trees/Juniperus virginiana/images/juniperus_virginiana_leaf_jpg.jpg",
+    "query_used": "Juniperus virginiana leaf",
+    "timestamp": 1758397045.8216078
+  },
+  {
+    "oil_name": "Chamomile, German",
+    "safe_name": "Chamomile__German",
+    "confidence": 0.12,
+    "source_url": "http://cdn.shopify.com/s/files/1/1419/7120/products/ChamomileFlower_square_SHUT.jpg?v=1613426378",
+    "query_used": "Chamomile, German essential oil",
+    "timestamp": 1758397047.98965
+  },
+  {
+    "oil_name": "Chamomile, Roman",
+    "safe_name": "Chamomile__Roman",
+    "confidence": 0.36,
+    "source_url": "http://static1.squarespace.com/static/6388333c20a49f388cf09ad1/638976881e0ca1411b9a42b3/63898fa8703cde641ad7306d/1730264868870/Roman-Chamomile-macro-510x371.jpg?format=1500w",
+    "query_used": "Chamaemelum nobile / Anthemis nobilis essential oil",
+    "timestamp": 1758397052.8131695
+  },
+  {
+    "oil_name": "Champaca, White",
+    "safe_name": "Champaca__White",
+    "confidence": 0.54,
+    "source_url": "https://cdn11.bigcommerce.com/s-m75mqevzjq/images/stencil/800x800/products/831/1530/michelia-alba-leaf-essential-oil__21975.1629117926.jpg?c=2",
+    "query_used": "Michelia alba essential oil",
+    "timestamp": 1758397073.152503
+  },
+  {
+    "oil_name": "Citronella",
+    "safe_name": "Citronella",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397073.5472527
+  },
+  {
+    "oil_name": "Coffee",
+    "safe_name": "Coffee",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397077.3510518
+  },
+  {
+    "oil_name": "Cypress, Taiwan (Formosan)",
+    "safe_name": "Cypress__Taiwan__Formosan_",
+    "confidence": 0.48,
+    "source_url": "http://risingsunbotanicals.com/cdn/shop/products/RoundPhoto-Jun052019-214638_grande.png?v=1559796492",
+    "query_used": "Chamaecyparis formosensis essential oil",
+    "timestamp": 1758397094.801148
+  },
+  {
+    "oil_name": "Cypress, Blue",
+    "safe_name": "Cypress__Blue",
+    "confidence": 0.48,
+    "source_url": "https://miraclebotanicals.com/cdn/shop/products/cypress-blue-essential-oil-callitris-intratropica-620964.jpg?v=1679118011&width=1080",
+    "query_used": "Cypress, Blue essential oil bottle",
+    "timestamp": 1758397096.791111
+  },
+  {
+    "oil_name": "Eucalyptus, Lemon",
+    "safe_name": "Eucalyptus__Lemon",
+    "confidence": 0.48,
+    "source_url": "https://cdn11.bigcommerce.com/s-kakpt9/images/stencil/1280x1280/products/75/284/Eucallemonscented__18554.1418684678.jpg?c=2",
+    "query_used": "Eucalyptus, Lemon essential oil bottle",
+    "timestamp": 1758397099.5828981
+  },
+  {
+    "oil_name": "Fir, Douglas",
+    "safe_name": "Fir__Douglas",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397118.2506828
+  },
+  {
+    "oil_name": "Fir, Siberian",
+    "safe_name": "Fir__Siberian",
+    "confidence": 0.54,
+    "source_url": "https://www.natureinbottle.com/upload/product_ecom/Siberian-Fir-Essential-Oil-Abies-sibirica-ProductPic.jpeg",
+    "query_used": "Fir, Siberian essential oil bottle",
+    "timestamp": 1758397126.7539775
+  },
+  {
+    "oil_name": "Geranium, Rose",
+    "safe_name": "Geranium__Rose",
+    "confidence": 0.48,
+    "source_url": "https://minilux.co/cdn/shop/files/15.png?v=1692353599&width=1445",
+    "query_used": "Pelargonium roseum essential oil",
+    "timestamp": 1758397138.148268
+  },
+  {
+    "oil_name": "Gurjum Balsam",
+    "safe_name": "Gurjum_Balsam",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397147.1873355
+  },
+  {
+    "oil_name": "Indian Sandalwood (East Indian)",
+    "safe_name": "Indian_Sandalwood__East_Indian_",
+    "confidence": 0.54,
+    "source_url": "https://herbaroma-trade.com/wp-content/uploads/2022/10/santanol.jpg",
+    "query_used": "Santalum album essential oil",
+    "timestamp": 1758397161.2033968
+  },
+  {
+    "oil_name": "Ironbark, Lemon-Scented",
+    "safe_name": "Ironbark__Lemon-Scented",
+    "confidence": 0.54,
+    "source_url": "https://www.plantasmagorical.com/uploads/1/3/0/2/130256459/s393409256957928602_p774_i1_w750.jpeg",
+    "query_used": "Eucalyptus staigeriana essential oil",
+    "timestamp": 1758397168.4221287
+  },
+  {
+    "oil_name": "Lavender, Spike",
+    "safe_name": "Lavender__Spike",
+    "confidence": 0.54,
+    "source_url": "https://www.natureinbottle.com/upload/product_ecom/Spike-Lavender-Oil-Lavandula-latifolia-ProductPic_1554190709.jpg",
+    "query_used": "Lavender, Spike flower",
+    "timestamp": 1758397169.2461486
+  },
+  {
+    "oil_name": "Lavender Tea Tree",
+    "safe_name": "Lavender_Tea_Tree",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397176.8051994
+  },
+  {
+    "oil_name": "Lemongrass",
+    "safe_name": "Lemongrass",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397180.4175444
+  },
+  {
+    "oil_name": "Myrrh, Sweet",
+    "safe_name": "Myrrh__Sweet",
+    "confidence": 0.18,
+    "source_url": "https://healingplantsprotw.com/wp-content/uploads/2023/09/Opoponax-1-600x600.jpg",
+    "query_used": "Commiphora guidottii / Commiphora erythraea plant",
+    "timestamp": 1758397191.6314933
+  },
+  {
+    "oil_name": "Myrtle, Lemon",
+    "safe_name": "Myrtle__Lemon",
+    "confidence": 0.54,
+    "source_url": "https://www.natureinbottle.com/upload/product_ecom/Lemon-Myrtle-Essential-Oil-Backhousia-citriodora-ProductPic.jpg",
+    "query_used": "Myrtle, Lemon essential oil bottle",
+    "timestamp": 1758397196.2266324
+  },
+  {
+    "oil_name": "Oakmoss Absolute",
+    "safe_name": "Oakmoss_Absolute",
+    "confidence": 0.54,
+    "source_url": "https://cdn.shopify.com/s/files/1/2101/4997/products/8oz-bottle-oakmoss-oil_1024x1024@2x.jpg?v=1627578823",
+    "query_used": "Evernia prunastri essential oil",
+    "timestamp": 1758397205.212101
+  },
+  {
+    "oil_name": "Rosemary",
+    "safe_name": "Rosemary",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758397215.3363698
+  },
+  {
+    "oil_name": "Melissa (Lemon Balm)",
+    "safe_name": "Melissa__Lemon_Balm_",
+    "confidence": 0.54,
+    "source_url": "https://www.clipartkey.com/mpngs/m/62-620664_plant-leaf-herb-melissa-officinalis.png",
+    "query_used": "Melissa officinalis leaf",
+    "timestamp": 1758397259.652524
+  },
+  {
+    "oil_name": "Buddha Wood",
+    "safe_name": "Buddha_Wood",
+    "confidence": 0.48,
+    "source_url": "https://www.thewellschool.co.uk/wp-content/uploads/2022/12/Buddha-Wood-Essential-Oil.jpg",
+    "query_used": "Buddha Wood essential oil",
+    "timestamp": 1758398000.3351448
+  },
+  {
+    "oil_name": "Buddha Wood",
+    "safe_name": "Buddha_Wood",
+    "confidence": 0.48,
+    "source_url": "https://www.thewellschool.co.uk/wp-content/uploads/2022/12/Buddha-Wood-Essential-Oil.jpg",
+    "query_used": "Buddha Wood essential oil",
+    "timestamp": 1758398013.4183338
+  },
+  {
+    "oil_name": "Desert Rosewood",
+    "safe_name": "Desert_Rosewood",
+    "confidence": 0.48,
+    "source_url": "https://aytzchayim.com/wp-content/uploads/2022/08/Aussie-Desert-rosewood-Essential-Oil-5.jpg",
+    "query_used": "Desert Rosewood essential oil",
+    "timestamp": 1758398120.6051087
+  },
+  {
+    "oil_name": "Desert Rosewood",
+    "safe_name": "Desert_Rosewood",
+    "confidence": 0.48,
+    "source_url": "https://aytzchayim.com/wp-content/uploads/2022/08/Aussie-Desert-rosewood-Essential-Oil-5.jpg",
+    "query_used": "Desert Rosewood essential oil",
+    "timestamp": 1758398122.4620109
+  },
+  {
+    "oil_name": "Desert Rosewood",
+    "safe_name": "Desert_Rosewood",
+    "confidence": 0.48,
+    "source_url": "https://aytzchayim.com/wp-content/uploads/2022/08/Aussie-Desert-rosewood-Essential-Oil-5.jpg",
+    "query_used": "Desert Rosewood essential oil",
+    "timestamp": 1758398171.250459
+  },
+  {
+    "oil_name": "Myrrh",
+    "safe_name": "Myrrh",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758399992.9255486
+  },
+  {
+    "oil_name": "Buddha Wood",
+    "safe_name": "Buddha_Wood",
+    "confidence": 0.2,
+    "source_url": "https://images.unsplash.com/photo-1728762561574-bea8acacba6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDY4NDJ8MHwxfHNlYXJjaHw0fHxCdWRkaGElMjBXb29kJTIwZXNzZW50aWFsJTIwb2lsfGVufDB8fHx8MTc1ODM5OTk4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "query_used": "Buddha Wood essential oil",
+    "timestamp": 1758400000.1154277
+  },
+  {
+    "oil_name": "Buddha Wood",
+    "safe_name": "Buddha_Wood",
+    "confidence": 0.0,
+    "source_url": null,
+    "query_used": null,
+    "timestamp": 1758400004.2505655
+  }
+]

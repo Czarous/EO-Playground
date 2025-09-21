@@ -4,7 +4,9 @@ from flask import Flask, render_template, request, jsonify, abort
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import quote
-import math
+import threading
+from concurrent.futures import ThreadPoolExecutor
+from PIL import Image
 
 
 app = Flask(__name__)
@@ -12,7 +14,26 @@ app = Flask(__name__)
 # Always resolve path relative to this file
 DATA_FILE = os.path.join("..", "data", "oils_full.json") 
 
-# Load the oils data once at startup
+
+# Google Custom Search API
+GOOGLE_CSE_ID = "d6b272582a998423d"
+GOOGLE_API_KEY = "AIzaSyD_OFB0XPOorVyA_P3lgyT-HCgpUUXoWZM"
+UNSPLASH_ACCESS_KEY = "RcdKHp8-6ccDbxAjlMzsT9mT0gsi8fQGEGdK1Hjn17Y"
+
+CACHE_META_FILE = os.path.join(app.root_path, "data", "image_cache_meta.json")
+IMAGE_FOLDER = os.path.join(app.root_path, "static", "oils")
+os.makedirs(IMAGE_FOLDER, exist_ok=True)
+FALLBACK_IMAGE = "/static/oils/placeholder.jpg"
+
+LOW_CONF_THRESHOLD = 0.6
+HIGH_CONF_THRESHOLD = 0.8
+
+# Example keyword list to score image relevance
+PLANT_KEYWORDS = {"leaf","flower","plant","tree","herb","bloom","foliage","bottle","essential","oil","seed","petal"}
+
+
+
+
 try:
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         oils_data = json.load(f)
@@ -370,46 +391,134 @@ def filter_oils_json(filter_type):
 
 
 
+# --- Utilities ---
+def safe_name_for_file(name):
+    return "".join(c if c.isalnum() else "_" for c in name)[:120]
 
+def load_cache_meta():
+    if os.path.exists(CACHE_META_FILE):
+        try:
+            with open(CACHE_META_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except: pass
+    return {}
 
-def search_oil_image(oil_name):
-    query = quote(oil_name + " essential oil")
-    url = f"https://www.bing.com/images/search?q={query}&qft=+filterui:imagesize-large&form=IRFLTR"
+def save_cache_meta(meta):
+    os.makedirs(os.path.dirname(CACHE_META_FILE), exist_ok=True)
+    with open(CACHE_META_FILE, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
 
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/139.0.0.0 Safari/537.36",
-    }
-
+def download_image(url, local_path):
     try:
-        resp = requests.get(url, headers=headers, timeout=10)
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        with open(local_path, "wb") as f:
+            f.write(r.content)
+        return True
+    except:
+        return False
+
+# --- Image sources ---
+def fetch_google_image(query):
+    try:
+        url = f"https://www.googleapis.com/customsearch/v1?q={quote(query)}&cx={GOOGLE_CSE_ID}&searchType=image&num=1&key={GOOGLE_API_KEY}"
+        res = requests.get(url, timeout=6)
+        res.raise_for_status()
+        data = res.json()
+        if data.get("items"):
+            return data["items"][0]["link"]
+    except: pass
+    return None
+
+def fetch_unsplash_image(query):
+    try:
+        url = "https://api.unsplash.com/search/photos"
+        params = {"query": query, "per_page": 1, "client_id": UNSPLASH_ACCESS_KEY}
+        res = requests.get(url, params=params, timeout=6)
+        res.raise_for_status()
+        data = res.json()
+        if data.get("results"):
+            return data["results"][0]["urls"]["regular"]
+    except: pass
+    return None
+
+def fetch_bing_image(query):
+    try:
+        url = f"https://www.bing.com/images/search?q={quote(query)}&qft=+filterui:imagesize-large&form=IRFLTR"
+        headers = {"User-Agent": "Mozilla/5.0"}
+        resp = requests.get(url, headers=headers, timeout=8)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
-
-        # Grab first large image result
         img_tag = soup.find("a", class_="iusc")
         if img_tag and img_tag.get("m"):
-            import json
-            metadata = json.loads(img_tag["m"])
-            return {"image_url": metadata.get("murl")}
+            meta = json.loads(img_tag["m"])
+            return meta.get("murl")
+    except: pass
+    return None
 
-        return {"image_url": None}
-    except Exception as e:
-        return {"image_url": None, "error": str(e)}
+# --- Core ---
+def fetch_and_cache_image(oil):
+    name = oil.get("oil_name")
+    botanical = oil.get("botanical_name")
+    safe_name = safe_name_for_file(botanical or name)
+    local_path = os.path.join(IMAGE_FOLDER, f"{safe_name}.jpg")
+    local_url = f"/static/oils/{safe_name}.jpg"
 
+    cache = load_cache_meta()
+    if safe_name in cache and os.path.exists(local_path):
+        return cache[safe_name].get("local_url", local_url)
+
+    # Build query
+    queries = []
+    if botanical: queries.append(f"{botanical} essential oil")
+    if name: queries.append(f"{name} essential oil")
+    
+    img_url = None
+    for q in queries:
+        for fetcher in [fetch_google_image, fetch_unsplash_image, fetch_bing_image]:
+            img_url = fetcher(q)
+            if img_url and download_image(img_url, local_path):
+                break
+        if img_url: break
+
+    final_url = local_url if img_url else FALLBACK_IMAGE
+
+    # Save cache
+    cache[safe_name] = {"local_url": final_url, "source_url": img_url}
+    save_cache_meta(cache)
+    return final_url
+
+# --- Route ---
 @app.route("/get-oil-image")
-def get_oil_image():
-    oil_name = request.args.get("oil_name")  # match JS param
-    if not oil_name:
-        return jsonify({"error": "Missing oil name"}), 400
+def get_image_route():
+    oil_name = request.args.get("oil_name")
+    botanical_name = request.args.get("botanical_name")
+    if not oil_name and not botanical_name:
+        return jsonify({"error": "Missing oil or botanical name"}), 400
 
-    image_data = search_oil_image(oil_name)
-    return jsonify(image_data)
+    oil_obj = {"oil_name": oil_name, "botanical_name": botanical_name}
+    safe_name = safe_name_for_file(botanical_name or oil_name)
+    local_path = os.path.join(IMAGE_FOLDER, f"{safe_name}.jpg")
+    cache = load_cache_meta()
+
+    # Return cached immediately, fetch in background if missing
+    if safe_name in cache and os.path.exists(local_path):
+        local_url = cache[safe_name].get("local_url", FALLBACK_IMAGE)
+        threading.Thread(target=fetch_and_cache_image, args=(oil_obj,), daemon=True).start()
+        return jsonify({"image_url": local_url})
+
+    # Fetch now if not cached
+    local_url = fetch_and_cache_image(oil_obj)
+    return jsonify({"image_url": local_url})
+
+
+
+        
 
 
 
 
+    
 
 @app.route("/oil/<int:oil_id>")
 def oil_detail(oil_id):

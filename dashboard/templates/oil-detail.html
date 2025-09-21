@@ -37,7 +37,7 @@ styles %}
     -moz-osx-font-smoothing: grayscale;
 
     
-    background-color: lightcyan;
+    background-color: lightblue;
   }
 
   /* add this near your other styles */
@@ -752,43 +752,42 @@ styles %}
   }
 
   /* ----------------- IMAGE ----------------- */
-  async function loadOilImageFromServer(oilName) {
-    const imgEl = el("oilImage");
-    const placeholder = el("imagePlaceholder");
+async function loadOilImageFromServer(oilName) {
+  const imgEl = document.getElementById("oilImage");
+  const placeholder = document.getElementById("imagePlaceholder");
 
-    if (!oilName) {
-      imgEl.style.display = "none";
-      placeholder.style.display = "block";
-      return;
-    }
+  if (!oilName) {
+    imgEl.style.display = "none";
+    placeholder.style.display = "block";
+    return;
+  }
 
-    try {
-      const res = await fetch(
-        `/get-oil-image?oil_name=${encodeURIComponent(oilName)}`
-      );
-      const data = await res.json();
+  try {
+    const res = await fetch(`/get-oil-image?oil_name=${encodeURIComponent(oilName)}`);
+    const data = await res.json();
 
-      if (data && data.image_url) {
-        imgEl.src = data.image_url;
-        imgEl.onload = () => {
-          imgEl.classList.add("loaded");
-          imgEl.style.display = "block";
-          placeholder.style.display = "none";
-        };
-        imgEl.onerror = () => {
-          imgEl.style.display = "none";
-          placeholder.style.display = "block";
-        };
-      } else {
+    if (res.ok && data.image_url) {
+      imgEl.src = data.image_url;
+      imgEl.onload = () => {
+        imgEl.classList.add("loaded");
+        imgEl.style.display = "block";
+        placeholder.style.display = "none";
+      };
+      imgEl.onerror = () => {
         imgEl.style.display = "none";
         placeholder.style.display = "block";
-      }
-    } catch (err) {
-      console.error(err);
+      };
+    } else {
       imgEl.style.display = "none";
       placeholder.style.display = "block";
     }
+  } catch (err) {
+    console.error(err);
+    imgEl.style.display = "none";
+    placeholder.style.display = "block";
   }
+}
+
 
   // Populate aroma profile chips
   function populateAromaChips() {

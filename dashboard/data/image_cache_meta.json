@@ -1,0 +1,452 @@
+{
+  "Aloeswood": {
+    "local_path": "static/oils/Aloeswood.jpg",
+    "local_url": "/static/oils/Aloeswood.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Angelica_Root": {
+    "local_path": "static/oils/Angelica_Root.jpg",
+    "local_url": "/static/oils/Angelica_Root.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Anise": {
+    "local_path": "static/oils/Anise.jpg",
+    "local_url": "/static/oils/Anise.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Atlas_Cedarwood": {
+    "local_path": "static/oils/Atlas_Cedarwood.jpg",
+    "local_url": "/static/oils/Atlas_Cedarwood.jpg",
+    "source_url": "https://i0.wp.com/thrivetools.co/wp-content/uploads/2023/04/cedarwood-1.webp?fit=600%2C600&ssl=1",
+    "confidence": 0.48,
+    "query_used": "Atlas Cedarwood flower"
+  },
+  "Bay": {
+    "local_path": "static/oils/Bay.jpg",
+    "local_url": "/static/oils/Bay.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Bay_Laurel": {
+    "local_path": "static/oils/Bay_Laurel.jpg",
+    "local_url": "/static/oils/Bay_Laurel.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Beeswax_Absolute": {
+    "local_path": "static/oils/Beeswax_Absolute.jpg",
+    "local_url": "/static/oils/Beeswax_Absolute.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Benzoin_Absolute": {
+    "local_path": "static/oils/Benzoin_Absolute.jpg",
+    "local_url": "/static/oils/Benzoin_Absolute.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Bergamot": {
+    "local_path": "static/oils/Bergamot.jpg",
+    "local_url": "/static/oils/Bergamot.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Bergamot_Mint": {
+    "local_path": "static/oils/Bergamot_Mint.jpg",
+    "local_url": "/static/oils/Bergamot_Mint.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Bitter_Orange": {
+    "local_url": "/static/oils/Bitter_Orange.jpg",
+    "source_url": "https://www.edensgarden.com/cdn/shop/products/10ml-Bottle_Mockup-2022_Single-Oil_Updated_Orange-Bitter.jpg?v=1667488490"
+  },
+  "Black_Pepper": {
+    "local_path": "static/oils/Black_Pepper.jpg",
+    "local_url": "/static/oils/Black_Pepper.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Black_Spruce": {
+    "local_path": "static/oils/Black_Spruce.jpg",
+    "local_url": "/static/oils/Black_Spruce.jpg",
+    "source_url": "https://www.blacksheepfarmoils.com.au/wp-content/uploads/2021/03/10ml_Black-Spruce_Picea-Mariana_100_-Essential-Oil.jpg",
+    "confidence": 0.84,
+    "query_used": "Black Spruce essential oil"
+  },
+  "Carrot_Seed": {
+    "local_path": "static/oils/Carrot_Seed.jpg",
+    "local_url": "/static/oils/Carrot_Seed.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Cassia": {
+    "local_path": "static/oils/Cassia.jpg",
+    "local_url": "/static/oils/Cassia.jpg",
+    "source_url": "http://www.honggardo.com/images/detailed/1/Cassia__EO-CASS-005-HK_.jpg",
+    "confidence": 0.84,
+    "query_used": "Cinnamomum cassia essential oil"
+  },
+  "Chamomile__Roman": {
+    "local_path": "static/oils/Chamomile__Roman.jpg",
+    "local_url": "/static/oils/Chamomile__Roman.jpg",
+    "source_url": "http://static1.squarespace.com/static/6388333c20a49f388cf09ad1/638976881e0ca1411b9a42b3/63898fa8703cde641ad7306d/1730264868870/Roman-Chamomile-macro-510x371.jpg?format=1500w",
+    "confidence": 0.36,
+    "query_used": "Chamaemelum nobile / Anthemis nobilis essential oil"
+  },
+  "Citronella": {
+    "local_url": "/static/oils/Citronella.jpg",
+    "source_url": "https://m.media-amazon.com/images/I/717yGwKYXqL._UF894,1000_QL80_.jpg",
+    "query_used": "Citronella essential oil bottle"
+  },
+  "Cypress__Taiwan__Formosan_": {
+    "local_path": "static/oils/Cypress__Taiwan__Formosan_.jpg",
+    "local_url": "/static/oils/Cypress__Taiwan__Formosan_.jpg",
+    "source_url": "http://risingsunbotanicals.com/cdn/shop/products/RoundPhoto-Jun052019-214638_grande.png?v=1559796492",
+    "confidence": 0.48,
+    "query_used": "Chamaecyparis formosensis essential oil"
+  },
+  "Eucalyptus_Radiata": {
+    "local_path": "static/oils/Eucalyptus_Radiata.jpg",
+    "local_url": "/static/oils/Eucalyptus_Radiata.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Eucalyptus_Staigeriana": {
+    "local_path": "static/oils/Eucalyptus_Staigeriana.jpg",
+    "local_url": "/static/oils/Eucalyptus_Staigeriana.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Fennel": {
+    "local_url": "/static/oils/Fennel.jpg",
+    "source_url": "https://draxe.com/wp-content/uploads/2016/06/FennelOilUpdate_FB.jpg"
+  },
+  "Fir__Balsam": {
+    "local_path": "static/oils/Fir__Balsam.jpg",
+    "local_url": "/static/oils/Fir__Balsam.jpg",
+    "source_url": "https://www.wingsets.com/cdn/shop/products/balsamfirEObottleproductpic_1024x1024.jpg?v=1674008464",
+    "confidence": 0.9,
+    "query_used": "Abies balsamea essential oil"
+  },
+  "Fragonia": {
+    "local_path": "static/oils/Fragonia.jpg",
+    "local_url": "/static/oils/Fragonia.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Frankincense": {
+    "local_url": "/static/oils/Frankincense.jpg",
+    "source_url": "https://doterra-prod-media1.s3.amazonaws.com/h43/h12/27855358623774.png",
+    "query_used": "Frankincense essential oil bottle"
+  },
+  "Galbanum": {
+    "local_path": "static/oils/Galbanum.jpg",
+    "local_url": "/static/oils/Galbanum.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Geranium": {
+    "local_url": "/static/oils/Geranium.jpg",
+    "source_url": "https://m.media-amazon.com/images/I/51eYrX7nQwL._UF1000,1000_QL80_.jpg",
+    "query_used": "Geranium essential oil bottle"
+  },
+  "Geranium__Rose": {
+    "local_path": "static/oils/Geranium__Rose.jpg",
+    "local_url": "/static/oils/Geranium__Rose.jpg",
+    "source_url": "https://minilux.co/cdn/shop/files/15.png?v=1692353599&width=1445",
+    "confidence": 0.48,
+    "query_used": "Pelargonium roseum essential oil"
+  },
+  "Ho_Leaf": {
+    "local_path": "static/oils/Ho_Leaf.jpg",
+    "local_url": "/static/oils/Ho_Leaf.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Ho_Wood": {
+    "local_path": "static/oils/Ho_Wood.jpg",
+    "local_url": "/static/oils/Ho_Wood.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Holy_Basil": {
+    "local_path": "static/oils/Holy_Basil.jpg",
+    "local_url": "/static/oils/Holy_Basil.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Hong_Kuai": {
+    "local_path": "static/oils/Hong_Kuai.jpg",
+    "local_url": "/static/oils/Hong_Kuai.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Hops": {
+    "local_url": "/static/oils/Hops.jpg",
+    "source_url": "https://lazenskakava.s24.cdn-upgates.com/_cache/5/5/55dea5b7babffa85e0fba1d420867303-chmel-100-prirodni-esencialni-olej-10ml-pestik.jpg",
+    "query_used": "Hops essential oil bottle"
+  },
+  "Hyssop": {
+    "local_path": "static/oils/Hyssop.jpg",
+    "local_url": "/static/oils/Hyssop.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Indian_Sandalwood__East_Indian_": {
+    "local_path": "static/oils/Indian_Sandalwood__East_Indian_.jpg",
+    "local_url": "/static/oils/Indian_Sandalwood__East_Indian_.jpg",
+    "source_url": "https://herbaroma-trade.com/wp-content/uploads/2022/10/santanol.jpg",
+    "confidence": 0.54,
+    "query_used": "Santalum album essential oil"
+  },
+  "Ledum": {
+    "local_url": "/static/oils/Ledum.jpg",
+    "source_url": "https://static.youngliving.com/productimages/large/3579515.jpg"
+  },
+  "Lemon": {
+    "local_path": "static/oils/Lemon.jpg",
+    "local_url": "/static/oils/Lemon.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Lemon_Balm": {
+    "local_path": "static/oils/Lemon_Balm.jpg",
+    "local_url": "/static/oils/Lemon_Balm.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Lemon_Eucalyptus": {
+    "local_path": "static/oils/Lemon_Eucalyptus.jpg",
+    "local_url": "/static/oils/Lemon_Eucalyptus.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Lemon_Myrtle": {
+    "local_url": "/static/oils/Lemon_Myrtle.jpg",
+    "source_url": "https://m.media-amazon.com/images/I/51x-LnsQnBL._UF894,1000_QL80_.jpg",
+    "query_used": "Lemon Myrtle essential oil bottle"
+  },
+  "Lemon_Petitgrain": {
+    "local_url": "/static/oils/Lemon_Petitgrain.jpg",
+    "source_url": "https://m.media-amazon.com/images/I/61+X40ALR0L._UF1000,1000_QL80_.jpg",
+    "query_used": "Lemon Petitgrain essential oil bottle"
+  },
+  "Lemon-Scented_Ironbark": {
+    "local_path": "static/oils/Lemon-Scented_Ironbark.jpg",
+    "local_url": "/static/oils/Lemon-Scented_Ironbark.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Lemon_Tea_Tree": {
+    "local_path": "static/oils/Lemon_Tea_Tree.jpg",
+    "local_url": "/static/oils/Lemon_Tea_Tree.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Lemon_Verbena": {
+    "local_url": "/static/oils/Lemon_Verbena.jpg",
+    "source_url": "https://images.ctfassets.net/x0wnv07j8mtt/skuPrimaryImage32013/facd1ea91627e63d228787c17626479c/32013.png?q=75&fm=jpg&w=1080&h=1080"
+  },
+  "Lemongrass": {
+    "local_path": "static/oils/Lemongrass.jpg",
+    "local_url": "/static/oils/placeholder.jpg",
+    "source_url": null,
+    "confidence": 0.0,
+    "query_used": null
+  },
+  "Nard": {
+    "local_path": "static/oils/Nard.jpg",
+    "local_url": "/static/oils/Nard.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Neroli": {
+    "local_path": "static/oils/Neroli.jpg",
+    "local_url": "/static/oils/Neroli.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Niaouli": {
+    "local_path": "static/oils/Niaouli.jpg",
+    "local_url": "/static/oils/Niaouli.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Nutmeg": {
+    "local_path": "static/oils/Nutmeg.jpg",
+    "local_url": "/static/oils/Nutmeg.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Oakmoss_Absolute": {
+    "local_path": "static/oils/Oakmoss_Absolute.jpg",
+    "local_url": "/static/oils/Oakmoss_Absolute.jpg",
+    "source_url": "https://cdn.shopify.com/s/files/1/2101/4997/products/8oz-bottle-oakmoss-oil_1024x1024@2x.jpg?v=1627578823",
+    "confidence": 0.54,
+    "query_used": "Evernia prunastri essential oil"
+  },
+  "Palmarosa": {
+    "local_path": "static/oils/Palmarosa.jpg",
+    "local_url": "/static/oils/Palmarosa.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Spikenard": {
+    "local_path": "static/oils/Spikenard.jpg",
+    "local_url": "/static/oils/Spikenard.jpg",
+    "source_url": null,
+    "confidence": 1.0,
+    "query_used": null
+  },
+  "Melissa__Lemon_Balm_": {
+    "local_path": "static/oils/Melissa__Lemon_Balm_.jpg",
+    "local_url": "/static/oils/Melissa__Lemon_Balm_.jpg",
+    "source_url": "https://www.clipartkey.com/mpngs/m/62-620664_plant-leaf-herb-melissa-officinalis.png",
+    "confidence": 0.54,
+    "query_used": "Melissa officinalis leaf"
+  },
+  "Buddha_Wood": {
+    "local_url": "/static/oils/Buddha_Wood.jpg",
+    "source_url": "https://www.auracacia.com/media/catalog/product/0/5/051381912482-aura-cacia-0.5oz-pe-rtu-buddha-wood-L191248A2-front.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=520&width=520&canvas=520:520"
+  },
+  "Desert_Rosewood": {
+    "local_path": "static/oils/Desert_Rosewood.jpg",
+    "local_url": "/static/oils/Desert_Rosewood.jpg",
+    "source_url": "https://aytzchayim.com/wp-content/uploads/2022/08/Aussie-Desert-rosewood-Essential-Oil-5.jpg",
+    "confidence": 0.48,
+    "query_used": "Desert Rosewood essential oil"
+  },
+  "Champaca__White": {
+    "local_path": "static/oils/Champaca__White.jpg",
+    "local_url": "/static/oils/Champaca__White.jpg",
+    "source_url": "https://cdn11.bigcommerce.com/s-m75mqevzjq/images/stencil/800x800/products/831/1530/michelia-alba-leaf-essential-oil__21975.1629117926.jpg?c=2",
+    "confidence": 0.54,
+    "query_used": "Michelia alba essential oil"
+  },
+  "Agarwood": {
+    "local_path": "static/oils/Agarwood.jpg",
+    "local_url": "/static/oils/Agarwood.jpg",
+    "source_url": "https://risingsunbotanicals.com/cdn/shop/files/Round_Photo_May162023_204309_grande.png?v=1684335138",
+    "confidence": 0.84,
+    "query_used": "Aquilaria crassna essential oil"
+  },
+  "Muhuhu": {
+    "local_url": "/static/oils/Muhuhu.jpg",
+    "source_url": "https://www.edensgarden.com/cdn/shop/products/10ml-Bottle_Mockup-2022_Single-Oil_Updated_Muhuhu.jpg?v=1667487760",
+    "query_used": "Muhuhu essential oil bottle"
+  },
+  "Anthopogon": {
+    "local_url": "/static/oils/Anthopogon.jpg",
+    "source_url": "https://www.natureinbottle.com/upload/product_ecom/Rhododendron_Oil_Rhododendron_Anthopogon_Oil.jpg"
+  },
+  "Lavender": {
+    "local_url": "/static/oils/Lavender.jpg",
+    "source_url": "https://m.media-amazon.com/images/I/617TKZEeRxL._UF894,1000_QL80_.jpg"
+  },
+  "Lime": {
+    "local_url": "/static/oils/Lime.jpg",
+    "source_url": "https://rusticstrength.com/cdn/shop/files/1OZ_MintLime_EO.jpg?v=1696527719",
+    "query_used": "Lime essential oil bottle"
+  },
+  "Mandarin": {
+    "local_url": "/static/oils/Mandarin.jpg",
+    "source_url": "https://www.edensgarden.com/cdn/shop/products/10ml-Bottle_Mockup-2022_Single-Oil_Updated_Mandarin-Nova.jpg?v=1667487653",
+    "query_used": "Mandarin essential oil bottle"
+  },
+  "Fir__Silver": {
+    "local_url": "/static/oils/Fir__Silver.jpg",
+    "source_url": "https://www.edensgarden.com/cdn/shop/products/10ml-Bottle_Mockup-2022_Single-Oil_Updated_Fir-Silver.jpg?v=1667450308"
+  },
+  "African_Sandalwood": {
+    "local_url": "/static/oils/African_Sandalwood.jpg",
+    "source_url": "http://miraclebotanicals.com/cdn/shop/products/muhuhu-essential-oil-african-sandalwood-brachyleana-hutchinsii-114618.jpg?v=1679118573"
+  },
+  "Blue_Cypress": {
+    "local_url": "/static/oils/Blue_Cypress.jpg",
+    "source_url": "https://hermitageoils.com/wp-content/uploads/2015/10/Blue-Cypress-Essential-Oil-1.jpg"
+  },
+  "Davana": {
+    "local_url": "/static/oils/Davana.jpg",
+    "source_url": "https://m.media-amazon.com/images/I/717M+KO5prL._UF1000,1000_QL80_.jpg"
+  },
+  "Blue_Spruce": {
+    "local_url": "/static/oils/Blue_Spruce.jpg",
+    "source_url": "http://www.thelittlemarketbox.com/cdn/shop/files/image_e09ebe46-64da-4175-a148-37f60f0758ca.jpg?v=1716397568",
+    "query_used": "Blue Spruce essential oil bottle"
+  },
+  "Immortelle": {
+    "local_url": "/static/oils/Immortelle.jpg",
+    "source_url": "https://wyndmerenaturals.com/cdn/shop/products/immortelle-in-jojoba-wyndmere-naturals-2_1200x.jpg?v=1695415968",
+    "query_used": "Immortelle essential oil bottle"
+  },
+  "Myrtle": {
+    "local_url": "/static/oils/Myrtle.jpg",
+    "source_url": "https://m.media-amazon.com/images/I/51x-LnsQnBL._UF894,1000_QL80_.jpg",
+    "query_used": "Myrtle essential oil bottle"
+  },
+  "Ishpingo": {
+    "local_url": "/static/oils/Ishpingo.jpg",
+    "source_url": "https://cdn.shopify.com/s/files/1/2292/2497/files/PlantTherapy_Blog_SeptemberOOTM_2.jpg",
+    "query_used": "Ishpingo essential oil bottle"
+  },
+  "Myrrh": {
+    "local_url": "/static/oils/Myrrh.jpg",
+    "source_url": "https://www.auracacia.com/media/catalog/product/0/5/051381911287-aura-cacia-05oz-essential-oil-myrrh-L191128D2-front.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=520&width=520&canvas=520:520",
+    "query_used": "Myrrh essential oil bottle"
+  },
+  "Olibanum": {
+    "local_url": "/static/oils/Olibanum.jpg",
+    "source_url": "http://bestofnature.com/cdn/shop/files/PURE_Frankincense_Essential_Oil_Best_of_Nature.png?v=1751476388",
+    "query_used": "Olibanum essential oil bottle"
+  },
+  "Ironbark__Lemon_Scented": {
+    "local_url": "/static/oils/Ironbark__Lemon_Scented.jpg",
+    "source_url": "https://images.unsplash.com/photo-1706626174499-88e8b051b8f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDY4NDJ8MHwxfHNlYXJjaHwxfHxJcm9uYmFyayUyQyUyMExlbW9uLVNjZW50ZWQlMjBlc3NlbnRpYWwlMjBvaWx8ZW58MHx8fHwxNzU4NDQzNTI5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  "Greenland_Moss": {
+    "local_url": "/static/oils/Greenland_Moss.jpg",
+    "source_url": "http://livinglibations.com/cdn/shop/files/greenlandmoss_f04ba4d9-9ca3-453f-9379-df445cded7ec.png?v=1756482996"
+  },
+  "Helichrysum_Italicum": {
+    "local_url": "/static/oils/Helichrysum_Italicum.jpg",
+    "source_url": "https://media.post.rvohealth.io/wp-content/uploads/2019/03/Helichrysum_Essential_Oil_732x549-thumbnail.jpg"
+  },
+  "Clary_Sage": {
+    "local_url": "/static/oils/Clary_Sage.jpg",
+    "source_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320423/clary-sage-oil.jpg"
+  }
+}
